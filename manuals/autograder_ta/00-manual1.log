@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 11:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,14 @@ File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
-[39] [40] [41]
+[39] [40]
+Overfull \hbox (46.62715pt too wide) in paragraph at lines 1173--1177
+[]\TU/lmr/m/n/12 After you create your private repository, enter \TU/lmtt/m/n/1
+2 helper_functions\TU/lmr/m/n/12 . Click \TU/lmtt/m/n/12 email_credential_maker
+.R
+ []
+
+[41]
 File: pictures/github_flow.png Graphic file (type bmp)
 <pictures/github_flow.png>
 [42] [43]
@@ -1107,7 +1114,7 @@ File: pictures/branch.png Graphic file (type bmp)
 File: pictures/pull_req.png Graphic file (type bmp)
 <pictures/pull_req.png>
 [44] [45] [46]
-Underfull \hbox (badness 1221) in paragraph at lines 1337--1340
+Underfull \hbox (badness 1221) in paragraph at lines 1338--1341
 []\TU/lmr/bx/n/12 Package Dependencies\TU/lmr/m/n/12 : \TU/lmtt/m/n/12 pacman\T
 U/lmr/m/n/12 , \TU/lmtt/m/n/12 ggplot2\TU/lmr/m/n/12 , \TU/lmtt/m/n/12 glue\TU/
 lmr/m/n/12 , \TU/lmtt/m/n/12 gmailr\TU/lmr/m/n/12 , \TU/lmtt/m/n/12 progress\TU
@@ -1115,16 +1122,16 @@ lmr/m/n/12 , \TU/lmtt/m/n/12 gmailr\TU/lmr/m/n/12 , \TU/lmtt/m/n/12 progress\TU
  []
 
 [47] [48] [49]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1490.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1491.
 [50]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1490.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1491.
 (./00-manual1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1490.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1490.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1491.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1491.
 
 Package rerunfilecheck Info: File `00-manual1.out' has not changed.
 (rerunfilecheck)             Checksum: AEAB083250F4B82A4B59916B32926A70;3273.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1490.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1491.
  ) 
 Here is how much of TeX's memory you used:
  20022 strings out of 481653

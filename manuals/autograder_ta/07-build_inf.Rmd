@@ -19,8 +19,8 @@ This section is dedicated for setting up the Github for a class FOR THE FIRST TI
 
 Click the link to the public respoitory: [autograder_template](https://github.com/datawranglingUCSBecon/autograder_template). From here, it is recommended to make a private fork of this public repository or to privately clone the repository. One useful resource is [here](https://blog.8bitzen.com/posts/creating-a-private-fork-of-a-public-repo-on-github) and [here](https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274). Name the new private fork/repository as you see fit.
 
-Now, enter `helper_functions`. Click `email_credential_maker.R` and follow the link. At the end of the steps, you will have a Google API tolken that allows for mass emails through R.
+After you create your private repository, enter `helper_functions`. Click `email_credential_maker.R` and follow the link. At the end of the steps, you will have a Google API token that allows for mass emails through R.
 
 Next, enter `zip_for_gradescope_2.R`. Replace `USERNAME` with your Github username, `PASSWORD` with your Github password, and `REPONAME` with the name of your repository. After finished, save. I recommend doing this using cmnd+F and `replace`.
 
-Now, your Github repository is ready to go! 
+Now, your Github repository is ready to go! The repository can be used for all future quarters/semesters of the class.
