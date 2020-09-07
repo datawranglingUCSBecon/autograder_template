@@ -6,7 +6,9 @@ fakedata       <- read.csv("fakedata.csv")
 
 # Problem 1
 
-invoice.kansas <- 11 #sum(fakedata$State=="Kansas")
+fakedata %>%
+  select(everything()) %>%  # replace to your needs
+  summarise_all(funs(sum(is.na(.))))
 
 # Problem 2
 

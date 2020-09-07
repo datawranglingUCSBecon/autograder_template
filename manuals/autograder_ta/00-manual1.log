@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 11:37
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.7)  7 SEP 2020 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,7 +1075,9 @@ File: pictures/autograde_grade_example.png Graphic file (type bmp)
 [33]
 File: pictures/autograde_NA_example.png Graphic file (type bmp)
 <pictures/autograde_NA_example.png>
-[34] [35] [36]
+File: pictures/practice-assignment.pdf Graphic file (type pdf)
+<use pictures/practice-assignment.pdf>
+[34] [35] [36] [37] [38] [39] [40] [41] [42]
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
@@ -1084,62 +1086,62 @@ File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
-[37]
+[43]
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
-[38]
+[44]
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
-[39] [40]
-Overfull \hbox (46.62715pt too wide) in paragraph at lines 1173--1177
+[45] [46]
+Overfull \hbox (46.62715pt too wide) in paragraph at lines 1320--1324
 []\TU/lmr/m/n/12 After you create your private repository, enter \TU/lmtt/m/n/1
 2 helper_functions\TU/lmr/m/n/12 . Click \TU/lmtt/m/n/12 email_credential_maker
 .R
  []
 
-[41]
+[47]
 File: pictures/github_flow.png Graphic file (type bmp)
 <pictures/github_flow.png>
-[42] [43]
+[48] [49]
 File: pictures/branch.png Graphic file (type bmp)
 <pictures/branch.png>
 File: pictures/pull_req.png Graphic file (type bmp)
 <pictures/pull_req.png>
-[44] [45] [46]
-Underfull \hbox (badness 1221) in paragraph at lines 1338--1341
+[50] [51] [52]
+Underfull \hbox (badness 1221) in paragraph at lines 1485--1488
 []\TU/lmr/bx/n/12 Package Dependencies\TU/lmr/m/n/12 : \TU/lmtt/m/n/12 pacman\T
 U/lmr/m/n/12 , \TU/lmtt/m/n/12 ggplot2\TU/lmr/m/n/12 , \TU/lmtt/m/n/12 glue\TU/
 lmr/m/n/12 , \TU/lmtt/m/n/12 gmailr\TU/lmr/m/n/12 , \TU/lmtt/m/n/12 progress\TU
 /lmr/m/n/12 , \TU/lmtt/m/n/12 tidyverse\TU/lmr/m/n/12 ,
  []
 
-[47] [48] [49]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1491.
-[50]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1491.
+[53] [54] [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1638.
+[56]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1638.
 (./00-manual1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1491.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1491.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1638.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1638.
 
 Package rerunfilecheck Info: File `00-manual1.out' has not changed.
-(rerunfilecheck)             Checksum: AEAB083250F4B82A4B59916B32926A70;3273.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1491.
+(rerunfilecheck)             Checksum: E1E98BD95B858AE5D3A1C9A2F12CA480;3485.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1638.
  ) 
 Here is how much of TeX's memory you used:
- 20022 strings out of 481653
- 360931 string characters out of 5930372
- 811161 words of memory out of 5000000
- 36830 multiletter control sequences out of 15000+600000
+ 20024 strings out of 481653
+ 360973 string characters out of 5930372
+ 811221 words of memory out of 5000000
+ 36832 multiletter control sequences out of 15000+600000
  542524 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,19n,118p,420b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 00-manual1.pdf (50 pages).
+Output written on 00-manual1.pdf (56 pages).

@@ -1,5 +1,5 @@
 ---
-title: "Homework 2 Cleaning Data I"
+title: "Example Problem Set"
 author: "Econ 145" 
 output: pdf_document
 header-includes:
@@ -20,22 +20,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse) # for 
 library(kableExtra)
 library(gplots)
-assign_2 <- read_csv("../Masterdata.csv")
-a2_unique1 <- assign_2 %>% 
-  distinct()
 
-a2_unique1<-a2_unique1 %>% 
-  mutate(
-    visits=gsub("\\-.*","",a2_unique1$visits),
-    days_attend =gsub("\\-.*","",a2_unique1$days_attend)
-  ) %>% 
-  type_convert()
-
-a2_unique1 <- a2_unique1 %>% 
-  mutate(local = ifelse(zip %in% c(80305, 80309, 80302, 80304, 80303, 80306),1,0))
 ```
-
-
 
 ## Overview
 
@@ -54,158 +40,47 @@ You are working for a local retail firm. They have many, many clients and are in
 * Your one page write-up must be submitted in a .pdf to receive credit.
 
 
-## Part 1: Coding Assignment (9 parts)
+## Part 1: Coding Assignment (4 parts)
 
-1) To begin, we are going to use the `View()` function to look at our data. Type `View(assign_2_dat)` into your console. A new window should appear. Spend a few minutes looking at the data.
-
-> Notice some of the rows are identical in the dataset. Sometimes, the reporting system "glitches" and reports the same response twice. Create a new tibble titled \magenta{a2\_unique} that removes all duplicate rows. This can be done using the `distinct()` command in the `dplyr` package. Copy the following lines into your R script and run them.
-
-```{#numCode .R .numberLines}
-a2_unique <- a2_unique %>% 
-  distinct()
-```
-
-> How many responses are there now? Save your answer as \magenta{total\_response}.
-
-For the remainder of the homework, you will be working with \magenta{a2\_unique}. All manipulation should be done on this tibble.
-
-2) R stores values as different "types" that have different abilities. To tell the type of a column, use the command `typeof()`. Check the columns \magenta{visits} and \magenta{days\_attend} are "character." Unfortunatley, we can't add character columns together (R doesn't know how to add "1-2" + "3-5"). We are going to convert the columns \magenta{visits} and \magenta{days\_attend} to "numeric". For survey reports where individuals gave a range (e.g. 1-2 times), we will replace it with the lowest value (e.g. 1). To do this, we will use `gsub` function. Type `?gsub` into the console to pull up the help menu. Convert the two variables from character (chr) to double (dbl). To do this, use `type_convert()`. Similarly, type `?type_convert` in the console to pull up the help menu.
-
->**Hint**: `gsub("\\-.*","",vector)` replaces all characters after a dash (-) with nothing in `vector`. If `vector=c("1-2","3-2")`, then `gsub("\\-.*","",vector)` would output `c("1","3")`. 
-
-3) Create a new column in `a2_unique` titled \magenta{local} that is a 1 if the respondent is local and a 0 if the respondent is not local. Define local as having a zip code of: 80305, 80309, 80302, 80304, 80303, or 80306. Your table will have 23 columns. If you compare with a friend, don't be alarmed if you have different numbers of rows.
-
-> **Hint**: There are three commands to use: 
-
-- `mutate()`
-
-- `ifelse()`
-
-- `%in%` 
-
->`%in%` is a brand new command. `%in%` returns a 1 if a values is "in" another vector or a 0 otherwise. For example, try running `c(3,9) %in% c(1,2,3)` in your console. You should see the return value is `TRUE FALSE` because `3` is in the vector `c(1,2,3)` and `9` is not.
-
-```{r tab1, echo=FALSE}
-# kable(
-#   (a2_unique1[1:60,]) %>% 
-#     mutate(X1          = sample(seq(1,100), 60, replace = T) + X1,
-#            visits      = sample(seq(1,100), 60, replace = T) + visits,
-#            days_attend = sample(seq(1,100), 60, replace = T) + days_attend,
-#            ),
-#   caption = "Example Subset of Tibble for Question 3"
-#   ) %>% 
-#   kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "scale_down")%>% 
-#     row_spec(0, bold = T,background=col2hex("deepskyblue4"), color = "white") %>% 
-#   footnote(symbol = "This is made up data for illustrative purposes. ") %>% 
-#   kableExtra::landscape()
-```
-
-
-4) What percent of the respondents are local? Save the value as \magenta{local\_perc}. 
-
-> **Hint:** \magenta{local\_perc} is binary, so taking the `mean` is equivalent to finding the percent.
-
-5) We are interested in the number of females. In order to do this, we can use a conditional statement. Imagine you had `v <- c("one","two",NA)`. If you were to write `v=="one"`, the output would be `TRUE FALSE NA`. Then, we could write `mean(v=="one")` to return $\frac{\#\ TRUE}{Total\ Length}$. Only include responses (aka drop the `NA` when calculating the mean).
-
-> **HINT:** Weird things happen when there is an `NA`. Type `?mean` and look through the documentation on how to "drop" these `NA` values.
-
-> After droping NA values, what percent of the respondents are female? Save the value as \magenta{female\_perc}. 
-
-6) Create a new tibble that counts the number of observations based on gender, age, and locality. Save your tibble as \magenta{gend\_age\_loc} with columns: \magenta{gender}, \magenta{age}, \magenta{local}, and \magenta{num\_obs}. \magenta{num\_obs} holds the count. Sort the tibble by \magenta{local} (locals first), \magenta{age} (young people first), and \magenta{gender} (females first). This means rearrange the rows of your tibble such that all the rows with \magenta{local}=1 appears first. Of the rows with \magenta{local}=1, subsort the rows by age so that the youngest age group appears first. Finally, subsort the rows by gender such that Female appears first. Refer to  Table \ref{tab:tab2} for formatting and row order.
+1) How many missing values are there in each column? How many missing values are there in total? Put your answers in a tibble and name it \magenta{missing}. The tibble should look like this:
 
 ```{r tab2, echo=FALSE}
 
 kable(
-  expand_grid(gender=c("Female","Male"),
-            age=c("18-24","25-34"),
-            local=c(1,0)
-            ) %>% 
-       mutate("num_obs"=sample(1:100,8))%>% 
-  arrange(rev(local), age ,gender),
-  caption = "Example Subset of Tibble for Question 6"
-  ) %>% 
-  kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "HOLD_position")%>% 
-    row_spec(0, bold = T) %>% 
-  footnote(symbol = "This is made up data for illustrative purposes. ") 
-```
-
-> Column order matters. To solve this, you will want to use the following commands:
-
-- `group_by`
-
-- `summarise`
-
-- `arrange`
-
-- `select`
-
-- `desc`
-
-> Your answer should utilize pipes. 
-
-7) Create a new tibble that counts the number of observations that spent \$1,000-\$1,999 on total food and drink by zip code. Remove all zip codes that have 0 observations. Name the tibble \magenta{big\_spender\_zip} with the following columns: \magenta{zip}, \magenta{num\_obs}. Refer to Table \ref{tab:q7} for formatting.
-
-```{r q7, echo=FALSE}
-kable(
   tribble(
-    ~"zip", ~"num_obs",
-    80302, 1,
-    80303, 5,
-    80304, 3
+    ~"Class", ~"Num",
+    "Names", "#",
+    "State", "#",
+    "Invoice..USD..","#",
+    "Paid","#",
+    "Total","#"
   ),
-  caption = "Example Subset of Tibble for Question 7"
+  caption = "Example Subset of Tibble for Question 1"
   ) %>% 
   kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "HOLD_position")%>% 
     row_spec(0, bold = T) %>% 
   footnote(symbol = "This is made up data for illustrative purposes. ") 
 ```
 
-> To solve this, you will want to use the following commands:
+2) How many unique states does the company operate in? Are there any typos in the column? If so, correct  the typos. Save the corrected dataframe as \magenta{data\_cleaned.
 
-- `filter`
+3) Find the average invoice and the percent of invoices paid. Save them as \magenta{avg\_inv} and \magenta{avg\_inv\_paid}.
 
-- `group_by`
-
-- `summarise`
-
-- `n()`
-
-> Your answer should utilize pipes.
-
-## Challenge Parts
-
-8) Convert i) food and drink at the festival, ii) clothing, iii) donations into numerical values. To do this, take the lowest value of the range as the actual value spent. For example, "\$1 - \$20" would become $1$, "\$100 - \$199" would become 100, and "\$21-\$49" would become $21$. Create a bar plot comparing the spending between locals and non-locals for: i) food and drink at the festival, ii) clothing, iii) donations. No need to save this, it won't be graded. Below is an example with fake data:
+4) Create a new tibble where \magenta{Names} is split into two columns: \magenta{First Name} and \magenta{Last Name}. Nothing else needs to be changed. Save this as \magenta{data_cleaned_split}. Your tibble should look like so:
 
 ```{r, echo=FALSE}
-local    <- c(10,20,30)
-nonlocal <- c(20,30,10)
 
-barplot(rbind(local,nonlocal),
-        names.arg = c("Food and Drink at the Festival","Clothing","Donations"),
-        col = c("blue","gold"),
-        legend.text = c("Local","Non-local"),
-        args.legend = list(x="topleft"),
-        main = "Local vs Non-local spending",
-        beside = T,
-        yaxt="n"
-        )
+kable(
+  tibble(
+    "Last Name"=randomNames::randomNames(n=5,which.names="last"),
+    "First Name"=randomNames::randomNames(n=5,which.names="first"),
+    "State" = c("California", "Texas","Utah","Nevada","Colorado"),
+    "Invoice..USD.."= round(rnorm(5,100,10),3),
+    "Paid" = c("Yes","No","No","No","Yes")
+  ),
+  caption = "Example Subset of Tibble for Question 3"
+  ) %>% 
+  kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "HOLD_position")%>% 
+    row_spec(0, bold = T) %>% 
+  footnote(symbol = "This is made up data for illustrative purposes. ") 
 ```
-
-
-9) Create a histogram for hours spent during an average day at the festival. No need to save this, it won't be graded.
-
-## Part 2: Write-up
-
-Save your write-up as \magenta{assignment\_2\_writeup.pdf}. The document must be a `.pdf`. 
-
-You are now tasked with summarizing the data. Imagine the project manager of Econ145 LLC had a busy week. They need you to summarize all the key points of the data in a 1 page brief. Some things to include are:
-
-1) How many people were surveyed?
-
-2) Demographic breakdowns including where they were from, age, gender, and other traits.
-
-3) What was the breakdown of spending? Were there a few big spenders, alot of small spenders, or no spenders whatsoever?
-
-4) A paragraph at the end of the report detailing what can and can't be discerned from the data. Can we make a definitive statement on the economic impact of the festival based on this information?
-
-The 4 bullet points above are SOME of the points that should be included in your write-up, not ALL of the points. It is your job to determine what the project manager needs to know. Equally as important, it is your job to determine what the project manager does NOT need to know. 
