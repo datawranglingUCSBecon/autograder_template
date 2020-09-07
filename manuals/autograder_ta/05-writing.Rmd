@@ -84,7 +84,7 @@ file.remove("temp.txt") # Remove the temporary output file in the directory.
 Below is an example homework prompt with accompanying autograder:
 
 \begin{center}
-\frame{\includegraphics[width=5in]{pictures/practice-assignment.pdf} }
+\frame{\includegraphics[width=5in]{pictures/2020_f_hw2_prompt_v1_GOOD.pdf} }
 \end{center}
 
 ```{r, echo=T, eval=FALSE}
