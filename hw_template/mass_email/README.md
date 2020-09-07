@@ -1,0 +1,2 @@
+`inputs_email.R` is used to email homeworks and prompts to the WHOLE class. This allows the faculty and TAs to email each student an individualized dataset for their homework assignments. The roster is the name of the class roster. If downloaded directly from gauchospace, the column names  will work correctly. If not downloaded from gauchospace, see the README in `class_roster` on possible workarounds.
+

@@ -1,0 +1,111 @@
+---
+title: 'Homework _: The Title'
+author: "Econ 145"
+date: ""
+output: pdf_document
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \fancyhead[LE, LO]{Econ 145 - Fall 2020}
+  - \fancyfoot[LE,LO]{Copyright UCSB 2020}
+  - \newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+  - \usepackage{xcolor}
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
+library(tidyverse)
+library(janitor)
+library(kableExtra)
+library(gplots)
+```
+
+\newcommand{\gs}{\textcolor{magenta}}
+
+## Overview
+
+An introduction to the assignment. This may incldue a situational setup or generic instructions. 
+
+
+## To Receive Credit
+
+* Save the scripting file (i.e. your R program file) as $\color{blue}{\text{INSERT\_NAME.R}}$. Make sure your capitalization is correct as the autograder is case-sensitive.
+
+* Be sure to include your first name, last name, and perm number on your one page write-up.
+
+* Your one page write-up must be submitted in a .pdf to receive credit.
+
+## Part 1: Coding Assignment
+
+For each homework assignment, words colored in $\color{magenta}{\text{magenta}}$ indicate a variable/vector/tibble that will be graded by the autograder. Pay close attention to these colored texts and be sure not to miss any.
+
+1. The goal of this question is to create your own tibble with three columns, similar to what you saw in the Guided Exercises document. Your tibble should look like Table 1. 
+
+    a) Create a vector named $\color{magenta}{\text{column\_one}}$ which has five elements: 2, 3, 4, 5, and 300.
+    b) Create a vector named $\color{magenta}{\text{column\_two}}$ which has five elements: "hello", "welcome", "to", "Econ", and "145". Recall that capitalization is essential to programming languages.
+    c) Create a vector named $\color{magenta}{\text{column\_three}}$ which has five elements: 0, 0, 17, NA, and 15.
+    d) Using the `tibble` function, combine these vectors to so they look like Table 1. Save this tibble as $\color{magenta}{\text{tibble\_one}}$. We will be utilizing this tibble later on in the homework assignment.
+
+
+
+```{r table1, echo=FALSE, message=FALSE, warning=FALSE}
+tibble_one <- tibble(
+  column_one = c(2:5,300),
+  column_two = c("hello", "welcome", "to", "Econ", "145"),
+  column_three = c(0,0,17,NA,15)
+  )
+```
+
+```{r}
+## table 1
+kable(tibble_one, caption = "Example of tibble\\_one") %>%
+  kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "HOLD_position") %>%
+    row_spec(0, bold = T, color = "black")
+```
+
+    
+2. This question involves finding basic summary statistics of the $\color{magenta}{\text{tibble\_one}}$ tibble that you created in question 1. 
+
+    a) Find the mean, standard deviation, and variance of the `column_one` column. Store each of these results in a vector named $\color{magenta}{\text{summary\_stats\_column\_one}}$. The ordering that you put these values in will not affect the grading. **Hint: when creating vectors, you can put commands into the vector. For instance, you could type c(mean(variable_one), mean(variable_two)) and you would create a vector composed of two means.** 
+    b) Find the mean, standard deviation, and variance of the `column_three` column. Store each of these results in a vector named $\color{magenta}{\text{summary\_stats\_column\_three}}$. The ordering that you put these values in will not affect the grading. Recall the `na.rm` argument.
+
+3. This question has some material that you may not have seen before in the Guided Exercises or class lecture videos. A common skill in data wrangling is how efficiently you can use Google or the help functionality of R to find the answers to your questions. You will need to Google or use the `?` function for this question. All data wranglers in the private industry make significant use of Google and the `?` function to solve their problems, so it is important to get practice. 
+
+    a) Using the `typeof` function, assess the type of `column_one` in $\color{magenta}{\text{tibble\_one}}$. Store this output in a variable named $\color{magenta}{\text{typeof\_one}}$. 
+    b) Using the `typeof` function, assess the type of `column_two` in $\color{magenta}{\text{tibble\_one}}$. Store this output in a variable named $\color{magenta}{\text{typeof\_two}}$. 
+    c) Notice that there should be a difference between your answer to (a) and (b). Using Google, investigate what the differences in these types are. 
+    d) The `is.na` function checks whether there are any NA values in a column. Perform this function on `column_three` of $\color{magenta}{\text{tibble\_one}}$ and save the output as $\color{magenta}{\text{na\_column\_three}}$.
+    e) Add a new column to $\color{magenta}{\text{tibble\_one}}$ called `column_four` which has five elements that are all equal to the median of `column_one`. Name this new tibble $\color{magenta}{\text{tibble\_two}}$. While not necessary, try to solve this using the `median` and `rep` functions in conjunction with the `tibble` function. This is good practice in making your code as efficient as possible in case you want to scale or make changes in the future. See Table 2 for an example of the final tibble.  
+    
+```{r table2, echo=FALSE, message=FALSE, warning=FALSE}
+tibble_two <- tibble(
+  column_one = c(2:5,300),
+  column_two = c("hello", "welcome", "to", "Econ", "145"),
+  column_three = c(0,0,17,NA,15),
+  column_four =  rep(median(tibble_one$column_one), 5)
+  )
+## table2
+kable(tibble_two, caption = "Example of tibble\\_two to be made for Question 3e") %>% 
+  kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "HOLD_position") %>%
+    row_spec(0, bold = T, color = "black") 
+```
+
+
+## Part 2: Write-up
+
+Each homework write-up will consist of two steps:
+
+1. Write your one page write-up and submit it to Eli Review in a .pdf file.
+2. Peer review your classmates' work in Eli Review.
+
+As mentioned, the purpose of these write-ups are to give consistent feedback in writing and eventually give a writing/data analysis sample for a job interview. Since this is the beginning of the course, this first assignment will be relatively short and a little atypical. However, this will change dramatically in the coming weeks, as you will be asked to create professional looking documents that will give you a huge advantage when applying for jobs. For this week, write a paragraph explaining your background and why you are taking Econ 145. Within the paragraph make sure to specify the following:
+
+* What prompted you to take this course.
+* What you hope to get out of this course.
+* Which topics in the syllabus are you most interested in.
+* What your coding background is. 
+

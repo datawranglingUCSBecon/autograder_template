@@ -1,0 +1,1 @@
+This folder is used to clean data. Many times, we find ourselves joining different datasets and cleaning/messing up datasets for our students. When finished, save the final dataset one folder up. By this, I mean save the data in the equivilant of `hw_template` folder. I recommend naming the dataset as `Masterdata.csv` but the key is that this name matches the value in `inputs.R`

@@ -1,0 +1,1001 @@
+Names,State,Invoice..USD..,Paid
+"Morgan, Khashkhuu",Maine,48.1706401294868,No
+"James, Eric",Hawaii,101.31166843861828,No
+"Dudley, Terrence",Maine,107.11623892371844,Yes
+"Pona, Brandon",Arkansas,88.4747949774325,Yes
+"Yager, Chelsea",Ohio,76.80223216991136,No
+"Burt, Angel",North Carolina,97.56455986306712,Yes
+"Larson, Mara",West Virginia,101.07476657414085,Yes
+"Vigil, Thomas",Pennsylvania,104.47778253905282,Yes
+"al-Kalil, Rihaab",Colorado,97.66290251513335,No
+"Brubaker, Mitchell",Mississippi,96.20435305556082,Yes
+"Barringer, Kelsey",Minnesota,102.20810002496617,No
+"Andrade, Rhandi",New Hampshire,89.43641540792777,Yes
+"Diaz, Bianca",Louisiana,91.4566409805281,Yes
+"Matt, Ayzia",Virginia,104.94984799319954,No
+"el-Hamady, Rafeeda",Hawaii,96.39771891651118,Yes
+"Green, James",Rhode Island,105.3220952059756,No
+"Moore, Emma",Arizona,100.97890197018899,No
+"Dudley, Terrence",Maine,108.32145400315066,No
+"Mello, Andrea",Vermont,89.78997615829262,Yes
+"Querubin, Pachia",Texas,66.12628155184277,No
+"Morquecho, Gabriel",Arizona,138.07811535364755,Yes
+"Sena, Jaime",Illinois,83.7240368625541,Yes
+"Kyle, Juan",New York,76.16186916792977,Yes
+"Green, Emily",Massachusetts,115.618359936357,Yes
+"Chen, Halat",Alaska,62.86614864458748,No
+"Davis, Ashlee",Tennessee,98.74690205677686,Yes
+"Bernard, Oscar",Ohio,116.04369345668111,Yes
+"el-Azer, Labeeba",West Virginia,100.07938443119511,Yes
+"Green, Alyssa",South Carolina,132.82090944629195,No
+"el-Kamara,  Mahdi",Tennessee,85.23658931133534,No
+"Richardson, Chakara",Indiana,109.52801934183435,Yes
+"Torres, Laura",Kansas,87.70784735722164,Yes
+"Cano Jaimes, Hunter",Alabama,116.22837034496405,No
+"Riddle, Joshua",Hawaii,97.36196868995333,Yes
+"Sands, Arlene",Wisconsin,124.86100100853542,Yes
+"Apodaca, Autriana",Wyoming,100.62787236819018,No
+"Crowe, Anthony",Nebraska,84.0611720970802,No
+"Thompson, Alizi",New Hampshire,109.48959380267203,Yes
+"Herrera, David",Nebraska,30.72942133230717,No
+"Cereceres, Shamika",Wisconsin,110.81462358216369,Yes
+"Nguyen, Tin Wan",Alaska,106.2521298013215,No
+"el-Lone, Nuzha",Massachusetts,130.50107641007494,Yes
+"al-Salloum, Faalih",Montana,141.14015066850953,No
+"Kiatoukaysy, Richard",Colorado,91.82453277788767,Yes
+"Medina, Nhi",Rhode Island,91.87193082756092,Yes
+"al-Fawaz, Hanaan",Illinois,95.04646027977309,No
+"Kerry, Robert",North Carolina,82.53622106428665,No
+"Busterna, Shaughnessy",Utah,97.2458242582009,Yes
+"Gallegos, Andrea",Colorado,100.08971280314017,Yes
+"Vandyke, Jelicha",Kansas,112.56417927731971,Yes
+"Armstrong, Lindsey",Indiana,86.84805620664542,Yes
+"Harper, Kuei",Minnesota,154.94894507091175,Yes
+"Shakespeare, Antonio",Florida,86.44075024476199,Yes
+"Bernard, Oscar",Ohio,60.067143230319,No
+"Montoya, Ashleigh",Rhode Island,77.93645370804958,No
+"al-Adel, Jadeeda",Missouri,92.05168391658206,Yes
+"Slee Ackerson, Tyrel",Michigan,109.54535396009607,No
+"Thapa, Amanda",Texas,109.61885580791255,No
+"Yepez, Jason",Wyoming,94.29147241880835,No
+"Reid, Nickolas",Missouri,82.83240266312654,Yes
+"Williams, Katherine",Colorado,95.8751391787794,Yes
+"Johnson, Annie",Hawaii,90.07640860691,No
+"Nguyen, Tin Wan",Alaska,98.83315184800804,Yes
+"Woodbridge, Tyler",Rhode Island,99.8346292185414,No
+"Cardenas, Lupe",Arizona,113.26156801037962,Yes
+"Anderson, Ayouba",South Dakota,122.75118793601993,No
+"al-Basher, Shaahida",California,89.60844698192953,No
+"Damm, Bradley",Georgia,71.08106404813554,No
+"al-Pirani, Rajab",Maryland,104.09803533919491,Yes
+"al-Kazemi, Ghaaliya",Wyoming,82.93221721855588,No
+"Bryant, Katie",Florida,95.34357601106075,Yes
+"Mccants, Gregory",Pennsylvania,138.53114690415055,No
+"Querubin, Pachia",Texas,112.38141119345171,Yes
+"Hanson, Marky",Florida,115.00031643371094,Yes
+"Herrera, David",Nebraska,90.52505525434768,Yes
+"Brown, Dejunaire",North Dakota,104.43625987862065,No
+"Anderson, Ayouba",South Dakota,122.75118793601993,No
+"Vandyke, Jelicha",Kansas,105.26651395997388,Yes
+"Fichter, Dominick",Alaska,124.8714488948024,No
+"Campilan, Isabelle",Nebraska,78.00549175166515,Yes
+"Ellis, Shatara",New York,107.70593209233888,Yes
+"Poppell-Surges, Victor",Georgia,89.28773700664036,No
+"Barry, Brian",Missouri,98.92119643584596,No
+"Aqeel, George",Kentucky,93.30811748415495,No
+"el-Salam, Imtinaan",Kansas,61.022925634077865,Yes
+"Richardson, Lizeth",Oregon,69.78042772701157,No
+"Clark, Christian",Texas,104.90711445247815,No
+"al-Ahsan, Mawzoona",West Virginia,115.72098215374359,Yes
+"Abraham, Molly",Mississippi,95.05236594404471,No
+"el-Abdallah, Siddeeqa",Wyoming,74.55436904422692,Yes
+"Johnson, Jordan",Illinois,68.24278848027164,Yes
+"Daniel, Nikole",Arizona,73.28557960152725,Yes
+"Mello, Andrea",Vermont,83.15617132280612,Yes
+"Cooey, Vannessa",West Virginia,103.89178434846627,No
+"Kaur, Kane",Missouri,73.90186696735083,No
+"Kim, Kody",Arkansas,75.20784600883907,Yes
+"Burns, Jameshia",Delaware,131.3892209135828,Yes
+"Montoya, Isaiah",Pennsylvania,73.29097611109175,Yes
+"Little, Kalyn",Michigan,109.32702015460505,No
+"Yong, Roman",Delaware,85.06944834547454,Yes
+"Tatum, Redanos",Oklahoma,72.21580460402986,Yes
+"al-Moustafa, Aadam",Nevada,82.69141364543077,Yes
+"Jones, Adrian",Missouri,126.18090976274296,Yes
+"Slaugh, Diana",Vermont,92.1713214815823,No
+"Vivas, Antonio",Pennsylvania,82.92223839866176,No
+"Cuellar, Aaron",Iowa,90.32156578025386,Yes
+"Mccullough, Eric",Arkansas,84.49978329094651,No
+"el-Rehman,  Sakeena",Maine,103.90974783477155,No
+"Jaquez, Daniel",Nevada,98.9711675239413,Yes
+"Rowe, Angelica",California,109.2522744801102,No
+"Villa-Garciapena, Aaron",Georgia,123.5519692000851,Yes
+"Cole, Brandon",Mississippi,101.8059050914374,Yes
+"Alexander, Kiasia",Indiana,146.80878723275956,No
+"al-Ramadan, Afeef",Kentucky,92.78999017767144,Yes
+"Deere, Nikki",New Hampshire,137.77947575161645,Yes
+"Smith, Stephanie",Kentucky,121.25401729378274,Yes
+"al-Hanif, Haleema",North Dakota,82.94143693562616,No
+"Sheppard, Curtis",Rhode Island,142.06481543633282,Yes
+"Bernal, Erik",New Hampshire,120.54261360418846,No
+"al-Ramadan, Afeef",Kentucky,134.73692605985363,Yes
+"Robinson III, Bradley",Ohio,92.11416118571576,No
+"Cooey, Vannessa",West Virginia,103.89178434846627,No
+"el-Masri, Fateena",Maryland,70.3158725759332,Yes
+"Lopez, Loreal",South Dakota,110.80074810658193,Yes
+"Garcia, Carmen",Kansas,122.51213073984113,No
+"Clark, Christian",Texas,154.46239752263565,No
+"Lial, Ruben",Nevada,78.4929561775005,No
+"Manegdeg, Cindy",California,113.97126964403856,Yes
+"Sanders, Kenyon",Virginia,114.32972017183013,No
+"Watts, Francesco",Illinois,86.4645059541054,No
+"el-Masri, Fateena",Maryland,121.02159796696688,No
+"al-Habeeb, Nuzha",Georgia,77.93087449512709,Yes
+"Herrera, Robert",Maine,111.49371536717827,Yes
+"Lawton, Malakye",Massachusetts,108.57727029388097,Yes
+"Shino, Kyoung Min",Oklahoma,109.67385054088754,No
+"Tomlinson, Joshua",New York,65.16617828614517,Yes
+"al-Hussain, Nuzha",North Carolina,92.54735712045613,Yes
+"Haywood, Mareshia",Montana,136.09007189733686,No
+"Wunderlin, Joshua",Oregon,99.20527875749916,Yes
+"Wesemann, Shavonne",Texas,100.96409463319789,Yes
+"Sena, Jaime",Illinois,127.47458114360474,Yes
+"Lee, Bo",Michigan,130.279783930868,Yes
+"al-Hanif, Haleema",North Dakota,76.39341582557336,Yes
+"Chen, Thanh",Ohio,86.77595809722555,Yes
+"Lu, Mark",Arizona,101.84728127527596,No
+"Birk, Noah",Delaware,102.48800352488948,Yes
+"Cobb, Jessica",Alaska,101.52884005693751,Yes
+"Herrera, David",Nebraska,79.35306669845808,No
+"Ra, Abhinav",Nebraska,115.68174990569315,No
+"Chouaf, Aleyha",Florida,109.7732315614844,No
+"Rocha, Isamar",Michigan,98.73572023625846,Yes
+"Phagura, Bao Linh Tasha",Arizona,123.73041634612662,Yes
+"Franklin, Monique",Georgia,111.84475547560523,No
+"al-Arif, Taaha",Mississippi,61.06328531334909,No
+"Sandoval-Martinez, Mariah",Florida,95.34291460885437,Yes
+"Kyle, Juan",New York,105.31388264541067,No
+"Mello, Andrea",Vermont,110.30618262112073,Yes
+"Lee, Aram",Arkansas,115.77733371676737,No
+"Cuizon, Hae",New York,83.86678194298923,No
+"Armstrong, Lindsey",Indiana,77.06580780954532,No
+"Allen, Dominick",Montana,124.64211386714105,No
+"Hurt, Isaiah",Wisconsin,101.48441882957704,Yes
+"Smith, Sainyane",Nevada,80.9774881312397,No
+"Allen, Natalie",Hawaii,59.85419286408212,No
+"Quintana, Brandon",Missouri,87.91752018525254,No
+"Morton, Taylor",Wyoming,124.77840649517229,Yes
+"el-Masri, Fateena",Maryland,100.44714068257791,No
+"Mandel, K'Lei",Utah,116.46654549085636,Yes
+"Mayer, John",Virginia,98.98314626370234,Yes
+"Krickbaum, Jeffrey",South Dakota,110.54425173187393,No
+"Taylor, Courtney",North Dakota,79.49256381691069,No
+"el-Saah, Tahaani",Minnesota,102.64675463655769,No
+"Calano, Joseph",South Dakota,93.20604663512884,No
+"Ramos, Beryl",Arizona,121.17044990258765,Yes
+"Bennett Tapuy, Danielle",Hawaii,91.12815223211102,No
+"Petrovich, Deanna",North Carolina,106.64086414269615,Yes
+"Kiatoukaysy, Richard",Colorado,116.98130163542717,No
+"Craig, Stephan",Kentucky,77.19882849148635,Yes
+"Velasquez, Ray",Ohio,111.03854571581235,No
+"Hoeckel, Seth",Washington,110.68726366819882,No
+"Serravo, Briana",Oregon,149.9498999153141,Yes
+"Beck, John",Tennessee,122.1881637723637,No
+"Martinez, Leah",Maine,137.0809240951245,Yes
+"Lackie, Dhyana",Hawaii,110.38379156618097,No
+"Vo, Zeavennia",Delaware,116.27564075595119,Yes
+"Nguyen, Tin Wan",Alaska,148.53071639528085,No
+"al-Abbasi, Maisoon",Georgia,113.27875642494901,No
+"Renz, Allegra",Nevada,112.27506620259236,No
+"O'Connor, Dylan",Connecticut,99.47127272530093,Yes
+"Thompson, Jonathan",Maine,125.19786742211146,No
+"el-Lone, Nuzha",Massachusetts,97.97414820018328,Yes
+"Beckner, Heather",California,94.67583756611305,No
+"Green, Emily",Massachusetts,117.42170761845405,No
+"Cobb, Tierra",Connecticut,100.86025735100263,No
+"Brubaker, Mitchell",Mississippi,122.26533226816868,Yes
+"Silva, Joshua",West Virginia,88.60182863261942,Yes
+"al-Salameh, Amal",Delaware,96.98203281806417,No
+"al-Basha, Kameela",Mississippi,86.3890873725823,Yes
+"Matsuo, Larry",Oklahoma,97.55645101134421,No
+"Morquecho, Gabriel",Arizona,103.93263978054209,No
+"Gomez, Desiree",Iowa,110.77877721857092,No
+"Roehrich, Patrick",Connecticut,111.35566295416679,Yes
+"Sarmiento, Cristen",Wisconsin,114.027218645228,No
+"Holder, Haileigh",Hawaii,115.78094778983007,Yes
+"Burt, Angel",North Carolina,116.42264931475894,Yes
+"Rustad, Conner",North Carolina,50.639032841459944,No
+"Matsuo, Larry",Oklahoma,126.13692067370405,Yes
+"Gonzalez, Jarid",Minnesota,70.44346488292001,No
+"Horant, Hannah",Oregon,87.02323353236113,No
+"al-Kaber, Lateefa",Massachusetts,119.08351293693215,No
+"Craft, Parys",Nevada,107.7047090359747,Yes
+"Maestas, Gabriel",South Dakota,113.53403812255657,No
+"el-Ghanem, Manaal",Ohio,105.01684632875666,No
+"Meeks, Bennie",Massachusetts,89.84533184709244,Yes
+"el-Maroun, Badri",Louisiana,68.91741378038797,Yes
+"Lafferty, Alysia",Florida,74.4024244500664,No
+"Porter, Tatyanna",Kansas,74.73924508543742,No
+"Love, Jawan",Minnesota,105.96116159969993,No
+"Rasmussen, Drew",Idaho,127.47343627914555,Yes
+"Winkler, Christopher",South Dakota,89.99335021772953,No
+"Julian, Yancey",Idaho,102.79983611526976,Yes
+"Mello, Andrea",Vermont,133.33818314559127,No
+"Halliburton, Jeffrey",Alaska,97.36196569302595,Yes
+"Patel, Matthew",Montana,112.15576022031607,Yes
+"Joyce, Jenna",Missouri,89.18712758929354,No
+"Cocklin, Phomy",Alaska,121.43318985976478,No
+"Jefferson, Shaterica",Connecticut,95.25679371708327,Yes
+"Baca, Diego",New Hampshire,60.01797353562803,No
+"Yun, Calvin",Florida,118.00063411330223,Yes
+"Vo, Zeavennia",Delaware,91.85761463803804,Yes
+"Grennan, Ryland",Maine,99.42672081256768,No
+"Guardipee, Schiara",Colorado,134.67002234125277,Yes
+"Mose, Keiandra",Kentucky,83.15423509679573,No
+"Doan, Austin",Massachusetts,67.08562443334026,No
+"al-Saleh, Azhaar",Virginia,98.24105063181486,Yes
+"Thompson, Huriel",Arizona,112.55132946607269,Yes
+"al-Abbasi, Maisoon",Georgia,111.72200516390531,Yes
+"Anderson, Ayouba",South Dakota,119.41004102583638,Yes
+"Meeks, Bennie",Massachusetts,98.12120858949768,Yes
+"Hollins, Santeijha",Delaware,106.62320927546321,Yes
+"Erman, Batula",Rhode Island,97.61196623786024,Yes
+"Chavarria, Stephen",Illinois,95.24640024159022,No
+"Ramos, Julisa",Nebraska,118.67046583879777,Yes
+"Castillo, Desiree",Florida,73.24664119652553,No
+"Nagai, Tiffany",Utah,113.3187614994065,No
+"al-Shahidi, Abdur Raheem",Indiana,134.31770001762175,Yes
+"Chavez, Shureetha",Alabama,128.51947516200607,Yes
+"Thompson, Jonathan",Maine,104.14601271465679,Yes
+"al-Minhas, Aqeel",Wyoming,107.80659785135427,No
+"Molina, Mario",South Carolina,139.52615082131325,Yes
+"Reese, Dante",Texas,101.11886669747943,No
+"Lackie, Dhyana",Hawaii,105.97947662780354,No
+"Goodbear, Dakota",Alabama,95.02401996924311,No
+"Rinhart, Alysh",Ohio,62.265737633634856,No
+"Davis, Ashlee",Tennessee,113.4446717376538,No
+"Freeman, Henry",Minnesota,87.83767646649912,Yes
+"Ellis, Shatara",New York,95.49828564633242,No
+"Munoz, Ryan",Arkansas,108.31769152654743,Yes
+"Yepez, Jason",Wyoming,108.2325689433016,No
+"Inai, Stephani",New Hampshire,101.09031595896919,No
+"Hanson, Marky",Florida,83.56337912177204,Yes
+"Johnson, Kenniese",Maryland,98.56481564323232,Yes
+"Evans, Matthew",Oregon,66.80077512642954,No
+"el-Shehadeh, Ruwaida",Alabama,106.08006429028981,Yes
+"Zhang Cheung, Phoebe",Oregon,100.53614490723106,No
+"Mccoy, Tonai",North Dakota,91.03622318818078,No
+"Hollins, Santeijha",Delaware,94.33794662425535,Yes
+"al-Wahba, Naaila",Nebraska,90.37191296318593,No
+"Stewart, Elizabeth",Wisconsin,119.71603850601842,No
+"Martinez, Cody",Oklahoma,118.78927799191237,No
+"Barraza, Justine",Louisiana,94.94931787702811,No
+"Yager, Chelsea",Ohio,111.90338781694857,Yes
+"Guardipee, Schiara",Colorado,81.05098628198135,Yes
+"Hernandez Escalera, Rolando",Oregon,136.27710599209195,No
+"al-Arif, Taaha",Mississippi,131.33580274819934,No
+"Kemp, Liam",South Carolina,83.95680697431008,No
+"Reynolds, Cannon",Utah,83.51759606123603,No
+"Vigil, Sergio",Wyoming,92.89713378692822,Yes
+"Cano, Brooke",Virginia,101.6116388173162,No
+"al-Saleh, Azhaar",Virginia,83.37042495514635,Yes
+"Lee-France, Carlos",North Dakota,90.329849689457,No
+"Huynh, Darius",Utah,123.32594378742151,No
+"Watkins, Rachel",Massachusetts,124.68317013165459,No
+"Churchill-Medina, Christopher",Michigan,121.55316703528035,Yes
+"Llaguno, Jessica",Rhode Island,108.48802018435244,No
+"Adams, Annalise",Delaware,96.36601009391889,No
+"Espino, Kyle",South Dakota,91.7337258957626,Yes
+"Aragon, Anjelica",Delaware,82.08549649967006,Yes
+"Wolf, Caleb",Vermont,76.48971782674319,No
+"Dominguez-Antillon, Paloma",South Dakota,84.32505540206532,Yes
+"Reed, Jessica",Tennessee,118.88463814618488,No
+"al-Younes, Zuhra",South Carolina,74.73108099263793,Yes
+"Nagai, Tiffany",Utah,88.82063996079074,Yes
+"Serravo, Briana",Oregon,91.00772225678365,Yes
+"Churchill-Medina, Christopher",Michigan,87.3758482224278,No
+"Diaz, Bianca",Louisiana,99.67018481375725,No
+"al-Minhas, Aqeel",Wyoming,147.36633017954134,No
+"Chang, Jonathan",Mississippi,107.35741309020948,Yes
+"Holder, Jason",Wisconsin,87.83122304704483,Yes
+"Schuckman, Chris",Kansas,107.61741371906403,No
+"Harris, Evan",Oklahoma,89.64882084041645,No
+"Allen, Natalie",Hawaii,80.85472093022409,Yes
+"Guardipee, Schiara",Colorado,124.43800876131824,Yes
+"Adams, Caylene",Washington,52.73160763321735,No
+"Le, Katherine",Colorado,136.3730534383762,Yes
+"el-Momin, Wajeeb",Connecticut,123.21542836767196,No
+"Compton, Sophia",Alabama,83.60183571152923,No
+"Weaver, Sarah",Nevada,106.72628999458756,Yes
+"al-Zia, Inaaya",Georgia,87.81214459077941,No
+"Garcia, Austin",Oklahoma,113.72474917778531,Yes
+"Leslie, Skyler",Arizona,100.00644681529678,Yes
+"Bernard, Oscar",Ohio,81.78296709531627,No
+"Campbell, Trelisa",Idaho,114.55296143481428,Yes
+"Espino, Kyle",South Dakota,100.43867005318691,Yes
+"Kim, Kody",Arkansas,114.24979083890392,No
+"White, Constance",Texas,104.51996043910029,No
+"el-Rasul, Ameer",Illinois,77.66406908808216,No
+"Colaroso, Emily",Virginia,79.7339978493012,No
+"Rith, John",Missouri,109.64358034815494,No
+"al-Momin, Husniyya",Massachusetts,128.45201706646972,No
+"Dunahay, Max",Pennsylvania,135.42559358373762,Yes
+"Beck, John",Tennessee,109.54584063457119,No
+"Ayuby, Parinaz",Louisiana,102.57086970888528,Yes
+"Craig, Stephan",Kentucky,74.85820637853543,No
+"Burckhardt, Taylor",Vermont,114.88365865072396,No
+"Valles, Alfredo",Rhode Island,104.00487821947114,Yes
+"Hill, Valerie",Minnesota,129.30378560731867,No
+"Ramirez, Noah",Wisconsin,112.11422732083913,No
+"Stevenson, Damien",New Mexico,111.04846427324847,No
+"al-Yusuf, Munsif",Nebraska,113.40610304655527,Yes
+"Packer, Jenna",Utah,69.91894480043761,No
+"Johnson, Annie",Hawaii,82.6822453926848,No
+"al-Arshad, Jumaima",South Carolina,64.73410920946534,Yes
+"Moore, Jeffrey",Oregon,125.14607178253189,Yes
+"Baca, Taylor",Idaho,108.29238435288586,Yes
+"Sams, Breeanna",Vermont,101.67752548255515,Yes
+"Trujillo, Kevron",Missouri,71.47309426808397,Yes
+"Cooper, Kristen",Florida,81.76648915417104,Yes
+"Cruz, Karla",Oregon,103.32513652216005,Yes
+"Hauck, Isaac",Colorado,105.97868761703192,No
+"Valles, Alfredo",Rhode Island,106.31868788999667,No
+"Hong, Ryan",South Dakota,114.51869492055033,No
+"Chouaf, Aleyha",Florida,99.48925925913251,No
+"al-Farman, Shaahira",Nebraska,78.02168261332399,Yes
+"Navakuku, Ryan",Utah,121.72120735414559,Yes
+"Rogers, Amanda",West Virginia,108.23606674414131,No
+"el-Sabir, Raita",Arizona,94.12102998950263,No
+"Garcia, Carmen",Kansas,84.25216147474029,No
+"Padilla, Jesse",Indiana,127.95022739530081,Yes
+"Ruybal, Andrew",Delaware,114.62240353410431,No
+"Williams, Jamile",Arkansas,109.01206718027272,No
+"Schafer, Andrea",Maryland,99.02587734180018,Yes
+"Gallegos, Austin",Washington,84.88272002915055,Yes
+"Kuhl, Jacob",Florida,85.23589271656296,No
+"Smith, Sainyane",Nevada,78.7121823697967,No
+"el-Salama, Naseer",Wisconsin,118.44940247950663,Yes
+"Vigil, Thomas",Pennsylvania,83.31058068315681,No
+"el-Taha, Humaid",Delaware,105.76453329736148,Yes
+"Chavez, Ryang Ah",New Jersey,106.73795505462319,No
+"Padilla, Jesse",Indiana,70.3264635059991,No
+"Evig, Brooke",South Carolina,147.0743142479404,No
+"Lenon, Tammy",Kentucky,67.57652521649757,No
+"Leyerle, Anasthasia",Ohio,96.80957523761077,Yes
+"Jain, Emma",New York,123.50276650370888,Yes
+"Evangelista, Christian",Nevada,106.0949523111021,Yes
+"el-Barakat, Ubaida",Florida,70.31039254777505,Yes
+"Brownell, Hayley",Arkansas,107.26278624825473,Yes
+"Thompson, Alizi",New Hampshire,107.86735807449898,No
+"Rose, Macon",Texas,101.02133781461191,Yes
+"Valdez, Tiffany",Alaska,52.24632733546944,Yes
+"Cabanting, Robert",Connecticut,103.6296561080546,No
+"Miranda, Jordan",Pennsylvania,103.5103934786227,Yes
+"Reyes, Shananda",Massachusetts,94.596791681709675,Yes
+"Chambers, Delshawn",North Dakota,95.89489090808588,No
+"Pham, Donavahn",Arizona,141.33474848649448,No
+"Busterna, Shaughnessy",Utah,134.14719353678913,Yes
+"al-Basha, Kameela",Mississippi,77.69540554585339,Yes
+"Barron, Mayra",Florida,103.45157831330494,No
+"Quinto-Huarez, Dakota",Kansas,79.11548528290311,Yes
+"Kern, Colt",Iowa,124.42272058604817,No
+"Lee-France, Carlos",North Dakota,102.58495736570201,Yes
+"Wright, Aaron",Arkansas,90.05422774412398,Yes
+"Sabey, Steven",Michigan,86.46745881593748,No
+"Rinhart, Alysh",Ohio,105.7793630536886,No
+"Chavez, Julia",Pennsylvania,120.75872825020646,Yes
+"el-Asmar, Jumaima",Hawaii,137.17128064252705,Yes
+"al-Fawaz, Hanaan",Illinois,100.00497587494787,Yes
+"Holder, Jason",Wisconsin,80.8115931523906,Yes
+"Abraham, Molly",Mississippi,91.8879469505824,Yes
+"Johnson, Kenniese",Maryland,96.33548840806594,No
+"el-Abdella, Atheer",Nevada,107.74598248908087,Yes
+"al-Samad, Nadiyya",Indiana,117.62748504148456,Yes
+"Phillips-Thomas, Vincent",Hawaii,77.69197171593974,No
+"Goodbear, Dakota",Alabama,139.15873617208476,Yes
+"Campbell, Anay",Michigan,95.0078002503068,No
+"Davis, Tristan",Washington,107.1957976023996,No
+"White, Juan",New Jersey,87.23083100146818,Yes
+"Chen, Halat",Alaska,125.11078143518385,No
+"Brooks, Miki",Virginia,119.84583723975467,No
+"Mcclain, Jordon",New Jersey,114.27897100977773,Yes
+"el-Akram, Kawkab",Nevada,46.163682243727294,Yes
+"Alvarez, Daniel",Oregon,97.51181488902466,No
+"el-Rehman,  Sakeena",Maine,135.66382656400242,Yes
+"Herrera, Robert",Maine,118.71490028726865,Yes
+"Blanco, Madison",Maryland,112.18869363861916,Yes
+"Cano, Brooke",Virginia,113.71164960666833,No
+"Brubaker, Mitchell",Mississippi,108.9276949901577,No
+"Clark, Dakari",Arizona,121.55595119761514,Yes
+"al-Kalil, Suhaila",Oklahoma,81.75909112030047,Yes
+"Sanabria, Almaalicia",Tennessee,111.23637443275256,Yes
+"Wolf, Joseph",Iowa,77.273830785357,No
+"Martzloff, Lolita",Indiana,73.40260650157123,No
+"al-Baluch, Sakeen",New Mexico,144.73555932366224,Yes
+"el-Sabir, Raita",Arizona,126.13829238994607,No
+"el-Farooqui, Rahma",Kansas,140.0702711348626,No
+"Medina, Nhi",Rhode Island,78.12645580431068,No
+"Smith, Dario",New Jersey,73.40567032838521,Yes
+"al-Habeeb, Nuzha",Georgia,90.74838158298573,Yes
+"Mild, Coleton",Arizona,94.25611666448906,Yes
+"Aguirre-Ramos, Brenda",Maine,117.52019932226028,Yes
+"Matin, Sidharth",Ohio,72.64649343666125,Yes
+"al-Adel, Jadeeda",Missouri,95.18999424084316,No
+"el-Saah, Tahaani",Minnesota,95.16530090760683,No
+"Tran, Yuri",Kentucky,111.97332611026619,No
+"Chhay, Julia",Hawaii,133.6767409687826,No
+"el-Salam, Imtinaan",Kansas,103.54521212735177,No
+"Ruybal, Andrew",Delaware,81.3708367214809,No
+"Carstensen, Trent",Wisconsin,106.60854944760408,No
+"al-Kaber, Lateefa",Massachusetts,122.36340220666409,Yes
+"Amos, Aerika",Michigan,89.63405194461528,Yes
+"Wooldridge, Taygeta",New Hampshire,105.54499236500487,Yes
+"Vasquez, Gabriel",Kansas,132.53277933696026,Yes
+"Loet, Gabriella",Washington,101.69051196895924,Yes
+"Kong, Hallie",Iowa,75.59886263348046,No
+"Craig-Varela, Nohelia",Rhode Island,106.9345966151741,No
+"Reynolds, Cannon",Utah,115.17675591863062,No
+"Holder, Haileigh",Hawaii,96.66387580161913,Yes
+"el-Abdelrahman, Safaaa",Massachusetts,90.99694733640706,Yes
+"Metzger, Jeremy",Ohio,84.14803383454151,Yes
+"Alvarez, Daniel",Oregon,77.2257413455053,Yes
+"Bradshaw, Austin",Alaska,44.18101065196707,Yes
+"Brown, Alvina",Utah,101.23090039385467,Yes
+"Chanthavongsa, Vignesh",Rhode Island,80.54646342773825,Yes
+"Choi, Ashley",Maryland,70.59423023751823,Yes
+"Long, Yee",Florida,66.00130028787403,Yes
+"el-Raad, Mawdood",Delaware,141.30380340113567,No
+"Salazar, Fzelle",South Dakota,97.44477379600157,No
+"Bustamante, Jonah",Hawaii,129.10952562209098,Yes
+"Julian, Yancey",Idaho,126.82774329075549,Yes
+"Sands, Arlene",Wisconsin,67.08690375721626,Yes
+"Watts, Francesco",Illinois,91.71060148235583,No
+"Estrada, Jesus",Ohio,60.72000104269484,No
+"Bresciani, Patrick",California,118.70672246673566,Yes
+"al-Arshad, Jumaima",South Carolina,108.31832597674428,No
+"el-Rahimi, Ya'qoob",New Hampshire,97.49858657091282,No
+"Cereceres, Shamika",Wisconsin,89.31885430254917,No
+"Etheridge, Wyatt",Arizona,113.90623271418896,No
+"Pine, Eric",Washington,91.62285002092634,No
+"Hanson, Marky",Florida,98.62801938813674,Yes
+"Le, Katherine",Colorado,95.99923725275211,Yes
+"Waters, Riley",Ohio,82.69979982305586,No
+"al-Habeeb, Nuzha",Georgia,95.1850337008084,Yes
+"el-Amara, Mujaahida",Idaho,106.0342875431482,No
+"Halliburton, Jeffrey",Alaska,118.08617807639237,Yes
+"al-Majid, Sabaah",Wisconsin,75.66698058303359,No
+"Jarmond, Sylavis",Tennessee,71.57528192146188,Yes
+"el-Saah, Tahaani",Minnesota,88.77235697913525,No
+"Cottonwood, Kyle",Tennessee,120.25778944584488,No
+"Brown, Dejunaire",North Dakota,122.45260176993912,No
+"Yong, Roman",Delaware,95.66041346178785,No
+"el-Muhammed, Rihaab",Vermont,81.08810105455541,No
+"Balleza, Juan",Colorado,88.15809078993412,No
+"Song, John",California,174.16442391608598,Yes
+"Gonzalez, Jarid",Minnesota,66.19587384458366,No
+"al-Adel, Jadeeda",Missouri,79.24630716655251,Yes
+"White, Juan",New Jersey,104.96863658057079,Yes
+"Cole, Brandon",Mississippi,120.93200446573188,Yes
+"Vandevelde-Brown, Martaizes",Arkansas,86.39082474325814,Yes
+"al-Salameh, Amal",Delaware,101.4199409852579,No
+"Inai, Stephani",New Hampshire,56.90432482641754,No
+"Piedra, Elias",Colorado,133.3351180146645,No
+"el-Salaam, Ma,Roof",Alabama,68.85192639336202,No
+"Bozonier, Rogelio",Kansas,86.52515262040563,No
+"Martinez, Daneka",North Carolina,111.20256865975811,No
+"Tamura, Francis",Minnesota,95.9129045178059,No
+"Powers, Kearcy",Indiana,110.26446229091833,No
+"Mock, Elizandro",California,100.9931068565828,No
+"Chavez, Julia",Pennsylvania,105.51253111935311,Yes
+"Freeman, Henry",Minnesota,132.8798956826095,Yes
+"Charles, Tatjana",Indiana,106.03543663167292,No
+"Baca, Taylor",Idaho,75.3042121517799,No
+"Hunter, Zachary",Ohio,129.1013382690758,Yes
+"Doan, Austin",Massachusetts,128.6568229107031,Yes
+"el-Shahin, Naadir",Alabama,119.95841670098422,Yes
+"Kyle, Juan",New York,114.63388955888247,Yes
+"Bustamante, Jonah",Hawaii,108.37629273283373,Yes
+"Valles, Alfredo",Rhode Island,100.58854822585522,Yes
+"el-Yassin, Sameera",Indiana,116.91123667733004,Yes
+"al-Adel, Jadeeda",Missouri,83.55596558464119,Yes
+"Amos, Aerika",Michigan,119.6323474214342,Yes
+"Franklin, Monique",Georgia,54.782813872486955,No
+"Wilburn, Gerald",California,103.43711009778329,No
+"el-Zamani, Saabiqa",Vermont,75.30661310362188,Yes
+"Carstensen, Trent",Wisconsin,98.54610025834363,No
+"Jain, Emma",New York,87.41462980179972,No
+"James, Kree",Kentucky,111.17175505704179,No
+"el-Zaman, Rumaana",Arkansas,119.63573745048103,No
+"Rose, Hannah",New Hampshire,51.7039894505616,No
+"al-Arif, Taaha",Mississippi,101.04910526600594,No
+"Marton, Dominique",New Mexico,74.07428832385153,No
+"Fichter, Dominick",Alaska,98.08919656966495,Yes
+"el-Sawaya, Hishma",Minnesota,120.4139818194981,Yes
+"Lappens, Amber",New Mexico,97.43253836181833,Yes
+"Freeman, Henry",Minnesota,67.93664514292303,Yes
+"Thomas, Ander",Georgia,92.59151607166491,Yes
+"Maranto, Lisiate",Arizona,131.1692058848448,No
+"Sanchez, Taylor",Oregon,83.6960215661933,Yes
+"Rith, Stephen",Ohio,89.87458161453903,No
+"Barron, Mayra",Florida,119.96614090049789,Yes
+"Tacuba, Armando",Arizona,73.85119222745682,Yes
+"el-Rasul, Ameer",Illinois,97.39201932276598,Yes
+"Lenon, Tammy",Kentucky,120.20337967904737,Yes
+"Leyerle, Anasthasia",Ohio,137.25567307661277,Yes
+"Kern, Colt",Iowa,79.75832855274238,No
+"Yepez, Jason",Wyoming,111.45880902706298,No
+"Jefferson, Shaterica",Connecticut,112.46169825706761,No
+"Lew, Rebeka",Oklahoma,90.99244934238644,Yes
+"Dukes, Audra",Wyoming,77.25836917279469,Yes
+"al-Majeed, Husain",Kentucky,94.01814002687873,No
+"Sarmiento, Cristen",Wisconsin,97.89327148849486,Yes
+"el-Zaman, Maariya",Louisiana,92.70950601447302,Yes
+"Woods, John",Massachusetts,103.16064284104564,Yes
+"Deniro, Rachel",Missouri,85.3020779417013,No
+"Acosta, Madeleine",Massachusetts,104.57257753476932,Yes
+"Davis, Cristina",Connecticut,120.60377235241694,No
+"Kim, Zhiwen",Nebraska,74.51925580038512,No
+"Thompson, Joshua",West Virginia,63.06709783655199,No
+"Mcroy, Lakota",Iowa,88.08984352787026,No
+"Amos, Aerika",Michigan,100.36354005479936,No
+"Martzloff, Lolita",Indiana,68.51600362719942,Yes
+"Trenchard, Noel",Washington,132.2123003169889,Yes
+"Dixon, Danielle",Alaska,111.66786603194566,Yes
+"Widick, Blake",South Dakota,96.71385692427195,No
+"Xiong, Joaquinignacio",Alaska,82.06058640600223,No
+"el-Sarah, Hilmiyya",Washington,146.88035553039848,Yes
+"Vergara, Angelo",Maryland,95.27662380473195,No
+"Garcia, Austin",Oklahoma,135.8893680617589,No
+"Johnson, Jagger",Missouri,98.66777232587825,No
+"el-Rasheed, Mazeeda",Nevada,73.09819396881798,Yes
+"Rodriguez, Michael",Texas,109.99754604405003,No
+"Sanders, Quincy",Nevada,96.60155915680967,Yes
+"Metzger, Jeremy",Ohio,89.13210338182357,Yes
+"el-Jabbour, Taariq",Oregon,94.73858809640618,Yes
+"Williams, Katherine",Colorado,124.4032504319423,No
+"Maeby, Rebecka",Kentucky,76.11210731295614,Yes
+"Rathmann, Matthew",West Virginia,37.3323900037828,Yes
+"Deniro, Rachel",Missouri,124.79436575465428,No
+"Sanabria, Almaalicia",Tennessee,99.48023226420676,No
+"Andrew, Phong",Mississippi,87.67675139729481,Yes
+"Wu, Kevin",Missouri,121.25210559954928,No
+"Jaquez, Daniel",Nevada,98.51199982026725,Yes
+"Holleman, Varehya",Nevada,103.10215134473633,No
+"Bess, Jazmine",New Mexico,100.27061107128858,No
+"Johnson, Rahma",New Mexico,68.53317941920412,No
+"el-Raad, Mawdood",Delaware,116.27141426120014,No
+"Camacho, Scheridan",Nevada,124.01093314560919,No
+"Cadorette, Taylor",New York,94.91489598456373,No
+"el-Hamady, Rafeeda",Hawaii,81.81094132726744,No
+"el-Ghazi, Maahir",West Virginia,87.02442745772714,No
+"Osborn, Tanner",New York,97.67308555330497,No
+"Reyes, Shananda",Massachusetts,125.74796935722676,No
+"al-Saba, Annnees",Arkansas,113.55645975043544,Yes
+"Cooey, Vannessa",West Virginia,74.11477141128793,No
+"Heinz, Hannah",Colorado,132.13098445769788,Yes
+"Huynh, Rachel",Wisconsin,114.54746421431311,No
+"Bozonier, Rogelio",Kansas,129.0783659399595,Yes
+"Cuellar, Aaron",Iowa,83.94738796407854,No
+"Kim, Pao",Louisiana,95.93236045732274,Yes
+"Thapa, Amanda",Texas,101.65927516953836,Yes
+"Chin, Shyanne",Washington,120.9116413672977,Yes
+"Rawlings, Derek",Alaska,98.46059356940846,No
+"Lukas, Max",Kansas,113.81538851115792,No
+"Meneses, Erdenebadruun",New Hampshire,104.82816168432603,No
+"Kuroda, Donna",Tennessee,111.07978893404288,Yes
+"Rith, John",Missouri,62.98720715827808,No
+"Cruz, Karla",Oregon,87.71391776631393,Yes
+"Johnson, Jagger",Missouri,87.56154435103275,Yes
+"al-Nazir, Laaiqa",Maine,85.66661510025145,No
+"el-Younis, Musfira",New Mexico,101.7445533234372,No
+"Shino, Kyoung Min",Oklahoma,68.40701484739473,No
+"el-Sylla, Waliyya",Colorado,90.55035007573358,No
+"Wooldridge, Taygeta",New Hampshire,65.8847182247714,Yes
+"Joyce, Jenna",Missouri,90.22007932110125,Yes
+"Cable, Marinna",Arizona,111.66708790137277,Yes
+"Garcia, Angelic",Washington,98.30478085038098,Yes
+"Aqeel, George",Kentucky,93.38574933631298,Yes
+"Leyerle, Anasthasia",Ohio,97.66528573305823,No
+"Bozonier, Rogelio",Kansas,79.6307380682035,Yes
+"Ayuby, Parinaz",Louisiana,108.770601406682,No
+"al-Nazir, Laaiqa",Maine,101.61338711400667,No
+"Williams, Taylor",Rhode Island,64.5415246386297,No
+"Ontiveros, Emanuel",West Virginia,114.45662643293498,Yes
+"Pennington, Janae",Ohio,88.53937784418181,No
+"Rangel, Alejandra",Delaware,85.45514688354741,Yes
+"Zackery, Kristoffer",Maryland,102.05833963284815,Yes
+"Santacruz Anguiano, Brianna",Tennessee,53.76748493271936,Yes
+"Davis, Sydney",Hawaii,150.30942292532302,No
+"Gibson, Edwin",Iowa,78.46052656013408,No
+"el-Mansoor, Miska",New Mexico,94.77051303553779,Yes
+"Cruz, Oyuki",Maine,85.02014650946421,No
+"al-Hussain, Uqbah",Vermont,156.31255507389346,No
+"Adams, Annalise",Delaware,89.4082093415354,Yes
+"Rasmussen, Drew",Idaho,63.28503614735416,No
+"Barry, Brian",Missouri,85.65990785278495,Yes
+"Cuizon, Hae",New York,88.2147145912162,No
+"Xiong, Se Ra",Washington,126.79023332194771,No
+"Andrew, Phong",Mississippi,84.23043287727342,Yes
+"Larson, Colen",New York,127.72836698788882,Yes
+"Diaz, Ricardo",Alabama,129.06276572351481,Yes
+"Quinto-Huarez, Dakota",Kansas,96.1205707128959,Yes
+"Farley, Kyle",New Jersey,76.70341057439668,No
+"el-Zaki, Taamira",Indiana,105.82579564084658,Yes
+"Lara, Lawrence",Nebraska,70.44296454624482,No
+"Morgan, Khashkhuu",Maine,108.97850883961613,No
+"Tran, Zachary",California,135.78040785389516,Yes
+"Wu, Kevin",Missouri,101.59485442603173,No
+"Sandoval-Martinez, Mariah",Florida,117.92942091668607,Yes
+"Garcia, Austin",Oklahoma,105.38372016573989,No
+"Holloway, Danyelle",Illinois,94.61110217533613,No
+"Dominguez-Antillon, Paloma",South Dakota,53.24341285176945,Yes
+"Sams, Breeanna",Vermont,106.10772819552453,No
+"Lam, Jullienne Noelle",Louisiana,74.99059684319303,Yes
+"Rathmann, Matthew",West Virginia,86.6473675200055,Yes
+"Bryant, Katie",Florida,93.96230293073312,Yes
+"Bernard, Oscar",Ohio,60.067143230319,No
+"el-Sarah, Hilmiyya",Washington,101.96226232531073,No
+"Rincon, Austin",Wisconsin,106.42851618344939,Yes
+"Robinson, Robert",Montana,65.56883056134355,Yes
+"el-Chahine, Nadiyya",Wyoming,74.35920667428564,No
+"el-Sarah, Hilmiyya",Washington,62.64582427729239,Yes
+"Johnson, Jagger",Missouri,89.08798573954253,No
+"Garcia, Caleb",Montana,115.4613573463815,No
+"al-Saladin, Farhat",Washington,88.16457470984484,Yes
+"Medina, Jorge",Florida,117.94253950082056,No
+"Mckinney, Rachelle",Maryland,93.52367961125474,Yes
+"Jaquez, Kevin",South Carolina,133.51037964630385,Yes
+"al-Mady, Nabeela",Wisconsin,107.44741490048136,No
+"Martinez, James",Minnesota,103.97050932103218,Yes
+"Reyes, William",Colorado,97.84609197293966,Yes
+"Silva, Joshua",West Virginia,103.9420749006831,No
+"Kumar, Mitchell",Louisiana,101.24986735350507,No
+"Tran, Jina",Iowa,116.85709879314099,Yes
+"Cooey, Vannessa",West Virginia,67.77135773063867,Yes
+"Strait, Emily",Massachusetts,130.26124397732065,No
+"el-Shahin, Naadir",Alabama,106.19431974830685,Yes
+"Metzger, Jeremy",Ohio,74.14687939745708,No
+"Lawton, Malakye",Massachusetts,89.41827012460124,Yes
+"Thompson, Alizi",New Hampshire,110.01136631555315,Yes
+"Tovar-Guzman, Drew",Wisconsin,65.65923258623127,Yes
+"Black, Austin",North Carolina,72.8127962896126,No
+"Morehead, Aaron",Tennessee,105.20626423376568,Yes
+"al-Mady, Nabeela",Wisconsin,86.26482332182317,Yes
+"Reta Diaz, Leonardo",Washington,118.28257119290868,No
+"Seltenreich, Jordan",Michigan,69.95796593832613,Yes
+"Fessler, Jenny",West Virginia,78.89966400426735,Yes
+"al-Shahidi, Abdur Raheem",Indiana,103.48329384123325,No
+"Craig-Varela, Nohelia",Rhode Island,145.78350930658004,No
+"Kang, Sakar",Alabama,124.98183897825918,Yes
+"Sena, Jaime",Illinois,88.69609174582195,Yes
+"el-Salaam, Ma,Roof",Alabama,115.76735641757166,No
+"Tesfa, Toni",West Virginia,119.40338256632224,No
+"Shakespeare, Antonio",Florida,108.87906560773092,No
+"Holmes, Aimee",Louisiana,57.60611808412346,No
+"Miller, Shaquille",Washington,93.76163766134277,Yes
+"Marungo, Matthew",Virginia,126.32384380452856,Yes
+"Sanchez, Jesse",California,116.24498890575663,No
+"Oden-Bowen, Courtney",Utah,100.4270814727221,No
+"al-Hanif, Haleema",North Dakota,108.86146479450957,No
+"Atkins, Rosaline",Vermont,85.83317749149757,No
+"el-Edris, Saleema",Kansas,102.92410603243283,Yes
+"Yan, Ariana",Iowa,97.6059780886226,Yes
+"al-Arif, Saabira",Missouri,81.87207481842307,No
+"Poppell-Surges, Victor",Georgia,85.44459540485346,No
+"el-Rahimi, Ya'qoob",New Hampshire,92.10058732974947,No
+"Rice, Alyssa",South Carolina,117.54792212603101,No
+"Bailey, Risa",Wyoming,55.47861909728897,No
+"Avila, Natasha",Washington,105.17525746232397,Yes
+"al-Atallah, Shaamil",Colorado,83.58988397250623,No
+"Jenkins, Britani",Pennsylvania,105.48114713354981,No
+"Casillas, Victor",Oklahoma,132.84188930005814,No
+"Kaur, Kane",Missouri,126.63912735363303,No
+"Hammond, Thomas",Louisiana,89.83583912981183,No
+"Chavez, Shureetha",Alabama,71.8198717172773,Yes
+"Sheppard, Curtis",Rhode Island,105.24022710050518,Yes
+"Johnson, Rahma",New Mexico,69.74379393474433,Yes
+"Apodaca, Autriana",Wyoming,112.07514133167034,No
+"Chin, Shyanne",Washington,116.78512582027193,No
+"Miranda, Jordan",Pennsylvania,123.46204066758742,No
+"Khaton, Jamaica",Utah,127.59612300235446,No
+"Dorado, Michael",Wisconsin,110.80947741011103,No
+"Mccathen, Savannah",Michigan,135.0803554470273,No
+"Stewart, Elizabeth",Wisconsin,77.23210994922569,Yes
+"Bernard, Oscar",Ohio,70.7895984314242,No
+"Liggett, Zaquin",Missouri,105.17342737699956,Yes
+"Munoz-Avillaneda, Adilene",Oregon,78.96361344742746,No
+"Aqeel, George",Kentucky,116.37842943096382,Yes
+"Isaac, K'Sandra",Virginia,109.67564728146078,Yes
+"Carstensen, Trent",Wisconsin,98.24668361313576,No
+"Gurule, Mia",Massachusetts,58.427628807614305,Yes
+"Herrera, Robert",Maine,101.20136838164268,No
+"Santacruz Anguiano, Brianna",Tennessee,110.24007525443315,Yes
+"Serravo, Briana",Oregon,78.82360915615898,Yes
+"Miranda, Dennis",California,122.42286751341142,No
+"Robinson III, Bradley",Ohio,117.84120514441337,No
+"Garcia, Caleb",Montana,103.89194206332,Yes
+"Fischer, Dandre",Arkansas,70.48447604932815,No
+"John, Sarah",Wisconsin,96.82849560314146,No
+"Jones, Adrian",Missouri,111.15489729417297,Yes
+"Garcia, Caleb",Montana,88.08418890044274,Yes
+"Dunn, Jared",Arkansas,82.57126523612061,No
+"Garcia, Stephanie",Illinois,59.40972471598297,No
+"Begay, Cody",Oregon,93.02514360836616,No
+"Campbell, Anay",Michigan,84.51999062718814,No
+"Lynn, Anthony",Indiana,117.77086931438518,Yes
+"Johnson, Robert",Massachusetts,132.07337579433073,Yes
+"Boyd, Yvette",South Dakota,91.40966568273721,Yes
+"Xiong, Se Ra",Washington,117.2399515202885,Yes
+"Cox, Addison",Maryland,133.7536663062374,Yes
+"Sanders, Kenyon",Virginia,83.44022202232438,No
+"Alvarez, Daniel",Oregon,127.38713621851768,Yes
+"Rice, Alyssa",South Carolina,94.270648911979407,Yes
+"Roehrich, Patrick",Connecticut,56.50311282906699,Yes
+"Inai, Stephani",New Hampshire,126.79365753279015,Yes
+"Martinez, Victoria",Kansas,128.06805668328315,Yes
+"Anderson, Braelah",Minnesota,114.95123145124101,No
+"Lee-France, Carlos",North Dakota,102.48959491865142,Yes
+"al-Saah, Haaritha",Pennsylvania,91.57523545187415,No
+"el-Yousuf, Arshad",Missouri,121.22321565566246,Yes
+"Lee, Bo",Michigan,98.20714732152214,Yes
+"Rose, Hannah",New Hampshire,109.59343513169772,No
+"Ontiveros, Emanuel",West Virginia,65.27772827794692,Yes
+"Metzger, Jeremy",Ohio,104.23867189400202,Yes
+"Mello, Andrea",Vermont,110.90633209151908,Yes
+"Herrera, Robert",Maine,100.79917572672517,Yes
+"el-Assaf, Waajida",Connecticut,112.62229250319852,Yes
+"Hunsaker, Clark",Maryland,94.28856557685069,No
+"Luna, John",Texas,109.0514354315486,Yes
+"Delgado, Yvette",North Dakota,107.44478279587366,Yes
+"Houdek, Emily",Tennessee,100.33513439181915,Yes
+"Johnson, Jessica",New York,99.31614335511435,Yes
+"Lansing, Cambria",South Carolina,96.53775210034104,No
+"Curry, Kourtney",Delaware,103.87845233808878,Yes
+"Sayyid, Sankeerth",Arkansas,73.7638786277651,No
+"Kulkarni, Kelly",North Carolina,59.95022438640035,No
+"Adams, Caylene",Washington,113.10094344454498,No
+"Llaguno, Jessica",Rhode Island,78.2628514343193,Yes
+"al-Hussein, Qamraaa",New Hampshire,72.41735463195425,Yes
+"al-Tahir, Huwaida",Virginia,101.61291986313634,Yes
+"Lara, Lawrence",Nebraska,100.01479734219896,Yes
+"Sena, Jaime",Illinois,124.13153673329543,Yes
+"Sena, Jaime",Illinois,110.2923118468007,Yes
+"Ulibarri, Ingrid",Georgia,132.37303698861416,No
+"Balleza, Juan",Colorado,119.31502889220371,Yes
+"Evig, Brooke",South Carolina,68.38859054496447,Yes
+"al-Kassem, Saleet",Hawaii,82.56868534499112,Yes
+"Lee, Aram",Arkansas,83.44517714718862,No
+"Bhat, Jeffrey",New York,133.27445921758763,No
+"Benson, Sean",Massachusetts,70.17179298440495,Yes
+"Anderson, Braelah",Minnesota,105.72183599921135,No
+"Baum, Elias",Maryland,108.04455026698906,No
+"Tran, Tony",Massachusetts,121.7508245115603,No
+"el-Yousuf, Arshad",Missouri,117.20540710252517,No
+"Wallace, Selena",Missouri,95.58985164360072,No
+"Flores, Alicia",Pennsylvania,87.06099520554423,No
+"Hartman, Kelsea",Virginia,91.85889748956679,Yes
+"Wahl, Mckendra",West Virginia,105.6577707736685,Yes
+"Horn, Corbin",Nevada,126.40016978310707,Yes
+"Dinsmore, Keisha",Wisconsin,121.54024895491081,Yes
+"Marstrand, Eric",Washington,139.44629074168276,No
+"Aqeel, George",Kentucky,99.25626667464543,No
+"Herrera, David",Nebraska,117.96999452139755,Yes
+"Jain, Emma",New York,93.71737457022036,No
+"Wedemeyer, Andrew",Oklahoma,81.95910551071375,Yes
+"Ramirez-Quevado, Sequiyia",New Mexico,110.43694674471631,Yes
+"el-Farooqui, Rahma",Kansas,107.6479548098087,No
+"Marungo, Matthew",Virginia,78.10102588312294,Yes
+"Lafferty, Alysia",Florida,64.42694783226158,No
+"Campbell, Trelisa",Idaho,57.21758013332159,No
+"Lindemann, Gunnar",Wisconsin,83.95712077964188,Yes
+"Sawyer, Noah",Maine,121.92919801587584,Yes
+"Vo, Zeavennia",Delaware,97.40853536698172,No
+"Quintana, Brandon",Missouri,140.208698658235,Yes
+"Kwon, Terry",Vermont,92.37290696288812,Yes
+"Taylor, Courtney",North Dakota,106.19165242176598,Yes
+"Barker, Chelsey",Kansas,109.65121684873992,No
+"Heinz, Hannah",Colorado,119.3327613831854,Yes
+"el-Farooqui, Rahma",Kansas,119.04889949940105,Yes
+"Chambers, Delshawn",North Dakota,97.11441094216923,No
+"Querubin, Pachia",Texas,114.62124978010678,No
+"Ault Booneel, Eric",Vermont,97.32753189357189,No
+"Parks, Khaleo",Florida,109.52032686345423,No
+"Gallegos, Austin",Washington,79.90467436831274,Yes
+"Campilan, Isabelle",Nebraska,88.54895520823015,Yes
+"Harris, Evan",Oklahoma,101.29594064370642,No
+"Wesemann, Shavonne",Texas,86.79584265303882,No
+"Cortez Sangster, William",North Carolina,115.98082836265517,Yes
+"Apodaca, Autriana",Wyoming,101.22510300336809,No
+"el-Abu, Bassaam",Michigan,102.21306115783175,Yes
+"Zavala, Juan",North Carolina,108.96558421423379,No
+"Hernandez Marquez, Antonio",Florida,122.12314863994594,No
+"Parker, Tanaree",North Dakota,113.72173745725628,Yes
+"el-Akram, Kawkab",Nevada,118.09930443498988,Yes
+"Fessler, Jenny",West Virginia,65.05021370592854,Yes
+"Harper, Kuei",Minnesota,93.30943495364966,No
+"Hensley, Austin",Alaska,109.40524188660513,Yes
+"Osborn, Tanner",New York,78.57018215511356,Yes
+"Trenchard, Noel",Washington,92.04392240119071,Yes
+"Haley, Zierra",Louisiana,84.92878062633652,No
+"Lial, Ruben",Nevada,78.76447008404689,Yes
+"Getnet, Darion",Idaho,64.21919666735772,No
+"Sajopha, Cheng",Delaware,129.98409131427675,Yes
+"Romero, Tenai",Indiana,111.05381793855804,Yes
+"Marton, Dominique",New Mexico,98.04220607834372,Yes
+"Benson, Sean",Massachusetts,132.63952679015713,Yes
+"Strait, Phydell",Texas,100.3748507933106,No
+"Churchill-Medina, Christopher",Michigan,90.4819517010315,No
+"Rose, Hannah",New Hampshire,132.1123774234191,No
+"Hauck, Isaac",Colorado,106.25888940807081,Yes
+"Riddle, Joshua",Hawaii,104.21962587925532,Yes
+"Cooey, Vannessa",West Virginia,83.55045800875354,Yes
+"Cobb, Jessica",Alaska,113.21721516613495,No
+"al-Arif, Taaha",Mississippi,70.298769451063,No
+"Rios-Lara, Perla",Wisconsin,143.36663754273314,No
+"Cuellar, Aaron",Iowa,86.40485187562668,Yes
+"al-Kazemi, Ghaaliya",Wyoming,140.5424084291203,No
+"Prinster, Amy",South Carolina,89.11472084066246,Yes
+"Erman, Batula",Rhode Island,54.3166479349394,Yes
+"al-Sami, Rabdaa",Tennessee,86.46509682792225,No
+"Garcia, Mario",Iowa,90.48276237090077,Yes
+"Munoz-Avillaneda, Adilene",Oregon,117.62894246081804,No
+"Swenson, Kaley",Maine,91.84502358938774,No
+"Davis, Cristina",Connecticut,154.56809581475412,No
+"Holder, Jason",Wisconsin,107.7101092802956,Yes
+"el-Sylla, Waliyya",Colorado,95.36045813347219,No
+"Franklin, Monique",Georgia,103.31792722200971,Yes
+"Getnet, Darion",Idaho,71.99712995130501,Yes
+"Bryant, Katie",Florida,74.30422940201677,Yes
+"Renz, Allegra",Nevada,127.53450182622109,No
+"Phagura, Bao Linh Tasha",Arizona,109.67324020716649,Yes
+"Charles, Tatjana",Indiana,86.97437941724354,Yes
+"Smith, Dario",New Jersey,104.5397020221996,No
+"Hong, Ryan",South Dakota,66.66558891220139,No
+"Morquecho, Gabriel",Arizona,99.77108284136314,Yes
+"Wooldridge, Taygeta",New Hampshire,134.76457395826887,No
+"Yager, Chelsea",Ohio,81.68804471621092,Yes
+"al-Farhat, Nawaal",Hawaii,119.25991280427941,No
+"Romero, Rosemary",Virginia,111.62972281445897,Yes
+"Mello, Andrea",Vermont,112.76858205771721,No
+"Tann, Guled",Vermont,94.56566356888722,Yes
+"John, Edwin",Hawaii,94.25989174560914,No
+"Romero, Rosemary",Virginia,101.99804493775538,No
+"al-Jaffer, Sabaaha",Arkansas,71.39273196538826,Yes
+"Smith, Stephanie",Kentucky,125.98445959626088,No
+"Mandel, K'Lei",Utah,97.8019643954978,No
+"Ellis, Shatara",New York,48.8992525308251,Yes
+"al-Salameh, Amal",Delaware,96.0142214562633,No
+"Kiatoukaysy, Richard",Colorado,75.41692974799612,No
+"Navakuku, Ryan",Utah,69.40357899611129,Yes
+"Lazo, Alex",Alabama,98.75119519982341,Yes
+"Mitchell Williams, Adrian",Massachusetts,122.06805120824525,Yes
+"Vo, Zeavennia",Delaware,93.32455601294377,Yes
+"Stuart, Marisa",Alabama,90.58919498103475,No
+"Madrigal, Joshua",Washington,98.81665394457052,No
+"Querubin, Pachia",Texas,104.85085979569257,No
+"Kang, Sakar",Alabama,135.55596824694186,Yes
+"Sams, Breeanna",Vermont,99.30785831826927,No
+"el-Rassi, Ismaeel",New Mexico,111.78859854212527,No
+"Hammond, Thomas",Louisiana,91.65913986912346,No
+"Rathmann, Matthew",West Virginia,76.43192784864597,No
+"Ellis, Shatara",New York,105.27912952475673,No
+"Atkins, Rosaline",Vermont,104.36540642854584,No
+"Estrada, Jesus",Ohio,115.2483666244119,No
+"el-Mansoor, Miska",New Mexico,106.99667904728611,Yes
+"Yepez, Jason",Wyoming,112.50704550076583,Yes
+"Takata, Cheyenne",Ohio,98.37614348056259,Yes
+"Craig, Stephan",Kentucky,103.2157669492292,Yes
+"Thapa, Amanda",Texas,87.19193271692441,Yes
+"Williams, Taylor",Rhode Island,125.73142570409408,No
+"Beltran, Vladimir",Delaware,105.48528990819108,Yes
+"Swenson, Kaley",Maine,109.71510091653265,No
+"Matin, Sidharth",Ohio,96.60852075314516,No
+"al-Hussein, Qamraaa",New Hampshire,124.74773366936623,Yes
+"Freeman, Thaine",Oregon,66.9419173542507,No
+"al-Moradi, Zaaida",New Mexico,137.44244477327362,Yes
+"Serravo, Briana",Oregon,91.5350447292592,Yes
+"Kong, Hallie",Iowa,83.49330094946895,No
+"Maes, Maribel",Alabama,106.97967718273586,Yes
+"Love, Jawan",Minnesota,113.19148367029123,No
+"Roman, Daniel",North Dakota,81.70914855599105,Yes
+"Dinsmore, Keisha",Wisconsin,107.12124614858092,Yes
+"Gallegos, Andrea",Colorado,86.28501396958231,No
+"Ganora, Desirae",South Dakota,87.97677665010363,No
+"Churchill-Medina, Christopher",Michigan,69.3504978419469,Yes
+"al-Hanif, Haleema",North Dakota,88.31869702403034,Yes
+"al-Hussein, Qamraaa",New Hampshire,77.1541719788523,No
+"Domingo Jr, Andy",Wyoming,137.42773248256705,No
+"Moreno, Ian",Oregon,119.87113708753242,No
+"Rinhart, Alysh",Ohio,109.84546028777878,No
+"Williams, Taylor",Rhode Island,120.82544150415163,No
+"Burnett, Lerria",Missouri,101.83283735170393,Yes
+"Pham, Donavahn",Arizona,120.49910099409284,No
+"Harrier, Lakota",Texas,88.58904305688105,No
+"Horn, Corbin",Nevada,112.25512201672686,Yes
+"Alvarez, Daniel",Oregon,124.65769633952516,Yes
+"Adams, Symphony",Virginia,68.43252269630258,No
+"Ramirez-Quevado, Sequiyia",New Mexico,79.32307186664971,Yes
+"el-Zaman, Maariya",Louisiana,98.37649627643803,No
+"el-Lone, Nuzha",Massachusetts,93.82485289229783,No
+"Moore, Jeffrey",Oregon,114.08526559048866,No
+"el-Sabir, Raita",Arizona,81.15328660343056,Yes
+"el-Zaki, Taamira",Indiana,129.12910070691197,No
+"Bailey, Aren",North Dakota,82.01013827300616,Yes
+"Fernandez, Marcello",Alabama,108.30658736895073,No
+"el-Sawaya, Hishma",Minnesota,108.972435237008,No
+"Herrera, Robert",Maine,66.9968120609366,Yes
+"Tani, Alexandra",New Mexico,110.25595362050731,Yes
+"Burnett, Lerria",Missouri,74.01205142362254,No
+"Aragon, Anjelica",Delaware,91.90623516061198,Yes
+"Stuart, Marisa",Alabama,116.2594950411597,Yes
+"James, Eric",Hawaii,153.46884917137447,Yes
+"al-Amer, Hamaama",Alabama,106.08122662713158,No
+"Delgado-Beltran, Luz",South Carolina,104.4572877030236,Yes
+"Holmes, Aimee",Louisiana,88.2177855456171,No
+"Hanson, Marky",Florida,106.39238827319171,No
+"el-Sader, Faalih",Arkansas,92.13670376479631,Yes
+"Craft, Parys",Nevada,80.36304004341221,No
+"Armstrong, Lindsey",Indiana,112.89179097839953,Yes
+"Vargas, James",Connecticut,90.62550224144644,No
+"al-Adel, Jadeeda",Missouri,58.947882132682814,Yes
+"Hernandez Escalera, Rolando",Oregon,90.92011256720332,Yes
+"Stuart, Marisa",Alabama,108.00200997341595,Yes
+"Anderson, Braelah",Minnesota,90.56309299570248,No
+"Lee-France, Carlos",North Dakota,118.76502370322672,Yes
+"Jones, Cecilia",Missouri,87.58524781422885,No
+"Lial, Ruben",Nevada,93.45279432003996,No
+"Burt, Angel",North Carolina,110.15419512720204,Yes
+"Lofton, Skylar",Texas,140.0155746535424,Yes
+"Roehrich, Patrick",Connecticut,95.61798007962615,No
+"Cabanting, Robert",Connecticut,69.96712877119555,No
+"el-Khan, Naseema",Florida,137.10310337315013,Yes
+"Ngo, Tony",Connecticut,103.82956245825059,No
+"Le, Katherine",Colorado,55.38970156906458,Yes
+"Bernal, Erik",New Hampshire,100.40069022856527,No
+"Jeffery, Katlyn",Wisconsin,93.1386068498824,Yes
+"Blanco, Madison",Maryland,102.21228693134441,Yes
+"Jennings, Keaira",North Carolina,134.58181904074104,No
+"Tran, Zachary",California,112.11802579824223,No
+"Tani, Alexandra",New Mexico,107.29984317503244,No
+"Senphannarat, Jesika",California,97.1705934267845,No
+"Chavarria, Stephen",Illinois,129.5348510739186,No
+"Bustamante, Jonah",Hawaii,129.28475517669676,No
+"Cereceres, Shamika",Wisconsin,142.5680855991705,No
+"Weaver, Sarah",Nevada,120.9419055663437,No
+"Byrnes, Shawna",Minnesota,125.8746158439579,No
+"Baca, Jeffrey",Nebraska,76.25071802122943,Yes
+"Cuizon, Hae",New York,103.40658154278903,No
+"Templin, Steven",New Hampshire,132.8811993074657,No
+"Johnson, Jaden",South Carolina,94.30824416463877,No
+"Dufour, Hayden",North Carolina,144.98981715873725,No
+"Mello, Andrea",Vermont,116.80617962661118,Yes
+"Guardipee, Schiara",Colorado,123.99709102248288,No
+"Bunting, Shyanne",Oregon,116.41353102294443,Yes
+"Simpson, Demetrious",Iowa,99.050266070416,Yes
+"el-Rasheed, Mazeeda",Nevada,81.74943169682369,Yes
+"Davis, Sydney",Hawaii,71.13032131558418,No
+"Gallegos, Carla Maria",Texas,100.06800241812986,No
+"Nunez, Katlyn",Virginia,119.15336455656032,No
+"Bozonier, Rogelio",Kansas,73.73064946110156,Yes
+"el-Sarah, Hilmiyya",Washington,121.09830952655426,No
+"Compton, Sophia",Alabama,124.11704803235097,Yes
+"Lovisone, Lauren",New Mexico,92.93108878109288,Yes
+"Fischer, Dandre",Arkansas,89.57749745145397,Yes
+"Wickham, Jaesung",West Virginia,89.94605314885527,No
+"Loet, Gabriella",Washington,109.83006495410505,Yes
+"Marton, Dominique",New Mexico,73.19064699941113,No
+"O'Connor, Dylan",Connecticut,113.67708531277549,No
+"Lystad, John",New Mexico,87.39902648619199,Yes
+"Yun, Calvin",Florida,89.52892640764416,No
+"el-Chahine, Nadiyya",Wyoming,133.8928778612965,Yes
+"Deere, Nikki",New Hampshire,75.90223530676958,No
+"Ulibarri, Ingrid",Georgia,121.38171532381492,No
+"Aguirre-Ramos, Brenda",Maine,105.80388006277849,Yes
+"Morton, Taylor",Wyoming,98.44747799085759,No
+"Olson-Green, Tayvon",Georgia,74.91285794150457,Yes
+"Winkler, Christopher",South Dakota,110.13781680761419,No
+"Awtrey, Summer",Missouri,108.30798776217989,Yes
+"Lenon, Tammy",Kentucky,101.48025181938854,Yes
+"Green, Austin",Idaho,111.86896545388599,Yes
+"Gardner, Scott",New York,99.24980148277129,Yes
+"Lee, Sandra",Iowa,96.3805151008026,Yes
