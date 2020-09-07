@@ -1,0 +1,98 @@
+---
+title: "Gradescope Writeup Manual"
+author: "Danny Klinenberg"
+date: "Last Updated: `r Sys.Date()`"
+output: 
+  pdf_document:
+    highlight: haddock
+    toc: true
+    number_sections: true
+    latex_engine: xelatex
+header-includes:
+- \usepackage[fontsize=12pt]{scrextend}
+- \usepackage{setspace}\doublespacing
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, tidy.opts=list(width.cutoff=50),tidy=TRUE)
+library(png)
+library(tidyverse)
+library(knitr)
+```
+
+\newpage
+
+# Introduction
+
+## Welcome
+
+*Useful link: <https://help.lsit.ucsb.edu/hc/en-us/articles/360041884592-Gradescope-and-GauchoSpace-A-Quick-Guide-for-Getting-Started>*
+
+Welcome to **Data Wrangling for Economics**! This course will focus on students learning the basics of data cleaning and manipulation through the statistical software R. All homework and exams will have a coding component. To grade this, the class is utilizing a software called **Gradescope**. This software allows universities to automatically grade assignments including code. In this class, students will submit both their code and a brief writeup simulating real world data analysis. This manual will focus on the writeup aspect of their submissions.
+
+After reading through the manual, you should know what Gradescope is, how to log in, and create a rubric.
+
+This is a working draft of the manual. Please do not distribute. Please do not share this manual with current or potential students of **Data Wrangling in R**.
+
+## Gradescope
+
+### Intro
+
+Gradescope is a $3^{rd}$ party software designed to make grading faster and easier. Gradescope allows for all types of assignments to be graded. This class will focus on using Gradescope to grade student written assignments and code. We will be utilizing gradescope's autograder functions. Before delving into the autograder, this section will walk the reader through the basic navigation of gradescope. For the purposes of the manual, we will be working in the course "Practice". This section will explain:
+
+(1) How to find and log into gradescope.
+
+(2) How to navigate to assignments.
+
+(3) How to setup new assignments.
+
+(4) Where to enter in the autograder.
+
+### Navigating Gradescope
+
+To begin, simply type in [www.gradescope.com](https://www.gradescope.com/). If the user is not already logged in, they will be greeted with the following image:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro.png} }
+\end{center}
+
+Click the "log In" button in the top right hand corner. You will be redirected to a login screen. Click **School Credentials** and select UCSB. From there, you will log in using your **UCSB** login information. The page will then direct you here. Please click the relevant course (in our example, it is **Practice**):
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro2.png} }
+\end{center}
+
+#### Making a New Assignment
+
+Gradescope assignments are created using the button in the bottom right hand corner:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeinto3.png} }
+\end{center}
+
+A popup box will ask what type of assignment is being created. Select **homework/problem set**, then click next.
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro4.png} }
+\end{center}
+
+Fill in the **Assignment Name**, **Opening Date (PDT)**, **Due Date (PDF)** sections. For **Template**, upload the prompt sent to the students.  check the **Template Visibility** and **Variable Length** options. This will allow students to download the prompt from gradescope and not constrain their essays to the length of the prompt. See the previous picture for a visual explanation. Click **Create Assignment**.
+
+Now, you will be taken to the assignment page:
+
+\begin{center}
+\frame{\includegraphics[width=7in]{pictures/gradescopeintro5.png} }
+\end{center}
+
+The gray side bar on the right is the rubric maker. To update the rubric, simply click on "Question title" or "Subquestion title". 
+
+When the mouse is hovered over a question, three symbols appear (labeled A, B, and C). Each symbol does the following:
+
+A) Allows the grader to make questions subquestions, questions, or rearrange the rubric. Subquestions are useful for partial credit.
+
+B) Remove a question.
+
+C) Add another question.
+
+Once the rubric is created, click "Save Outline". Don't worry if the rubric is not complete. The rubric can be updated as you continue. Gradescope also does retroactive grading meaning that if you decide to change the point value of a question mid-grading gradescope will update all past graded papers.

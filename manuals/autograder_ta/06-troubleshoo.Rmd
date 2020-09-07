@@ -1,0 +1,84 @@
+---
+title: "troubleshooting"
+output: pdf_document
+---
+
+# Troubleshooting
+
+Many things can break when working with Gradescope. There are some key issues that are bound to happen when working with Gradesope:
+
+## Figuring out Filepaths
+
+**run_autograder** relies heavily on using file paths. A good way to test if new filepaths work is in the terminal for Macs, and GitBash for PCs. Test the filepaths work locally before attempting to add them to **run_autograder**.
+
+## Choosing the version of R
+
+Ubuntu 18.04 will by default install R.3.4.4. If your class requires a more advanced version of R, you will have to call it in the **setup.sh** file. Figuring out the syntax for this file is very difficult without a background in computer science. The best way to learn is through a virtual machine (VM) on your own computer. A useful way to do this is with [Instant Ubuntu’s VMs](https://multipass.run/). This program will allow you to create instant VMs similar to the one used by Gradescope. They also have helpful [resources](https://ubuntu.com/server/docs/virtualization-multipass) for commands. This environment will allow you to troubleshoot **setup.sh** syntax. The best part about this is that VMs are independent of the rest of the computer: whatever you do in the VM won't affect anything out of the VM!
+
+## When the Autograder Breaks
+
+This is bound to happen. You upload the autograder and find out there's a mistake. Bummer! Because we're working through Github, all you have to do is edit your autograder and push it to Github. This is possible because the Gradescope virtual machine pulls the autograde_PSExample.R from github every time.
+
+Common fixes to the autograder not working on Gradescope:
+
+- Set the autograder_.r to "gradescope".
+
+- Push the autograder to the github.
+
+When in doubt, ask a fellow TA or a friend.
+
+A useful resource is Michael Guerzhoy [github](https://github.com/guerzh/r_autograde_gradescope). He creates autograders for functions in R. Gradescope also has a list of useful links [here](https://gradescope-autograders.readthedocs.io/en/latest/resources/).
+
+## Troubleshooting Student's Code
+
+The best way to debug student's code is to download it from gradescope and experiment on your personal computer. It is easiest to create a separate branch and copy their code into the homework folder. From there, you can experiment with their code and the autograder locally. In the event there's a bug in the autograder, it is easy to fix and push. Once finished, you can simply kill the branch!
+
+Below are some common issues run into in the past:
+
+- Students upload their dataset using `read.csv` instead of `read_csv`. The former is from base R while the latter is from tidyverse. The slight discrepencies in loading leads to major issues in autograders. The `setup.R` function warns students if they use `read.csv` that their answers may be incorrect. We highly recommend `read_csv` for it's integration in tidyverse.
+
+- Students use a different version of R than the autograder does (R 3.6.3). This is a major headache. 
+
+- STATA natives are used to their code stopping when there is an error. If there is an error in one of the lines in R, R keeps going. Expect to see many homework assignments with broken lines of code in the center.
+
+- Students copy and paste in the variable names from the pdf. Sometimes they also copy in the space before (e.g. if the variable is `h1`, they type in " h1"). This should be one of the first things to look for, especially in the name of the .R file.
+
+## Writing Questions
+
+Because the autograder requires very specific inputs, it is very easy to write questions that are not condusive to grading code. These questions include too many parts or unclear objectives. Below is a fake assignment with poorly written questions for autograding code. This manual will go through each question, identify issues and provide suggestions to improve the question:
+
+\begin{center}
+\includepdf[pages=-,pagecommand={}, width=6in, frame=TRUE]{pictures/practice-assignment.pdf}
+\end{center}
+
+### Problem 1
+
+- Notice that the students aren't told what to name their columns. This can lead to issues with reading the dataframe.
+
+- The students aren't told if the dataframe should go up and down or left to right. The lack of clarity on the dimensionality can lead to issues.
+
+- **Potential Solution**: Specify the number of columns and rows (if dataframes same) as well as the name of the columns.
+
+### Problem 2
+
+- There are multiple parts to the question.
+
+- Each part isn't clearly labeled. The student's don't know what to  name the outcome of every problem.
+
+- **Potential Solution**: Rewrite the question with subparts and clearly indicate what each part should be titled.
+
+### Problem 3
+
+- No issues. This is a very good problem for an autograder.
+
+### Problem 4
+
+- Same as problems 1 and 2. 
+
+### Problem 5
+
+- Is the answer the function or the results for *Jordyn Kang*? It is unclear from the writing. What should they label the output with *Jordyn Kang*?
+
+- **Potential Solution**: Break the problem into two parts: one where they write the function and one where they save the answer for *Jordyn Kang* as jordyn_kang.
+
+

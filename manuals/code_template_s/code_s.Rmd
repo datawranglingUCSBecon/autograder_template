@@ -1,0 +1,111 @@
+---
+title: "Section 1: Uploading Code"
+output: pdf_document
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \fancyhead[LE, LO]{Econ 145 - Fall 2020}
+  - \fancyfoot[LE,LO]{Copyright UCSB 2020}
+  - \newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+  - \usepackage{xcolor}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Gradescope requires some specifics in order to properly grade code. This document is meant to detail the exact format to submit code with examples.
+
+Each homework should begin with a similar header. Suppose the homework assignment provided a dataset titled `example.csv` and you were asked to save the dataset as `example_data`. The beginning of your code should look like this:
+
+```{#numCode .R .numberLines}
+# Student Name
+rm(list=ls()) # clear the environment
+setwd(dirname(rstudioapi::getSourceEditorContext()$path)) 
+library(tidyverse)
+library(dplyr)
+.
+.
+.
+library(pacman)
+PERMID <- 1234
+example_data <- read.csv("example.csv")
+
+# Problem 1
+filler code
+
+# Problem 2
+doing some coding stuff
+.
+.
+.
+
+```
+
+First, notice you clear your environment (line 2). Then, set the working directory to the source file location (line 3). Then you load the necessary packages. Which packages are necessary will be either stated in the homework or meant for you to figure out. In line 10, you save your PERMID number as a variable (line 10). This is to ensure the autograder grades the correct dataset. Finally, line 11 is loading in your dataset. The dataset must be in the same source directory as your Rcode. In application, this means you must save the Rcode in the same folder as the dataset on your computer. In addition, DO NOT RENAME THE DATASET.
+
+It is highly recommended that you label each part of your homework (i.e. lines 13-20). This will allow for easier debugging when working with friends and family (or TAs).
+
+# An Example
+
+
+Suppose you are given the following homework assignment:
+
+***
+
+> You received a dataset titled **fakedata.csv**. Save the dataset as **fakedata**. The data includes the following variables:
+
+> **Names**: The names of some clients.
+
+> **State**: Where the client lives.
+
+> **Invoice..USD..**: How much the clients spent at the establishment.
+
+> **Paid**: Whether the clients have paid their invoice (**Invoice..USD..**).
+
+> Save your R code as **test.R**. You are asked to do the following:
+
+> 1) How many invoices are from Kansas? Save your answer as \magenta{invoice.kansas}.
+
+> 2) How many invoices are paid? Save your answer as \magenta{P1}.
+
+***
+
+We will create a new folder for our homework assignment. Let's title it `practice_assignment`. Now, let's create an Rscript titled \magenta{test.R}. We will save the prompt, the dataset and our Rscript in the newly created folder `practice_assignment`. This will allow us to locally reference the data and keep our computer clean.
+
+Now, let's get to work. First, we want to clear our working directory. There may be some leftover work from last time we worked. This could mess up our code. Second, we need to set our working directory to source file location. As in lecture, all files should be locally sourced. A cool coding trick to locally source is the following:
+
+```{#numCode .R .numberLines}
+list(rm(list=ls()))
+setwd(dirname(rstudioapi::getSourceEditorContext()$path)) 
+```
+
+Line 1 clears your working environment. Line 2 sets the working directory to your source file location. Now, we are going to save the dataset and our answers. In this example, use the PERMID `1212`. In all other homeworks, use your actual PERMID.
+
+```{#numCode .R .numberLines}
+list(rm(list=ls()))
+setwd(dirname(rstudioapi::getSourceEditorContext()$path)) 
+
+PERMID         <- 1212 
+
+fakedata       <- read.csv("fakedata.csv")
+
+# Problem 1
+invoice.kansas <- 11 
+
+# Problem 2
+P1             <- sum(fakedata$Paid == "Yes")
+```
+
+Now, we save our finished homework assignment according to the assignment. In this case, it's `Test.R`. 
+
+Notice the answer to problem 1 is **WRONG**. This is by design. It is to showcase what happens when we submit the wrong answer. 
+
+All we have to do now is submit our answer to Gradescope! Let's do that together. Everything we're doing can be found in the Gradescope manual on Gauchospace.
+
+
+

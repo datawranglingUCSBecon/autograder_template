@@ -1,0 +1,36 @@
+---
+title: "intro"
+output: pdf_document
+---
+
+# Introduction
+
+## Welcome
+
+Welcome to **Data Wrangling for Economics**! This course will focus on students learning the basics of data cleaning and manipulation through the statistical software R. All homework and exams will have a coding component. To grade this, the class is utilizing a software called **Gradescope**. This software allows universities to automatically grade assignments including code. In this class, students will submit both their code and a brief writeup simulating real world data analysis. This manual will focus on the code aspect of their submissions.
+
+Students will upload their code to Gradescope which will grade it. In order for Gradescope to do this, the instructor must supply an **autograder** for each assignment. An autograder is a script that reads scripts and assigns a score to the accuracy. This tutorial is meant to teach the reader how to write a Gradescope autograder in R.
+
+Working with Gradescope's autograder function requires a great deal of computer knowledge beyond that of a normal social science graduate student. To alleviate this burden, a great deal of infrastructure has been built. This infrastructure automates a lot of the technical issues saving both time and hair. 
+
+After reading through the manual, you should:
+
+(1) Know what R and Rstudio is as well as how to download both programs.
+
+(2) Know how to log into Github, clone repositories to your computer, pull the repository to your computer, and upload.
+
+(3) Know what Gradescope is, how to log in, and upload autograders.
+
+(3) Know the components of an autograder.
+
+(4) Be able to write your own autograder.
+
+(5) Upload the autograder to Gradescope through Github.
+
+(6) Confidently debug your autograder.
+
+This manual is written for incoming TAs. It is assumed the infrastructure for the class is already in place. If you are building the course from scratch, see the *Building Infrastructure* section at the very end of the manual.
+
+The flexibility of the infrastructure discussed allows for usage beyond **Data Wrangling in R**. While the target audience is the incoming TAs, the manual and infrastructure have uses for all individuals interested in assigning coding homework in R. Other resources exists for C++, Python and R. Please see the [community resource boards](https://gradescope-autograders.readthedocs.io/en/latest/resources/).
+
+This is a working draft of the manual. All feedback is welcome. Please do not share this manual with current or potential students of **Data Wrangling in R**.

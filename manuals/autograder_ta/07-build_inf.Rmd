@@ -1,0 +1,26 @@
+---
+title: "07 - setting_up"
+output: pdf_document
+---
+
+# Building the Infrastructure
+
+This section is dedicated for setting up the Github for a class FOR THE FIRST TIME. This will only need to be done once per class. This includes future iterations of the class. Inside this folder you will find the following folders:
+
+1) `class_roster`
+
+2) `2020_f_example_v1`
+
+3) `helper_functions`
+
+4) `hw_template`
+
+5) `manuals`
+
+Click the link to the public respoitory: [autograder_template](https://github.com/datawranglingUCSBecon/autograder_template). From here, it is recommended to make a private fork of this public repository or to privately clone the repository. One useful resource is [here](https://blog.8bitzen.com/posts/creating-a-private-fork-of-a-public-repo-on-github) and [here](https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274). Name the new private fork/repository as you see fit.
+
+Now, enter `helper_functions`. Click `email_credential_maker.R` and follow the link. At the end of the steps, you will have a Google API tolken that allows for mass emails through R.
+
+Next, enter `zip_for_gradescope_2.R`. Replace `USERNAME` with your Github username, `PASSWORD` with your Github password, and `REPONAME` with the name of your repository. After finished, save. I recommend doing this using cmnd+F and `replace`.
+
+Now, your Github repository is ready to go! 

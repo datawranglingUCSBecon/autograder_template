@@ -1,0 +1,80 @@
+---
+title: "writing"
+output: pdf_document
+header-includes:
+  - \newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+urlcolor: blue
+---
+# Writing the Autograder
+
+
+1: The bulk of your autograder codes should be in __autograde.R__ in the respective homework folder. Make sure that the autograder codes are placed in the right location, and _loc_ is set to correct variable for either `local` or `gradescope` grading. 
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/autograde_example.png} }
+\end{center}
+
+2: Start your autograder by providing correct answers to each question. Make sure the answer variable's names are different from the ones specified in the prompts, and it is advised to comment your answers to later reference. 
+
+3: Compare your answers with the ones provided by students, and grade each questions accordingly. It is recommended to test if said variable exists before comparing. You can do so with __is.error()__ function from __berryFunctions__ library. 
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/autograde_error_example.png} }
+\end{center}
+
+
+4: How to grade XXX?
+
+>  _1_ How do you grade a tibble?
+      Three functions can be used to compare objects like dataframe and tibble. 
+      `all.equal()` is the default function of R. It can perform crude comparison between tibble objects, but minor changes like ordering or different grouping could affects its output.
+      `compare()` from library _compare_. It has several built-in arguments that allowed you to specify if orders, data_types, or capitalizations matter in the comparison. But this function works poorly with tibbles especially when grouping, or factor levels are different.
+     ` all_equal()` from library _tidyverse_. It is similar to `compare()` in that it allowed you specify if order, etc. matter. It performs better with tibbles that have factors. But it would not recognise 1*n dataframes as valid input. Thus, it is recommended to use `all_equal (as.tibble(df1),as.tibble(df2))`. 
+      Troubleshooting: it often happens when minor class attributes could affects the autograder, like student answer has factor as a column while your answer converted it to characters. Or differences like double versus integer. Some easy fixes for these issues are `type_convert()` fomr library _readr_.
+      
+>  _2_ How do you grade a function? 
+      Sadly no function in R provided tools that could compare if two functions are fundamentally different. A good approximation to this could be to provide a variaty of inputs to feed into both functions and compare answers. It is adviced to prepare inputs that covers multiple data types, with either valid or invalid output for more accuracy. A great example can be found on Michael Guerzhoy's [Github](https://github.com/guerzh/r_autograde_gradescope).
+      
+>  _3_ How do you grade a numeric value with potential round-offs?
+      Though this arrises less than often, it could be the case when a numeric answer requries multiple steps of calculation, and some round-offs are involved. Many methods exist to fix this issue. One of them is to use `almost.equal()` from library _berryFunctions_. This function allowed you to do fuzzy comparison with a set scale.
+      
+>  _4_ How do you grade console outputs? Sometimes students are asked to print stuff. You can use the `sink()` function from base R to access their printed outputs. A simple way to do so is provided below. Notice that `student.output` is a character vector. Each element corresponds to a line of output from running the student's script. You can then use functions like `str_detect()` from the _stringr_ package to check if a desired output does exist.
+
+```{#numCode .R .numberLines}
+sink("temp.txt") # The outputs of the following lines of code enclosed by sink() are sunk to a 
+                 # newly created "temp.txt" in the working directory. You can name this text file 
+                 # whatever you want.
+source(rScript) # Run the student's script while recording the outputs.
+sink() # Tell R we are done sinking and close "temp.txt".
+student.output <- read_lines("temp.txt") # Read in the outputs of the student's script that is to 
+                                         # be graded.
+file.remove("temp.txt") # Remove the temporary output file in the directory.
+```
+
+5: Save the grades in json file. 
+  This step is mostly automatic. In __autograder_setup.R__, functions should already initiate a dataframe __test.results__, with each row corresponding to one question and four columns: _description of the question_, _the score_, _max score_, and _notes_. To save the grades, you should make to fill each cell with corresponding inputs.
+  
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/autograde_grade_example.png} }
+\end{center}
+
+  
+
+6: Pushing to Github by Git push.
+
+7: My autograder broke, why?
+  If this happens to you, don't fret. This happens __A LOT__. Try to see if you have done the following:
+  
+  _1_ Pushed __autograde.R__ before saving _loc_ to _gradescope_.
+  
+  _2_ Created the autograder in a branch other than __master__ and did not merge the branches after pushing.
+  
+  _3_ Used functions from packages that are installed but not declared, this can fixed by 'library(NameOfthePackage)'.
+  
+  _4_ Used functions from packages that are not installed in the Virtual Machine, to fix this you should edit __setup.sh__ in your __gradescope.zip__.
+  
+  _5_ some parts of the autograder returned NA instead of correct grading, this is usually hinted by: 
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/autograde_NA_example.png} }
+\end{center}

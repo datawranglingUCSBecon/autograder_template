@@ -1,0 +1,60 @@
+---
+title: "Gradescope Autograder Tutorial with R"
+author: Danny Klinenberg^[University of California, Santa Barbara. Special thanks to Victor Huang and Zihao Zheng for their tireless work on the development and implementation.]
+date: "Last Updated: `r Sys.Date()`"
+output: 
+  pdf_document:
+    highlight: haddock
+    toc: true
+    number_sections: true
+    latex_engine: xelatex
+header-includes:
+  - \usepackage[fontsize=12pt]{scrextend}
+  - \usepackage{setspace}\doublespacing
+  - \usepackage{pdfpages}
+  - \usepackage{caption}
+  - \usepackage{xcolor}
+  - \newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, tidy.opts=list(width.cutoff=50),tidy=TRUE)
+library(png)
+library(tidyverse)
+library(knitr)
+```
+
+\newpage
+
+```{r, child="01-intro.Rmd"}
+#Introduction
+```
+
+```{r, child="02-setup.Rmd"}
+# Basic Setup
+```
+
+```{r, child="03-how_to.Rmd"}
+
+```
+
+```{r, child="04-step.Rmd"}
+
+```
+
+```{r, child="05-writing.Rmd"}
+
+```
+
+```{r, child="06-troubleshoo.Rmd"}
+
+```
+
+```{r, child="07-build_inf.Rmd"}
+
+```
+
+```{r, child="07-appendix.Rmd"}
+
+```

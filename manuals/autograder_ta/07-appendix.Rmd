@@ -1,0 +1,194 @@
+---
+title: "appendix"
+output: pdf_document
+---
+
+\appendix 
+
+# Appendix
+
+## Version Control {#vc}
+
+This section is dedicated to working in groups. Github can be an amazing tool and an even bigger headache. The key is to maximize the benefits and invest in aspirin. 
+
+One way to mitigate the headaches is through a formalized version control approach. This manual recommends creating individual branches for each task. There are many resources discussing branching. One good place to start is [here](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).  A graphical example of this is depicted below:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/github_flow.png} }
+\end{center}
+
+Notice at the center of the web is the master branch. Each pink square represents a different branch. Every time a new job needs to be done (e.g. a new homework assignment or tutorial), a new branch should be used. By having each project on it's own branch, there will be less of a chance of conflicts when uploading and pushing. In addition, this manual advocates **no one should be working directly on Master**. Actually, that should be a commandment:
+
+$$\text{Github Commandment 3: Do Not Work Directly on Master Branch}$$
+Making branches in R is extremely useful. First, make sure you are in the Rproject. Next, click the "create new branch" button. It is pointed out by the green arrow in the following picture:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/branch.png} }
+\end{center}
+
+Name the branch. Notice the pink box that says *danny_testing* in the picture above? That should now be whatever you named your branch. You can click the name in the pink box and switch between branches with ease. However, be aware **YOU CAN SWITCH BETWEEN BRANCHES WITH EASE**. This means you need to be extra careful of which branch is selected.
+
+When your work is finished on a branch, you can post a *pull request*. This is you proposing changes to Master in which the other TAs will review and approve. Pull requests can be made directly on Github:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/pull_req.png} }
+\end{center}
+
+After clicking where the bright green arrow is pointing, click the bright green button that says **New pull request**.
+
+In conclusion, the workflow will be as so:
+
+1) You are given an assignment.
+
+2) Create a new branch.
+
+3) Do you work as described above. Do the normal push and pull and committing.
+
+4) Once you are done with your assignment, submit a **new pull request**.
+
+5) Have a friend confirm the pull request. If there are no conflicts, confirm your own pull request.
+
+
+## List of Functions
+
+Below is documentation on each file in `helper_functions` and `hw_template` folders:
+
+### `autograde.R`
+
+**Location**: `/hw_template`
+
+**Description**: This is the main script in the repository. `autograde.R` is where the TA will enter in all of the code to grade code. The majority of time will be spent editing this file, namely between lines 23 and 27.
+
+**Package Dependencies**: `packages.R`
+
+**File Dependencies**: `inputs.R`, `autograde_setup.R`, `JSONmaker`
+
+### `autograde_setup.R`
+
+**Location**: `/hw_template`
+
+**Description**: This script is created to de-clutter `autograde.R`. It sources all the helper functions and creates the dataframe `test.results` the TA will fill in. It also creates the student's individualized dataset. Finally, it removes any problem lines from the student's code. For example, students are encouraged to clear their environment before starting (e.g. `rm(list=ls())`). Doing this would remove all the saved work from the autograder breaking the whole project. `autograde_setup.R` removes this line from the student's code prior to running. In doing so, `autograder_setup.R` actually creates a seperate `.R` file titled `autograde_STUDENTSUBMISSION.R` where STUDENTSUBMISSION is the name of their code. Then, `autograde_STUDENTSUBMISSION.R` is sourced, rather than the student's original submission, `STUDENTSUBMISSION.R`. The TA will never need to touch this file.
+
+**Package Dependencies**: `packages.R`
+
+**File Dependencies**: `setup.R`, `JSONmaker.R`, `packages.R`, `zip_for_gradescope.R`, `DGP.R`
+
+
+### `DGP.R`
+
+**Location**: `/hw_template`
+
+**Description**: This file is used to create unique datasets for each student. The only "real" line of code is line 12. Here is where the TA can specify how to create the individual datasets. If the prompt does not require individual datasets, change `1000` to `nrow(masterdata)` and keep `replace=F`. This file is called in `autograde.R` as well as `inputs_email.R`.
+
+**Package Dependencies**: `packages.R`
+
+**File Dependencies**: `inputs.R`
+
+### `email.R`
+
+**Location**: `/helper_functions`
+
+**Description**: Runs all the setup to send individualized datasets. The majority of the script is the setup for `gmailR` as well as statements to catch input errors. This is never called directly by a TA. Rather, it is implicitely used when running `inputs_email.R`
+
+**Package Dependencies**: `pacman`, `ggplot2`, `glue`, `gmailr`, `progress`, `tidyverse`, `quantmod`, `xts`
+
+**File Dependencies**: `class_roster.csv`, `creds_econ_email.json`, `DGP.R`, `inputs.R`
+
+### `email_credential_maker.R`
+
+**Location**: `/helper_functions`
+
+**Description**: This houses a link to get `creds_econ_email.json`. Follow the link. It's quite good.
+
+**Package Dependencies**: NONE
+
+**File Dependencies**: NONE
+
+### `inputs.R`
+
+**Location**: `/hw_template`
+
+**Description**: All inputs for the assignment. The TA will be required to fill in these values at the beginning of every new homework. They MUST match the rubric. If these values do not match, then the autograder WILL NOT WORK.
+
+**Package Dependencies**: NONE
+
+**File Dependencies**: NONE
+
+
+### `inputs_email.R`
+
+**Location**: `/hw_template/mass_email`
+
+**Description**: A simple script used to send mass emails. The TA WILL edit this file filling in `roster`, `message`, `subject`, and `prompt_name`. 
+
+**Package Dependencies**: `packages.R`
+
+**File Dependencies**: `email.R`
+
+
+### `JSONmaker.R`
+
+**Location**: `/helper_functions`
+
+**Description**: Creates the JSON output needed for Gradescope. The file contains the function `JSONmaker`. This inputs a dataframe that contains the score an assignment receives and location parameter (`local` or `gradescope`). It outputs a Gradescope compatible JSON file.
+
+**Package Dependencies**: `berryFunctions`, `tidyverse`, `jsonlite`
+
+**File Dependencies**: None
+
+### `packages.R`
+
+**Location**: `/helper_functions`
+
+**Description**: This runs all the necessary packages. Most of the repo relies on the same packages. Rather than having to go from file to file ensuring all the packages are up to date, someone can simply go into this folder and add the package in.
+
+**Package Dependencies**: See file
+
+**File Dependencies**: NONE
+
+### `run_autograder`
+
+**Location**: `/helper_functions`
+
+**Description**: One of two files required by Gradescope to build the docker. This is a template that is pulled by each homework assignment. The lines in the file are file paths. It is telling Gradescope where to go to grab which files to properly run the autograder. A TA will never need to directly work this file. `zip_for_autograder.R` was created to automate this process.
+
+**Package Dependencies**: NONE
+
+**File Dependencies**: NONE
+
+### `setup.R`
+
+**Location**: `/helper_functions`
+
+**Description**: Used to create the individual student dataset and fill-in matrix. TAs write autograders by filling in a dataframe, `test_results.R`. 
+
+**Package Dependencies**: `readr`, `stringr`, `berryFunctions`, `tidyverse`, `jsonlite`
+
+**File Dependencies**: NONE
+
+### `setup.sh`
+
+**Location**: `/helper_functions`
+
+**Description**: One of two files required by Gradescope to build the docker. This file creates the R environment. Lines 5-9 are used to download R 3.6.3 while lines 15-31 are downloading all the necessary packages. This is also called in `zip_for_autograder.R`. A TA will never need to touch this file unless:
+
+1) The version of R must be updated or
+
+2) A new package needs to be downloaded.
+
+In the case of 1), reach out to your local IT department. In the case of 2), copy line 31 and replace `tidyverse` with the name of the package you want to use.
+
+**Package Dependencies**: NONE
+
+**File Dependencies**: NONE
+
+### `zip_for_gradescope.R`
+
+**Location**: `/helper_functions`
+
+**Description**: Gradescope is built off of a zip file that includes two files: `run_autograder` and `setup.sh`. To limit the amount of technical details a TA would need to know, this function was written. `setup.sh` does not change for any of the homework assignments. `run_autograder` does because it references alot of file paths. This function will update `run_autograder` accordingly, turn it into a unix executable file, and zip it with `setup.sh`. Now, the TA simply has to pull and draw the newly created zip. This file is called in `autograder.setup.R`. The TA will never need to edit this file.
+
+**Package Dependencies**: `packages.R`
+
+**File Dependencies**: `inputs.R`
+

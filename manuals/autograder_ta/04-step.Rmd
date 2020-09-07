@@ -1,0 +1,84 @@
+---
+title: "every_step"
+output: pdf_document
+---
+
+#  Every Step you Take: Making an Assignment from Start to Finish
+
+Below is the standard workflow to start making an online assignment:
+
+**Note that this needs only be done the first time you use the Github. If you have the files on your local drive, please skip this step. Unzip the files in your desired filepath.** 
+
+1: First, go to the class github repository. Then click on the green buttom on the top right corner and copy the HTTPS/SSH URL from the dropdown menu. Both actions are provide you with identical access to the Git repository. Now, Navigate to your RStudio and from the dropmenu of File, choose __New Project__. Then, choose to create project from __Version Control Repository__ and then hit __Git__. Paste the URL as instructed. For more detailed instructions, please refer to _GitHub_ section of this manul. 
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/v_git_clone.png} }
+\end{center}
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/R_Project.png} }
+\end{center}
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/R_VC.png} }
+\end{center}
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/R_Git.png} }
+\end{center}
+2: Open RStudio and set working directory to the downloaded file. This is done by clicking the  the `.rProj` item in the repository. In the example case, it is called `autograderecon.Rprj`. The rest of the operations could be mainly done in RStudio.
+
+3: Using RStudio file browser, select hw_template folder by checking the box before it, then click __More__ next to __Rename__ in the same panel and select __copy__ in the dropdown menu. Name your duplicate file following the naming convention. Please ensure that your custom homework folder should be placed in autograderecon folder. 
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/v_git_copy.png} }
+\end{center}
+
+4: Import your messy dataset into the `clean_dat` folder. Do the necessary cleaning to the datafile (i.e. messing or cleaning it up for the students). When done, save the completed dataset in the homework folder. **Do not save the completed dataset in clean_dat**.
+
+5: Go to __prompt_rubric__ folder where you can edit R markdown templates for both rubric and prompts for your assignment. 
+
+6: Solve the homework assignment and save your R scripts in the solved_ta folder. Make sure to name it properly to avoid confusion.
+
+7: Find __inputs.R__ in the homework folder, open and edit the file according to your assignment. Please make sure the inputs are correct or else it can break the autograder.
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/vrinput.png} }
+\end{center}
+
+
+8: Find __autograde.R__ in the folder. Input your answers and autograding scripts where necessary. For more detailed insturctions, please refer to the section, __Autograder__.
+
+9: Make the necessary adjustments to `DGP.R`. The file will look similar to this:
+
+```{r, echo=T, eval=FALSE}
+# This is how each student is assigned their unique dataset
+  # The DGP may change depending on the assignment. 
+  # Please Please Please Please do not change the name of the DGP nor the inputs of the DGP
+      # Simply change how the dataset "d" is created (line 9)
+
+DGP <- function(masterdata="Masterdata.csv", PERMID=PERMID, dataname=dataname){
+  masterdata <- read.csv(masterdata)
+  set.seed(PERMID)
+  #---------------#
+  #You can change this line however you please, Do not change any other lines in the 
+    # folder PLEASE PLEASE PLEASE :) 
+  d <- masterdata[sample(1:nrow(masterdata), 1000, replace = F),]
+  #---------------#
+
+  write_csv(d, dataname)
+}
+
+```
+
+The only line that will EVER be changed is `d <- masterdata[sample(1:nrow(masterdata), 1000, replace = F),]`. If you don't want to create individual datasets, set `d <- d`. Notice that the individual datasets come from setting the seed to student's PERMID.
+
+10: Common mistakes that breakes your autograder: 
+
+  _1_ variable names in __inputs.R__ or __autograde.R__ are incorrect. 
+
+
+  _2_ set _loc_ to "gradescope" in autograde while working on your local files, or vice versa. 
+
+  _3_ homework folder not placed in autograderecon. 
+
+10: After finished with __autograde.R__, set _loc_ to 'local' and run the script. the function should generate __gradescope.zip__ in your folder. Uploading __gradescop.zip__ to gradescope, for detailed instructions, please refer to _gradescope_ section. 
+
+11: Set _loc_ to "gradescope" in __autograde.R__. Save all edited files, commit and push your changes to github repository using Git Push. Detailed instructions in _GitHub_ section.
+
+12: Navigate to helper_functions folder. If not already done, get email credentials by using __email_credential_maker.R__.  Make sure that your __inputs.R__ file is correctly named and saved, then run the script __email.R__. For more detailed instruction, please refer to __mass email__ section. 

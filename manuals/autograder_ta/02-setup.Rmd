@@ -1,0 +1,221 @@
+---
+title: "setup"
+output: pdf_document
+---
+# Setup
+
+This section reviews the necessary programs and getting started.
+
+This is a working draft of the manual. Please do not distribute. Please do not share this manual with current or potential students of **Data Wrangling in R**.
+
+## R and RStudio {#r_and_rstudio}
+
+R is a powerful statistical software used for data analysis. R can be downloaded [here](https://cran.r-project.org/). Pick the appropriate version for your device.
+
+Rstudio is a "skin" for R. This allows the user to script, create latex documents integrated to code, and much much more! The program can be downloaded [here](https://rstudio.com/products/rstudio/download/). Pick the free desktop version.
+
+### RProjects
+
+R projects create environments within R. These environments include files (Rfiles, datasets, etc.) as well as saved settings. This is extremely useful for integration with Github. You'll notice you are in a project when the R banner has a logo around it:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/rproject.png} }
+\end{center}
+
+Creating projects will be discussed in the [Github](#github) section.
+
+## Github
+
+Github is an online code sharing platform. It allows for collaboration among many individuals on the same piece of code, saving past version. All autograders for this course will be uploaded to Github. This is done for two reasons: (i) reproducibility of the course and (ii) efficiency in debugging.
+
+We will be working in a shared repository from individual accounts. Think of this as a shared folder in Google Drive: we can all edit, upload, and download in real time.
+
+At the end of this section, you should be able to:
+
+- log into Github
+
+- create a clone of the repository on your computer
+
+- be familiar with the main github commands
+
+- upload and download from Github using RStudio
+
+This is not an exhaustive manual. It is an introduction to Github with RStudio. 
+
+### Getting Started
+
+First, you will have to create a Github. Simply log onto [github.com](https://github.com/) and sign up. It's free! After creating a Github, you will be invited to the Github repository. Accept the invitation. The repository will look something like this:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/github1.png} }
+\end{center}
+
+Click `clone or download` (the green button) then copy the *password protected SSH key* (where the green arrow is pointing). 
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures_github/github_copy.png} }
+\end{center}
+
+
+In order to make working with Github as easy as possible, the TA will clone the repository to their home computer. This way they can do all their edits natively and then upload back to Github for everyone to use. If you are working with a PC, you will need to download [GitBash](https://gitforwindows.org). Mac computers have GitBash integrated into their terminal.
+
+- Next, open RStudio. Go to `File` and choose `New Project`.
+
+- Choose `Version Control`.
+
+- Click `Git`.
+
+- paste the *password protected SSH key* into `Repository URL`. Name the project whatever you want and save it wherever you want.
+
+Congrats! Now you have the Github repository saved onto your computer. Everything you do on your computer can be synced with the Github repository and everything on the repository can be synced with your computer! The next section will go through how that works.
+
+### The Basics of Git and Github
+
+Many, many, many sources exist providing tutorials on using Github (e.g. [here](https://happygitwithr.com), [here](http://r-pkgs.had.co.nz/git.html) and [this one](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)). This manual will focus on the Github steps relevant to the course. Please read through at least the first two links. 
+
+When we run into conflicts, check out this [link](https://medium.com/@RedRoxProjects/how-do-i-git-three-ways-to-solve-a-merge-conflict-cde4d7924c80).
+
+The big ideas you need to take away from the links are: `git pull`, `git add`, `git commit`, `git push`, and `version control`. 
+
+
+### The Git pane
+
+The Git pane is a GUI interface for Git. Below is a picture of the pane with some key features highlighted:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures_github/github_pane.png} }
+\end{center}
+
+- Staged (pink arrow): Click the box to `git add`.
+
+- Commit (pink box): This is equivalent to `git commit`.
+
+**Pro Tip: `git commit` comments should be short. Each commit should be one task. Examples of this would be writing a line in a manual, or writing one answer for an autograder. This makes it easier to retrace steps in the future.**
+
+- Blue arrow: `git pull`. Always do this before doing anything. `git pull` syncs the files on your computer with that in Github.
+
+- green arrow: `git push`. This syncs Github with your changes on your computer.
+
+`git add` stages your changes, `git commit` allows you to comment the changes, `git push` sends your changes to Github, and `git pull` pulls all changes to Github to your computer.
+
+**Pro-tip: A git commit should equate to one task. Each git commit should be summarized in a sentence or less. This means that you will be constantly git committing and pushing to Github.**
+
+### Version Control
+
+This section is dedicated to working in groups. Github can be an amazing tool and an even bigger headache. The key is to maximize the benefits and invest in aspirin. 
+
+One way to mitigate the headaches is through a formalized version control approach. This manual recommends creating individual branches for each task. There are many resources discussing branching. One good place to start is [here](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).  A graphical example of this is depicted below:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/github_flow.png} }
+\end{center}
+
+Notice at the center of the web is the master branch. Each pink square represents a different branch. Every time a new job needs to be done (e.g. a new homework assignment or tutorial), a new branch should be used. By having each project on it's own branch, there will be less of a chance of conflicts when uploading and pushing. In addition, this manual advocates **no one should be working directly on Master**. Actually, that should be a commandment:
+
+$$\text{Github Commandment 3: Do Not Work Directly on Master Branch}$$
+Making branches in R is extremely useful. First, make sure you are in the Rproject. Next, click the "create new branch" button. It is pointed out by the green arrow in the following picture:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/branch.png} }
+\end{center}
+
+Name the branch. Notice the pink box that says *danny_testing* in the picture above? That should now be whatever you named your branch. You can click the name in the pink box and switch between branches with ease. However, be aware **YOU CAN SWITCH BETWEEN BRANCHES WITH EASE**. This means you need to be extra careful of which branch is selected.
+
+When your work is finished on a branch, you can post a *pull request*. This is you proposing changes to Master in which the other TAs will review and approve. Pull requests can be made directly on Github:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/pull_req.png} }
+\end{center}
+
+After clicking where the bright green arrow is pointing, click the bright green button that says **New pull request**.
+
+In conclusion, the workflow will be as so:
+
+1) You are given an assignment.
+
+2) Create a new branch.
+
+3) Do you work as described above. Do the normal push and pull and committing.
+
+4) Once you are done with your assignment, submit a **new pull request**.
+
+5) Have a friend confirm the pull request. If there are no conflicts, confirm your own pull request.
+
+To end this section, I will state a few Git commandments I've made up or found:
+
+$$\text{Github Commandment 1: Push and Pull often}$$
+If you think you are pushing or pulling too much, you're not. People will be making changes constantly and this will lead to issues if everyone isn't on the same page.
+
+$$\text{Github Commandment 2: Never, Ever, Ever, EVER git push --force}$$
+This overrides any merge conflict. That means you are saying that your stuff should override everything. Don't do that. If there's a conflict, talk with your team and figure out what's the best course of action.
+
+
+## Gradescope
+
+### Intro
+
+Gradescope is a $3^{rd}$ party software designed to make grading faster and easier. Gradescope allows for all types of assignments to be graded. This class will focus on using Gradescope to grade student written assignments and code. We will be utilizing Gradescope's autograder functions. Before delving into the autograder, this section will walk the reader through the basic navigation of Gradescope. For the purposes of the manual, we will be working in the course "Practice". This section will explain:
+
+(1) How to find and log into Gradescope.
+
+(2) How to navigate to assignments.
+
+(3) How to setup new assignments.
+
+(4) Where to enter in the autograder.
+
+### Navigating Gradescope
+
+To begin, simply type in [www.gradescope.com](https://www.gradescope.com/). If the user is not already logged in, they will be greeted with the following image:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro.png} }
+\end{center}
+
+Click the "log In" button in the top right hand corner. You will be redirected to a login screen. Click **School Credentials** and select UCSB. From there, you will log in using your **UCSB** login information. The page will then direct you here. Please click the relevant course (in our example, it is **Practice**):
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro2.png} }
+\end{center}
+
+#### Making a New Assignment
+
+Gradescope assignments are created using the button in the bottom right hand corner:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeinto3.png} }
+\end{center}
+
+A popup box will ask what type of assignment is being created. Select **</> Programming Assignment**, then click next.
+
+Next, a popup creating the assignment setting will appear. Please fill in the setting appropriately. This will be provided to you by the head TA in the form of a rubric or via conversation. If you do not know the setting, **ASK A FELLOW TA OR INSTRUCTOR**. The example image has been filled in for illustrative purposes:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro4.png} }
+\end{center}
+
+Gradescope will then automatically open to the outline section. Notice that the autograder points are already in the top right hand corner. Add a new question titled "style" and set the point value to 0. This allows the grader to allocate points for "clean code". By setting it equal to 0, we are saying we don't care about the cleanliness of the code. In the future, this may become part of the rubric, but for now leave it as 0. Then click "save outline".
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro5.png} }
+\end{center}
+
+Finally, we are at the upload autograder phase! This is where the reader will submit the autograder. What an autograder is and the components of an autograder are discussed in details in the following chapters. For the time being, just know the autograder comprises a zip file called "gradescope.zip" and an R file on Github. Click the "select gradescope.zip" file and upload your created autograder. 
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/gradescopeintro6.png} }
+\end{center}
+
+This concludes the section on Gradescope. At the end of this section, the reader should know:
+
+(1) How to find and log into gradescope.
+
+(2) How to navigate to assignments.
+
+(3) How to setup new assignments.
+
+(4) Where to enter in the gradescope.zip. The reader does not yet know what constitutes the gradescope.zip.
+
+
+
+The following section will delve into the parts of the autograder and how to actually make one.

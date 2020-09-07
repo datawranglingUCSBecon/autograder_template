@@ -1,0 +1,88 @@
+---
+title: "how_to"
+output: pdf_document
+---
+
+# Layout
+
+Now that R, RStudio, and Github are setup, we will go through the layout of the repository. If you have not yet set up [R or Rstudio](#r_and_rstudio) or [Github](#github), please click the links and do so. In order to understand how to make a homework for Gradescope, we first must understand the Github repository and underlying functions. The Github repository will look similar to this:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/github3.png} }
+\end{center}
+
+Folders that follow the naming convention `year_quarter_item_versionnumber` are quarter specific folders. For example, `2020_f_hw1_v2` is homework 2 from fall quarter 2020. Each folder houses a different item. By item, I mean the files necessary for a homework assignment, lecture, or section. All these files are stored on the main Github page. There are no quarter specific folders. This is meant to keep the organization easier to follow. This is also useful for the file dependencies.
+
+The only folders that should not follow this naming convention are:
+
+1) `hw_template`
+
+2) `manuals`
+
+3) `helper_functions`
+
+4) `class_roster`
+
+I will go through each of the 4 folders listed. A description of each file can be found in the [appendix](#appendix):
+
+## `hw_template`
+
+This is the main folder of the repository. The files here are directly used for Gradescope. Whenever a new homework needs to be made, the TA will duplicated this folder and rename it following the naming convention. For example, if it was time to make the autograder for version 1 of homework 7 in Spring 2025, the TA would duplicate this folder and rename it `2025_s_hw7_v1`. `hw_template` holds the following files:
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/hw_template_1.png} }
+\end{center}
+
+
+This folder holds all the direct files for the autograder. When a new homework assignment is announced, the first step is to copy `hw_template` and rename the folder the name of the homework assignment. Then the TAs will work almost exclusively within this folder to create working autograders. More so, they will be able to work only in R files (except one step). Notice that the folder also has a sub-folder to house the prompt and rubric (`prompt_rubric`). Within that folder, there are templates on how to format the homework assignment to be compatible with Gradescope.
+
+It is worth noting some nuances associated with writing homework for an autograder. First, you must be very specific on what everything is named. The autograder is sourcing the student's code. That means the student must all have the same:
+
+1) name of their R file (e.g. `hw1.T),
+
+2) name of their dataset (`hw1_dat.csv`),
+
+3) load in the dataset with the same name using the same command (`hw1_dat <- read_csv("hw1_dat.csv")`),
+
+4) name all their answers the same name,
+
+5) write their PERMID. In future versions, writing the PERMID will become obsolete. However, current development is still experimenting with using Gradescopes metadata.
+
+Please refer to the `README` in `prompt_rubric` as well as the templates.
+
+## `manuals`
+
+`manuals` holds the manuals. The main manual of interest is `manual.pdf`. This goes through all the steps of the autograder. However, there are additional manuals related to other aspects of the course such as Nectir and using a virtual machine at UCSB. See the README.md in the folder for more information.
+
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/Manual_1.png} }
+\end{center}
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/Manual_2.png} }
+\end{center}
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/Manual_3.png} }
+\end{center}
+
+
+
+## `helper_functions`
+
+`helper_functions` streamline alot of the Gradescope technicalities. These functions are meant to make writing autograders accessible to any individual who has proficient knowledge of R (and patience).
+
+Gradescope requires output to be in a very specific JSON format. With this repository, there is no need to know what exactly that means. The R helper functions create the output in the proper format. Under the hood, the helper functions are creating a dataframe that the TA is meant to fill in. Once they fill in the dataframe, the helper functions convert it to the appropriate .JSON format and export it in the appropriate location.
+
+There is also `email.R`. This is used to mass email students individual datasets. In order to cut down on cheating, this course creates unique datasets for each student to analyze. In theory, a unique dataset shouldn't deter cheating. If students are writing good code, the specific data shouldn't matter. However, specific datasets do deter cheating in early coding courses where the temptation to hard code answers in is highest. The TA determines the creation of the individualized datasets, which will be discussed further in the homework example.
+
+
+\begin{center}
+\frame{\includegraphics[width=5in]{pictures/helper_functions.png} }
+\end{center}
+
+
+
+## `class roster`
+
+The automatated emailing functions rely on a class roster. The easiest way to get the class roster is to download it from the class Moodle and save it in the file. From here, the specific roster can be specified for mass emailing.
+  
