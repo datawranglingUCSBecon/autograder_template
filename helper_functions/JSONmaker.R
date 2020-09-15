@@ -11,12 +11,31 @@ suppressMessages(library(jsonlite)) # Used to convert output to Gradescope Json 
 
 
 # The json file maker for Gradescope
-JSONmaker <- function(dat, type=c("local","gradescope")){
+JSONmaker <- function(dat, 
+                      type=c("local","gradescope")
+                      ){
     dat <-dat %>% 
         type_convert()
+    
+    # Creating a punishment for turning in homework late and grabbing student's PERMID automatically
+    if(loc=="gradescope"){
+      subb<-jsonlite::read_json("/autograder/submission_metadata.json")
+      #An indicator if the student turned in the homework late
+      if(is.error(subb$assignment$late_due_date)){
+        subb$assignment$late_due_date <- subb$assignment$due_date
+      }
+      half_credit <- subb$created_at > subb$assignment$due_date & subb$created_at < subb$assignment$late_due_date
+    } else{
+      half_credit <- F # If locally testing, assume half credit is false.
+    }
+    if(isTRUE(half_credit)){
+      warning.message <- paste(warning.message, " | Submission late. 50% docked from total score", sep = "")
+      dat$score <- dat$score/2
+    }
 
 
     # Making sure that the type is properly defined
+      # I do this in setup.R so trying to hashtag it out and see what happens
     if (type == "local") {
         json.filename <- "results.json"
     } else if (type == "gradescope") {
@@ -54,13 +73,6 @@ JSONmaker <- function(dat, type=c("local","gradescope")){
                 please review :)")
     }
 
-
-    dat$name <- as.character(dat$name)
-    dat$score <- as.double(dat$score)
-    dat$maxscore <- as.double(dat$maxscore)
-    dat$output <- as.character(dat$output)
-
-
     if (sum(is.na(dat)) != 0) {
         stop("Something went wrong! An element of tests is now NA. This (probably)
              means that one of your columns had the wrong data type. Please make
@@ -70,6 +82,8 @@ JSONmaker <- function(dat, type=c("local","gradescope")){
              make sure there are no NAs. Sometimes changing a column type changes
              values to NA!")
     }
+   
+    # Adding first line with warning about things not working (prelim check)
     
     dat <- dat %>% 
       add_row(name="Problem 0: Preliminary checks (0/0 pt.)",

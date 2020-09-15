@@ -65,9 +65,9 @@ Below is documentation on each file in `helper_functions` and `hw_template` fold
 
 ### `autograde_setup.R`
 
-**Location**: `/hw_template`
+**Location**: `/helper_functions`
 
-**Description**: This script is created to de-clutter `autograde.R`. It sources all the helper functions and creates the dataframe `test.results` the TA will fill in. It also creates the student's individualized dataset. Finally, it removes any problem lines from the student's code. For example, students are encouraged to clear their environment before starting (e.g. `rm(list=ls())`). Doing this would remove all the saved work from the autograder breaking the whole project. `autograde_setup.R` removes this line from the student's code prior to running. In doing so, `autograder_setup.R` actually creates a seperate `.R` file titled `autograde_STUDENTSUBMISSION.R` where STUDENTSUBMISSION is the name of their code. Then, `autograde_STUDENTSUBMISSION.R` is sourced, rather than the student's original submission, `STUDENTSUBMISSION.R`. The TA will never need to touch this file.
+**Description**: This script is created to de-clutter `autograde.R`. It sources all the helper functions and creates the dataframe `test.results` the TA will fill in. It also creates the student's individualized dataset. Finally, it removes any problem lines from the student's code. For example, students are encouraged to clear their environment before starting (e.g. `rm(list=ls())`). Doing this would remove all the saved work from the autograder breaking the whole project. `autograde_setup.R` removes this line from the student's code prior to running. In doing so, `autograder_setup.R` actually creates a separate `.R` file titled `autograde_STUDENTSUBMISSION.R` where STUDENTSUBMISSION is the name of their code. Then, `autograde_STUDENTSUBMISSION.R` is sourced, rather than the student's original submission, `STUDENTSUBMISSION.R`. The TA will never need to touch this file.
 
 **Package Dependencies**: `packages.R`
 
@@ -88,7 +88,7 @@ Below is documentation on each file in `helper_functions` and `hw_template` fold
 
 **Location**: `/helper_functions`
 
-**Description**: Runs all the setup to send individualized datasets. The majority of the script is the setup for `gmailR` as well as statements to catch input errors. This is never called directly by a TA. Rather, it is implicitely used when running `inputs_email.R`
+**Description**: Runs all the setup to send individualized datasets. The majority of the script is the setup for `gmailR` as well as statements to catch input errors. This is never called directly by a TA. Rather, it is implicitly used when running `inputs_email.R`
 
 **Package Dependencies**: `pacman`, `ggplot2`, `glue`, `gmailr`, `progress`, `tidyverse`, `quantmod`, `xts`
 
@@ -186,7 +186,7 @@ In the case of 1), reach out to your local IT department. In the case of 2), cop
 
 **Location**: `/helper_functions`
 
-**Description**: Gradescope is built off of a zip file that includes two files: `run_autograder` and `setup.sh`. To limit the amount of technical details a TA would need to know, this function was written. `setup.sh` does not change for any of the homework assignments. `run_autograder` does because it references alot of file paths. This function will update `run_autograder` accordingly, turn it into a unix executable file, and zip it with `setup.sh`. Now, the TA simply has to pull and draw the newly created zip. This file is called in `autograder.setup.R`. The TA will never need to edit this file.
+**Description**: Gradescope is built off of a zip file that includes two files: `run_autograder` and `setup.sh`. To limit the amount of technical details a TA would need to know, this function was written. `setup.sh` does not change for any of the homework assignments. `run_autograder` does because it references a lot of file paths. This function will update `run_autograder` accordingly, turn it into a unix executable file, and zip it with `setup.sh`. Now, the TA simply has to pull and draw the newly created zip. This file is called in `autograder.setup.R`. The TA will never need to edit this file.
 
 **Package Dependencies**: `packages.R`
 

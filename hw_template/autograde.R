@@ -1,18 +1,18 @@
-#----Set working directory to source file location----#
 rm(list = ls())
 
 #--------------Set This------#
-loc       <- "local" # either "local", or "gradescope"
-#loc       <- "gradescope"
+#loc       <- "local" # either "local", or "gradescope"
+loc       <- "gradescope"
 
 
 #------DON'T TOUCH THIS------#
 
-if(loc=="local"){ #Setting working directory to source file location if local
+#Setting working directory to source file location
+if(loc=="local"){
     setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 }
 source("inputs.R")
-source("autograder_setup.R")
+source(paste0(here::here(),"/helper_functions/autograder_setup.R",""))
 
 #----------------------------#
 

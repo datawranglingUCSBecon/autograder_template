@@ -186,9 +186,9 @@ Gradescope assignments are created using the button in the bottom right hand cor
 \frame{\includegraphics[width=5in]{pictures/gradescopeinto3.png} }
 \end{center}
 
-A popup box will ask what type of assignment is being created. Select **</> Programming Assignment**, then click next.
+A pop-up box will ask what type of assignment is being created. Select **</> Programming Assignment**, then click next.
 
-Next, a popup creating the assignment setting will appear. Please fill in the setting appropriately. This will be provided to you by the head TA in the form of a rubric or via conversation. If you do not know the setting, **ASK A FELLOW TA OR INSTRUCTOR**. The example image has been filled in for illustrative purposes:
+Next, a pop-up creating the assignment setting will appear. Please fill in the setting appropriately. This will be provided to you by the head TA in the form of a rubric or via conversation. If you do not know the setting, **ASK A FELLOW TA OR INSTRUCTOR**. The example image has been filled in for illustrative purposes:
 
 \begin{center}
 \frame{\includegraphics[width=5in]{pictures/gradescopeintro4.png} }

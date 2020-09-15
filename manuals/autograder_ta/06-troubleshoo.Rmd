@@ -35,7 +35,7 @@ The best way to debug student's code is to download it from gradescope and exper
 
 Below are some common issues run into in the past:
 
-- Students upload their dataset using `read.csv` instead of `read_csv`. The former is from base R while the latter is from tidyverse. The slight discrepencies in loading leads to major issues in autograders. The `setup.R` function warns students if they use `read.csv` that their answers may be incorrect. We highly recommend `read_csv` for it's integration in tidyverse.
+- Students upload their dataset using `read.csv` instead of `read_csv`. The former is from base R while the latter is from tidyverse. The slight discrepancies in loading leads to major issues in autograders. The `setup.R` function warns students if they use `read.csv` that their answers may be incorrect. We highly recommend `read_csv` for it's integration in tidyverse.
 
 - Students use a different version of R than the autograder does (R 3.6.3). This is a major headache. 
 
@@ -45,7 +45,7 @@ Below are some common issues run into in the past:
 
 ## Writing Questions
 
-Because the autograder requires very specific inputs, it is very easy to write questions that are not condusive to grading code. These questions include too many parts or unclear objectives. Below is a fake assignment with poorly written questions for autograding code. This manual will go through each question, identify issues and provide suggestions to improve the question:
+Because the autograder requires very specific inputs, it is very easy to write questions that are not conducive to grading code. These questions include too many parts or unclear objectives. Below is a fake assignment with poorly written questions for autograding code. This manual will go through each question, identify issues and provide suggestions to improve the question:
 
 \begin{center}
 \includepdf[pages=-,pagecommand={}, width=6in, frame=TRUE]{pictures/practice-assignment.pdf}

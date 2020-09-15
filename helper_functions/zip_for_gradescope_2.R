@@ -1,6 +1,6 @@
 # Gradescope requires a .sh and an executable file in a zip. This takes those two files and puts them into a zip
-# Slight changes have to be made to the run_autograder file though. Namely, change the file paths.
-# This is now done automatically
+# Slight changes have to be made to the run_autograder file though. Namely, change the file paths. This is now done automatically
+#
 
 #Removing old gradescope.zip
 if(file.exists("gradescope.zip")==TRUE){
@@ -25,41 +25,23 @@ if(basename(rprojroot::is_rstudio_project$find_file()) %in% c("autograder","subm
 #First line establishing Bash
 write("#!/usr/bin/env bash",file="run_autograder") 
 
-# Moving student code form submission to source
-write(paste("cp /autograder/submission/",rScript, " /autograder/source/",rScript, sep = ""), file="run_autograder",append=T)
-
-# Entering the source file folder
-write(paste("\ncd /autograder/source"), "run_autograder",append = T)
+write("\ncd /autograder/", file = "run_autograder",append = T)
 
 # clone the github repo and find the "answers" script to be used in grading.
-write("\ngit clone https://USERNAME:PASSWORD@github.com/USERNAME/REPONAME", "run_autograder",append = T)
+write("\ngit clone https://datawranglingUCSBecon:autograder1234@github.com/datawranglingUCSBecon/autograderecon", "run_autograder",append = T)
 
-#Loading the preset functions. DO NOT CHANGE.
-write(paste("\ncp ",basename(rprojroot::is_rstudio_project$find_file()),"/helper_functions/JSONmaker.R /autograder/source/JSONmaker.R
-cp ",basename(rprojroot::is_rstudio_project$find_file()),"/helper_functions/setup.R /autograder/source/setup.R
-cp ",basename(rprojroot::is_rstudio_project$find_file()),"/helper_functions/packages.R /autograder/source/packages.R
-cp ",basename(rprojroot::is_rstudio_project$find_file()),"/hw_template/autograder_setup.R /autograder/source/autograder_setup.R",
-            sep = ""),
-      "run_autograder",append = T)
+# Moving student code form submission to source
+write(paste("\ncp /autograder/submission/",rScript, 
+            " /autograder/",basename(rprojroot::is_rstudio_project$find_file()),"/",dir_loc,"/",rScript, 
+                   sep = ""), file="run_autograder",append=T)
 
-# Grab the Data generating process.
-write(paste("\ncp ",basename(rprojroot::is_rstudio_project$find_file()),"/",dir_loc,"/",DGP," /autograder/source/",DGP, 
-            sep = ""),
-      "run_autograder",append = T)
-
-# Grab the autograder you wrote.
-write(paste("cp ",basename(rprojroot::is_rstudio_project$find_file()),"/",dir_loc,"/inputs.R /autograder/source/inputs.R",sep = ""),
-      "run_autograder",append = T)
-
-# Grab master datafile.
-for(i in 1:length(Master)){
-  write(paste("cp ", basename(rprojroot::is_rstudio_project$find_file()),"/",dir_loc,"/",Master[i]," /autograder/source/",Master[i],
-        sep = ""),
-  "run_autograder", append = T)
-}
+# Moving into necessary folder
+write(paste("\ncd ", 
+            "/autograder/",basename(rprojroot::is_rstudio_project$find_file()),"/",dir_loc,"/", 
+            sep = ""), file="run_autograder",append=T)
 
 # Run your autograder script.
-write(paste("\nRscript REPONAME/",dir_loc,"/autograde.R", sep = ""),
+write(paste("\nRscript autograde.R", sep = ""),
       "run_autograder",append = T)
 
 #make it a Unix executable file
@@ -67,7 +49,7 @@ system("chmod 755 run_autograder") # Making it an executable file
 
 #zip the two necessary files together
 zipr("gradescope.zip", c("run_autograder",
-                         paste(up,
+                         paste(here::here(),"/",
                                "helper_functions/setup.sh",
                                sep = "")
 )

@@ -8,7 +8,6 @@ add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran
 apt update
 apt-get install -y r-base
 
-
 # These are all the packages being used. Make sure you have all the necessary packages
   # If Gradescope is running slow, consider using less packages
   # Make sure to keep your dependencies=TRUE otherwise things break :/ 
@@ -17,6 +16,7 @@ Rscript -e "install.packages('choroplethr', dependencies = TRUE)"
 Rscript -e "install.packages('choroplethrMaps', dependencies = TRUE)"
 Rscript -e "install.packages('compare', dependencies = TRUE)"
 Rscript -e "install.packages('devtools', dependencies = TRUE)"
+Rscript -e "install.packages('here', dependencies = TRUE)"
 Rscript -e "install.packages('jsonlite', dependencies = TRUE)"
 Rscript -e "install.packages('janitor', dependencies = TRUE)"
 Rscript -e "install.packages('kableExtra', dependencies = TRUE)"

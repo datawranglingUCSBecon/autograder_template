@@ -69,7 +69,7 @@ Please refer to the `README` in `prompt_rubric` as well as the templates.
 
 ## `helper_functions`
 
-`helper_functions` streamline alot of the Gradescope technicalities. These functions are meant to make writing autograders accessible to any individual who has proficient knowledge of R (and patience).
+`helper_functions` streamline a lot of the Gradescope technicalities. These functions are meant to make writing autograders accessible to any individual who has proficient knowledge of R (and patience).
 
 Gradescope requires output to be in a very specific JSON format. With this repository, there is no need to know what exactly that means. The R helper functions create the output in the proper format. Under the hood, the helper functions are creating a dataframe that the TA is meant to fill in. Once they fill in the dataframe, the helper functions convert it to the appropriate .JSON format and export it in the appropriate location.
 
@@ -84,5 +84,5 @@ There is also `email.R`. This is used to mass email students individual datasets
 
 ## `class roster`
 
-The automatated emailing functions rely on a class roster. The easiest way to get the class roster is to download it from the class Moodle and save it in the file. From here, the specific roster can be specified for mass emailing.
+The automated emailing functions rely on a class roster. The easiest way to get the class roster is to download it from the class Moodle and save it in the file. From here, the specific roster can be specified for mass emailing.
   

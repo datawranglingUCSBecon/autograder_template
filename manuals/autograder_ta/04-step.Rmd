@@ -9,7 +9,7 @@ Below is the standard workflow to start making an online assignment:
 
 **Note that this needs only be done the first time you use the Github. If you have the files on your local drive, please skip this step. Unzip the files in your desired filepath.** 
 
-1: First, go to the class github repository. Then click on the green buttom on the top right corner and copy the HTTPS/SSH URL from the dropdown menu. Both actions are provide you with identical access to the Git repository. Now, Navigate to your RStudio and from the dropmenu of File, choose __New Project__. Then, choose to create project from __Version Control Repository__ and then hit __Git__. Paste the URL as instructed. For more detailed instructions, please refer to _GitHub_ section of this manul. 
+1: First, go to the class github repository. Then click on the green button on the top right corner and copy the HTTPS/SSH URL from the drop-down menu. Both actions are provide you with identical access to the Git repository. Now, Navigate to your RStudio and from the drop menu of File, choose __New Project__. Then, choose to create project from __Version Control Repository__ and then hit __Git__. Paste the URL as instructed. For more detailed instructions, please refer to _GitHub_ section of this manual. 
 \begin{center}
 \frame{\includegraphics[width=5in]{pictures/v_git_clone.png} }
 \end{center}
@@ -24,7 +24,7 @@ Below is the standard workflow to start making an online assignment:
 \end{center}
 2: Open RStudio and set working directory to the downloaded file. This is done by clicking the  the `.rProj` item in the repository. In the example case, it is called `autograderecon.Rprj`. The rest of the operations could be mainly done in RStudio.
 
-3: Using RStudio file browser, select hw_template folder by checking the box before it, then click __More__ next to __Rename__ in the same panel and select __copy__ in the dropdown menu. Name your duplicate file following the naming convention. Please ensure that your custom homework folder should be placed in autograderecon folder. 
+3: Using RStudio file browser, select hw_template folder by checking the box before it, then click __More__ next to __Rename__ in the same panel and select __copy__ in the drop-down menu. Name your duplicate file following the naming convention. Please ensure that your custom homework folder should be placed in autograderecon folder. 
 \begin{center}
 \frame{\includegraphics[width=5in]{pictures/v_git_copy.png} }
 \end{center}
@@ -42,7 +42,7 @@ Below is the standard workflow to start making an online assignment:
 \end{center}
 
 
-8: Find __autograde.R__ in the folder. Input your answers and autograding scripts where necessary. For more detailed insturctions, please refer to the section, __Autograder__.
+8: Find __autograde.R__ in the folder. Input your answers and autograding scripts where necessary. For more detailed instructions, please refer to the section, __Autograder__.
 
 9: Make the necessary adjustments to `DGP.R`. The file will look similar to this:
 
@@ -68,7 +68,7 @@ DGP <- function(masterdata="Masterdata.csv", PERMID=PERMID, dataname=dataname){
 
 The only line that will EVER be changed is `d <- masterdata[sample(1:nrow(masterdata), 1000, replace = F),]`. If you don't want to create individual datasets, set `d <- d`. Notice that the individual datasets come from setting the seed to student's PERMID.
 
-10: Common mistakes that breakes your autograder: 
+10: Common mistakes that break your autograder: 
 
   _1_ variable names in __inputs.R__ or __autograde.R__ are incorrect. 
 
@@ -77,7 +77,7 @@ The only line that will EVER be changed is `d <- masterdata[sample(1:nrow(master
 
   _3_ homework folder not placed in autograderecon. 
 
-10: After finished with __autograde.R__, set _loc_ to 'local' and run the script. the function should generate __gradescope.zip__ in your folder. Uploading __gradescop.zip__ to gradescope, for detailed instructions, please refer to _gradescope_ section. 
+10: After finished with __autograde.R__, set _loc_ to 'local' and run the script. the function should generate __gradescope.zip__ in your folder. Uploading __gradescope.zip__ to gradescope, for detailed instructions, please refer to _gradescope_ section. 
 
 11: Set _loc_ to "gradescope" in __autograde.R__. Save all edited files, commit and push your changes to github repository using Git Push. Detailed instructions in _GitHub_ section.
 

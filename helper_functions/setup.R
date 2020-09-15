@@ -179,5 +179,4 @@ setup.helper <- function(filename, # The name of the student's script
   test.results <<- test.results #Assigns the the global environment
   status <<- "NO ERROR"
   
-    
 }

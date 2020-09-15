@@ -7,7 +7,6 @@ output:
     highlight: haddock
     toc: true
     number_sections: true
-    latex_engine: xelatex
 header-includes:
   - \usepackage[fontsize=12pt]{scrextend}
   - \usepackage{setspace}\doublespacing
