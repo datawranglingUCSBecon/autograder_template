@@ -17,7 +17,7 @@ This section is dedicated for setting up the Github for a class FOR THE FIRST TI
 
 5) `manuals`
 
-Click the link to the public respoitory: [autograder_template](https://github.com/datawranglingUCSBecon/autograder_template). From here, it is recommended to make a private fork of this public repository or to privately clone the repository. One useful resource is [here](https://blog.8bitzen.com/posts/creating-a-private-fork-of-a-public-repo-on-github) and [here](https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274). Name the new private fork/repository as you see fit.
+Click the link to the public repository: [autograder_template](https://github.com/datawranglingUCSBecon/autograder_template). From here, it is recommended to make a private fork of this public repository or to privately clone the repository. One useful resource is [here](https://blog.8bitzen.com/posts/creating-a-private-fork-of-a-public-repo-on-github) and [here](https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274). Name the new private fork/repository as you see fit.
 
 After you create your private repository, enter `helper_functions`. Click `email_credential_maker.R` and follow the link. At the end of the steps, you will have a Google API token that allows for mass emails through R.
 
