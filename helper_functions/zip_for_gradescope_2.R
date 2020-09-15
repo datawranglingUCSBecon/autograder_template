@@ -28,7 +28,7 @@ write("#!/usr/bin/env bash",file="run_autograder")
 write("\ncd /autograder/", file = "run_autograder",append = T)
 
 # clone the github repo and find the "answers" script to be used in grading.
-write("\ngit clone https://datawranglingUCSBecon:autograder1234@github.com/datawranglingUCSBecon/autograderecon", "run_autograder",append = T)
+write("\ngit clone https://USERNAME:PASSWORD@github.com/USERNAME/REPOSITORY", "run_autograder",append = T)
 
 # Moving student code form submission to source
 write(paste("\ncp /autograder/submission/",rScript, 
