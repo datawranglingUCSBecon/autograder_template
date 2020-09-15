@@ -23,7 +23,7 @@ The only folders that should not follow this naming convention are:
 
 4) `class_roster`
 
-I will go through each of the 4 folders listed. A description of each file can be found in the [appendix](#appendix):
+I will go through each of the 4 folders listed. A description of each file can be found in the [appendix](#appendix).
 
 ## `hw_template`
 
@@ -38,7 +38,7 @@ This folder holds all the direct files for the autograder. When a new homework a
 
 It is worth noting some nuances associated with writing homework for an autograder. First, you must be very specific on what everything is named. The autograder is sourcing the student's code. That means the student must all have the same:
 
-1) name of their R file (e.g. `hw1.T),
+1) name of their R file (e.g. `hw1.T`),
 
 2) name of their dataset (`hw1_dat.csv`),
 
@@ -48,11 +48,11 @@ It is worth noting some nuances associated with writing homework for an autograd
 
 5) write their PERMID. In future versions, writing the PERMID will become obsolete. However, current development is still experimenting with using Gradescopes metadata.
 
-Please refer to the `README` in `prompt_rubric` as well as the templates.
+Please refer to the `README` in `prompt_rubric` as well as the templates for homework writing tips.
 
 ## `manuals`
 
-`manuals` holds the manuals. The main manual of interest is `manual.pdf`. This goes through all the steps of the autograder. However, there are additional manuals related to other aspects of the course such as Nectir and using a virtual machine at UCSB. See the README.md in the folder for more information.
+`manuals` holds the manuals. The main manual of interest is `autograder_ta`. This goes through all the steps of the autograder. However, there are additional manuals related to other aspects of the course such as Nectir and using a virtual machine at UCSB. See the README.md in the folder for more information.
 
 
 \begin{center}
@@ -73,7 +73,7 @@ Please refer to the `README` in `prompt_rubric` as well as the templates.
 
 Gradescope requires output to be in a very specific JSON format. With this repository, there is no need to know what exactly that means. The R helper functions create the output in the proper format. Under the hood, the helper functions are creating a dataframe that the TA is meant to fill in. Once they fill in the dataframe, the helper functions convert it to the appropriate .JSON format and export it in the appropriate location.
 
-There is also `email.R`. This is used to mass email students individual datasets. In order to cut down on cheating, this course creates unique datasets for each student to analyze. In theory, a unique dataset shouldn't deter cheating. If students are writing good code, the specific data shouldn't matter. However, specific datasets do deter cheating in early coding courses where the temptation to hard code answers in is highest. The TA determines the creation of the individualized datasets, which will be discussed further in the homework example.
+There is also `email.R`. This is used to mass email students individual datasets. In order to cut down on cheating, this course creates unique datasets for each student to analyze. In theory, a unique dataset shouldn't deter cheating. If students are writing good code, the specific data shouldn't matter. However, specific datasets do deter cheating in early coding courses where the temptation to hard code answers is highest. The TA determines the creation of the individualized datasets, which will be discussed further in the homework example.
 
 
 \begin{center}

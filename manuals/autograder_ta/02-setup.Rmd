@@ -6,8 +6,6 @@ output: pdf_document
 
 This section reviews the necessary programs and getting started.
 
-This is a working draft of the manual. Please do not distribute. Please do not share this manual with current or potential students of **Data Wrangling in R**.
-
 ## R and RStudio {#r_and_rstudio}
 
 R is a powerful statistical software used for data analysis. R can be downloaded [here](https://cran.r-project.org/). Pick the appropriate version for your device.
@@ -40,11 +38,13 @@ At the end of this section, you should be able to:
 
 - upload and download from Github using RStudio
 
-This is not an exhaustive manual. It is an introduction to Github with RStudio. 
+This is not an exhaustive Github manual. It is an introduction to Github with RStudio. 
 
 ### Getting Started
 
-First, you will have to create a Github. Simply log onto [github.com](https://github.com/) and sign up. It's free! After creating a Github, you will be invited to the Github repository. Accept the invitation. The repository will look something like this:
+First, you will have to create a Github. Simply log onto [github.com](https://github.com/) and sign up. It's free! After creating a Github, you will be invited to the Github repository[^invite]. Accept the invitation. The repository will look something like this:
+
+[^invite]: If you are responsible for creating the Github repository, don't fret! The section [building infrastructure](#build_inf) goes through the first time setup.
 
 \begin{center}
 \frame{\includegraphics[width=5in]{pictures/github1.png} }

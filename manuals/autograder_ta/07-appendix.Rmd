@@ -7,48 +7,6 @@ output: pdf_document
 
 # Appendix
 
-## Version Control {#vc}
-
-This section is dedicated to working in groups. Github can be an amazing tool and an even bigger headache. The key is to maximize the benefits and invest in aspirin. 
-
-One way to mitigate the headaches is through a formalized version control approach. This manual recommends creating individual branches for each task. There are many resources discussing branching. One good place to start is [here](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).  A graphical example of this is depicted below:
-
-\begin{center}
-\frame{\includegraphics[width=5in]{pictures/github_flow.png} }
-\end{center}
-
-Notice at the center of the web is the master branch. Each pink square represents a different branch. Every time a new job needs to be done (e.g. a new homework assignment or tutorial), a new branch should be used. By having each project on it's own branch, there will be less of a chance of conflicts when uploading and pushing. In addition, this manual advocates **no one should be working directly on Master**. Actually, that should be a commandment:
-
-$$\text{Github Commandment 3: Do Not Work Directly on Master Branch}$$
-Making branches in R is extremely useful. First, make sure you are in the Rproject. Next, click the "create new branch" button. It is pointed out by the green arrow in the following picture:
-
-\begin{center}
-\frame{\includegraphics[width=5in]{pictures/branch.png} }
-\end{center}
-
-Name the branch. Notice the pink box that says *danny_testing* in the picture above? That should now be whatever you named your branch. You can click the name in the pink box and switch between branches with ease. However, be aware **YOU CAN SWITCH BETWEEN BRANCHES WITH EASE**. This means you need to be extra careful of which branch is selected.
-
-When your work is finished on a branch, you can post a *pull request*. This is you proposing changes to Master in which the other TAs will review and approve. Pull requests can be made directly on Github:
-
-\begin{center}
-\frame{\includegraphics[width=5in]{pictures/pull_req.png} }
-\end{center}
-
-After clicking where the bright green arrow is pointing, click the bright green button that says **New pull request**.
-
-In conclusion, the workflow will be as so:
-
-1) You are given an assignment.
-
-2) Create a new branch.
-
-3) Do you work as described above. Do the normal push and pull and committing.
-
-4) Once you are done with your assignment, submit a **new pull request**.
-
-5) Have a friend confirm the pull request. If there are no conflicts, confirm your own pull request.
-
-
 ## List of Functions
 
 Below is documentation on each file in `helper_functions` and `hw_template` folders:

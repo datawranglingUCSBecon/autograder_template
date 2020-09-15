@@ -5,14 +5,19 @@ header-includes:
   - \newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
 urlcolor: blue
 ---
-# Writing the Autograder
+# Writing the Autograder {#autograder}
 
-
-1: The bulk of your autograder codes should be in __autograde.R__ in the respective homework folder. Make sure that the autograder codes are placed in the right location, and _loc_ is set to correct variable for either `local` or `gradescope` grading. 
+The bulk of your autograder codes should be in __autograde.R__ in the respective homework folder. An autograder file will look like this:
 
 \begin{center}
 \frame{\includegraphics[width=5in]{pictures/autograde_example.png} }
 \end{center}
+
+In order to write an autograder, the TA writes the answers and grading code indicated in the picture. The basic steps are as follows:
+
+
+1: Make sure that the autograder codes are placed in the right location, and _loc_ is set to correct variable for either `local` or `gradescope` grading. 
+
 
 2: Start your autograder by providing correct answers to each question. Make sure the answer variable's names are different from the ones specified in the prompts, and it is advised to comment your answers to later reference. 
 
@@ -52,7 +57,21 @@ file.remove("temp.txt") # Remove the temporary output file in the directory.
 ```
 
 5: Save the grades in json file. 
-  This step is mostly automatic. In __autograder_setup.R__, functions should already initiate a dataframe __test.results__, with each row corresponding to one question and four columns: _description of the question_, _the score_, _max score_, and _notes_. To save the grades, you should make to fill each cell with corresponding inputs.
+  This step is mostly automatic. In __autograder_setup.R__, functions should already initiate a dataframe __test.results__, with each row corresponding to one question and four columns: _description of the question_, _the score_, _max score_, and _notes_. The dataframe looks like this:
+  
+```{r, echo=F}
+
+
+kable(
+  tribble(~"name", ~"score", ~"maxscore", ~"output",
+        NA,NA,NA,NA),
+  caption = "Example test.result"
+  ) %>% 
+  kable_styling(bootstrap_options = "striped",  font_size = 8, latex_options = "HOLD_position")%>% 
+    row_spec(0, bold = T)
+```
+
+The number of rows is calculated through `inputs.R`. To save the grades, you should fill each cell with corresponding inputs. This will turn into many `if` statements. The key is to cover as many possible errors the student may make so that they get a grade. Tips and tricks for filling in the autograder are presented below.
   
 \begin{center}
 \frame{\includegraphics[width=5in]{pictures/autograde_grade_example.png} }
@@ -105,7 +124,7 @@ if(loc=="local"){ #Setting working directory to source file location if local
     setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 }
 source("inputs.R")
-source("autograder_setup.R")
+source(paste0(here::here(),"/helper_functions/autograder_setup.R",""))
 
 #----------------------------#
 

@@ -31,6 +31,8 @@ After reading through the manual, you should:
 
 This manual is written for incoming TAs. It is assumed the infrastructure for the class is already in place. If you are building the course from scratch, see the *Building Infrastructure* section at the very end of the manual.
 
-The flexibility of the infrastructure discussed allows for usage beyond **Data Wrangling in R**. While the target audience is the incoming TAs, the manual and infrastructure have uses for all individuals interested in assigning coding homework in R. Other resources exists for C++, Python and R. Please see the [community resource boards](https://gradescope-autograders.readthedocs.io/en/latest/resources/).
+The flexibility of the infrastructure discussed allows for usage beyond **Data Wrangling in R**. While the target audience is the incoming TAs, the manual and infrastructure have uses for all individuals interested in assigning coding homework in `R`. Other resources exists for C++, Python and R. Please see the [community resource boards](https://gradescope-autograders.readthedocs.io/en/latest/resources/).
+
+The unique features about this infrastructure is twofold. First, the infrastructure is written for someone who knows `R` but virtually nothing else about coding. This means someone can create an autograder without knowing further coding skills such as bash or JSON. This becomes extremely useful for social sciences. TAs are constantly coming and going with only knowledge of their coding language and no desire/time to learn the other necessary skills. Second, the course is designed to give each student a unique dataset. While well written code should be able to handle any dataset, this functionality becomes useful in introductory courses. Unique datasets are meant to cut down on the cheating.
 
 This is a working draft of the manual. All feedback is welcome. Please do not share this manual with current or potential students of **Data Wrangling in R**.

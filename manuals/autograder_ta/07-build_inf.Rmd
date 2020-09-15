@@ -3,7 +3,7 @@ title: "07 - setting_up"
 output: pdf_document
 ---
 
-# Building the Infrastructure
+# Building the Infrastructure {#build_inf}
 
 This section is dedicated for setting up the Github for a class FOR THE FIRST TIME. This will only need to be done once per class. This includes future iterations of the class. Inside this folder you will find the following folders:
 

@@ -8,6 +8,11 @@ output:
     toc: true
     number_sections: true
 header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \fancyhead[LE, LO]{Econ 145 - Fall 2020}
+  - \fancyfoot[LE,LO]{Copyright UCSB 2020}
   - \usepackage[fontsize=12pt]{scrextend}
   - \usepackage{setspace}\doublespacing
   - \usepackage{pdfpages}
@@ -22,6 +27,7 @@ knitr::opts_chunk$set(echo = TRUE, tidy.opts=list(width.cutoff=50),tidy=TRUE)
 library(png)
 library(tidyverse)
 library(knitr)
+library(kableExtra)
 ```
 
 \newpage

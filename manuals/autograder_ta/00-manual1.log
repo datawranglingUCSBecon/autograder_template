@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.14)  14 SEP 2020 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.14)  15 SEP 2020 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,6 +403,29 @@ y)
 Package grffile Info: This package is an empty stub for compatibility on input 
 line 40.
 )
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
+sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 108.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 109.
+
+
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrext
 end.sty
 Package: scrextend 2020/07/22 v3.31 KOMA-Script package (extend other classes w
@@ -428,7 +451,7 @@ LaTeX Warning: Command \@footnotemark  has changed.
 
 )
 Package scrextend Info: File `scrsize12pt.clo' used to setup font sizes on inpu
-t line 106.
+t line 111.
 
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrsiz
 e12pt.clo
@@ -450,12 +473,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count271
 \calc@Adimen=\dimen158
 \calc@Bdimen=\dimen159
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count272
-\calc@Cskip=\skip55
+\calc@Cskip=\skip64
 )
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.st
 y
@@ -495,32 +518,191 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count276
 Package caption Info: hyperref package is loaded.
 )
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
+sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen181
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
+y
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
+\LTchunksize=\count281
+\LTcapwidth=\dimen182
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@cols=\count282
+\LT@rows=\count283
+\c@LT@tables=\count284
+\c@LT@chunks=\count285
+\LT@p@ftn=\toks27
+) (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box54
+\extrarowheight=\dimen184
+\NC@list=\toks28
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box55
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.
+sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip71
+\multirow@cntb=\count286
+\multirow@dima=\skip72
+\bigstrutjot=\dimen185
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
+y
+\wrapoverhang=\dimen186
+\WF@size=\dimen187
+\c@WF@wrappedlines=\count287
+\WF@box=\box56
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+) (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks30
+\float@box=\box57
+\@float@everytoks=\toks31
+\@floatcapt=\box58
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.
+sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks32
+\minrowclearance=\skip73
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscap
+e.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.st
+y
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.
+sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count289
+\@vwid@loff=\dimen188
+\@vwid@roff=\dimen189
+)
+\c@taburow=\count290
+\tabu@nbcols=\count291
+\tabu@cnt=\count292
+\tabu@Xcol=\count293
+\tabu@alloc=\count294
+\tabu@nested=\count295
+\tabu@target=\dimen190
+\tabu@spreadtarget=\dimen191
+\tabu@naturalX=\dimen192
+\tabucolX=\dimen193
+\tabu@Xsum=\dimen194
+\extrarowdepth=\dimen195
+\abovetabulinesep=\dimen196
+\belowtabulinesep=\dimen197
+\tabustrutrule=\dimen198
+\tabu@thebody=\toks33
+\tabu@footnotes=\toks34
+\tabu@box=\box60
+\tabu@arstrutbox=\box61
+\tabu@hleads=\box62
+\tabu@vleads=\box63
+\tabu@cellskip=\skip74
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/thr
+eeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box64
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/threeparttablex/th
+reeparttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.st
+y
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspa
+ces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip75
+) (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box65
+\UL@hyphenbox=\box66
+\UL@skip=\skip76
+\UL@hook=\toks35
+\UL@height=\dimen199
+\UL@pe=\count296
+\UL@pixel=\dimen256
+\ULC@box=\box67
+Package: ulem 2019/11/18
+\ULdepth=\dimen257
+)
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.
+sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen258
+\c@nlinenum=\count297
+\TeXr@lab=\toks36
+)
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2020-09-11 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count277
-\l__pdf_internal_box=\box50
+\l__kernel_color_stack_int=\count298
+\l__pdf_internal_box=\box68
 ) (./00-manual1.aux)
 \openout1 = `00-manual1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
 
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -533,8 +715,8 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 118.
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring ON on input line 137.
 
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -548,11 +730,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count278
+\c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
 (./00-manual1.out) (./00-manual1.out)
 \@outlinefile=\write4
 \openout4 = `00-manual1.out'.
@@ -591,62 +773,60 @@ LaTeX Info: Redefining \nameref on input line 118.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscap
-e.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.st
-y
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.
+sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-20.
+39.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-20.
+39.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-120.
+139.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-120.
+139.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 120.
+(Font)              <14.4> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 120.
+(Font)              <10> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 120.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+(Font)              <7> on input line 139.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 139
 .
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+LaTeX Font Info:    Trying to load font information for U+msb on input line 139
 .
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-20.
+39.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 120.
+(Font)              <5> on input line 139.
 (./00-manual1.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 2.
@@ -658,338 +838,335 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 6.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+) [1{/Users/dannyklinenberg/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/p
+dftex.map}
 
-{/Users/dannyklinenberg/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}])
+])
 \tf@toc=\write5
 \openout5 = `00-manual1.toc'.
 
 [2] [3] [4]
-<pictures/rproject.png, id=166, 415.5525pt x 58.2175pt>
+<pictures/rproject.png, id=160, 415.5525pt x 58.2175pt>
 File: pictures/rproject.png Graphic file (type png)
 <use pictures/rproject.png>
-Package pdftex.def Info: pictures/rproject.png  used on input line 225.
+Package pdftex.def Info: pictures/rproject.png  used on input line 251.
 (pdftex.def)             Requested size: 361.3629pt x 50.6257pt.
 [5 <./pictures/rproject.png>]
-<pictures/github1.png, id=179, 760.8425pt x 760.8425pt>
+<pictures/github1.png, id=175, 760.8425pt x 760.8425pt>
 File: pictures/github1.png Graphic file (type png)
 <use pictures/github1.png>
-Package pdftex.def Info: pictures/github1.png  used on input line 269.
+Package pdftex.def Info: pictures/github1.png  used on input line 299.
 (pdftex.def)             Requested size: 361.3575pt x 361.3575pt.
-<pictures_github/github_copy.png, id=180, 759.83875pt x 531.9875pt>
+[6]
+<pictures_github/github_copy.png, id=187, 759.83875pt x 531.9875pt>
 File: pictures_github/github_copy.png Graphic file (type png)
 <use pictures_github/github_copy.png>
-Package pdftex.def Info: pictures_github/github_copy.png  used on input line 27
+Package pdftex.def Info: pictures_github/github_copy.png  used on input line 30
 6.
 (pdftex.def)             Requested size: 361.35614pt x 252.99704pt.
-[6 <./pictures/github1.png>] [7 <./pictures_github/github_copy.png>]
-<pictures_github/github_pane.png, id=199, 539.01375pt x 268.00125pt>
+[7 <./pictures/github1.png>] [8 <./pictures_github/github_copy.png>]
+<pictures_github/github_pane.png, id=205, 539.01375pt x 268.00125pt>
 File: pictures_github/github_pane.png Graphic file (type png)
 <use pictures_github/github_pane.png>
-Package pdftex.def Info: pictures_github/github_pane.png  used on input line 33
+Package pdftex.def Info: pictures_github/github_pane.png  used on input line 36
 0.
 (pdftex.def)             Requested size: 361.35117pt x 179.66621pt.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 343.
-[8 <./pictures_github/github_pane.png>]
-<pictures/github_flow.png, id=210, 436.63126pt x 534.99875pt>
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 373.
+[9 <./pictures_github/github_pane.png>]
+<pictures/github_flow.png, id=216, 436.63126pt x 534.99875pt>
 File: pictures/github_flow.png Graphic file (type png)
 <use pictures/github_flow.png>
-Package pdftex.def Info: pictures/github_flow.png  used on input line 378.
+Package pdftex.def Info: pictures/github_flow.png  used on input line 408.
 (pdftex.def)             Requested size: 361.35118pt x 442.75902pt.
-[9] [10 <./pictures/github_flow.png>]
-<pictures/branch.png, id=222, 515.9275pt x 316.18124pt>
+[10] [11 <./pictures/github_flow.png>]
+<pictures/branch.png, id=228, 515.9275pt x 316.18124pt>
 File: pictures/branch.png Graphic file (type png)
 <use pictures/branch.png>
-Package pdftex.def Info: pictures/branch.png  used on input line 395.
+Package pdftex.def Info: pictures/branch.png  used on input line 425.
 (pdftex.def)             Requested size: 361.35934pt x 221.45561pt.
-<pictures/pull_req.png, id=223, 1443.3925pt x 682.55pt>
+<pictures/pull_req.png, id=229, 1443.3925pt x 682.55pt>
 File: pictures/pull_req.png Graphic file (type png)
 <use pictures/pull_req.png>
-Package pdftex.def Info: pictures/pull_req.png  used on input line 410.
+Package pdftex.def Info: pictures/pull_req.png  used on input line 440.
 (pdftex.def)             Requested size: 361.33177pt x 170.86621pt.
-[11 <./pictures/branch.png>] [12 <./pictures/pull_req.png>]
-<pictures/gradescopeintro.png, id=240, 661.34578pt x 427.9739pt>
+[12 <./pictures/branch.png>] [13 <./pictures/pull_req.png>]
+<pictures/gradescopeintro.png, id=247, 661.34578pt x 427.9739pt>
 File: pictures/gradescopeintro.png Graphic file (type png)
 <use pictures/gradescopeintro.png>
-Package pdftex.def Info: pictures/gradescopeintro.png  used on input line 483.
+Package pdftex.def Info: pictures/gradescopeintro.png  used on input line 513.
 (pdftex.def)             Requested size: 361.34966pt x 233.83867pt.
-[13]
-<pictures/gradescopeintro2.png, id=257, 1964.84062pt x 1263.97218pt>
+[14]
+<pictures/gradescopeintro2.png, id=263, 1964.84062pt x 1263.97218pt>
 File: pictures/gradescopeintro2.png Graphic file (type png)
 <use pictures/gradescopeintro2.png>
-Package pdftex.def Info: pictures/gradescopeintro2.png  used on input line 493.
+Package pdftex.def Info: pictures/gradescopeintro2.png  used on input line 523.
 
 (pdftex.def)             Requested size: 361.33119pt x 232.44255pt.
-[14 <./pictures/gradescopeintro.png> <./pictures/gradescopeintro2.png>]
-<pictures/gradescopeinto3.png, id=264, 1964.08781pt x 1259.4553pt>
+[15 <./pictures/gradescopeintro.png> <./pictures/gradescopeintro2.png>]
+<pictures/gradescopeinto3.png, id=270, 1964.08781pt x 1259.4553pt>
 File: pictures/gradescopeinto3.png Graphic file (type png)
 <use pictures/gradescopeinto3.png>
-Package pdftex.def Info: pictures/gradescopeinto3.png  used on input line 503.
+Package pdftex.def Info: pictures/gradescopeinto3.png  used on input line 533.
 (pdftex.def)             Requested size: 361.3426pt x 231.708pt.
-<pictures/gradescopeintro4.png, id=265, 984.30234pt x 683.17734pt>
+<pictures/gradescopeintro4.png, id=271, 984.30234pt x 683.17734pt>
 File: pictures/gradescopeintro4.png Graphic file (type png)
 <use pictures/gradescopeintro4.png>
-Package pdftex.def Info: pictures/gradescopeintro4.png  used on input line 517.
+Package pdftex.def Info: pictures/gradescopeintro4.png  used on input line 547.
 
 (pdftex.def)             Requested size: 361.34752pt x 250.80144pt.
-[15 <./pictures/gradescopeinto3.png>]
-<pictures/gradescopeintro5.png, id=271, 985.43156pt x 631.60968pt>
+[16 <./pictures/gradescopeinto3.png>]
+<pictures/gradescopeintro5.png, id=277, 985.43156pt x 631.60968pt>
 File: pictures/gradescopeintro5.png Graphic file (type png)
 <use pictures/gradescopeintro5.png>
-Package pdftex.def Info: pictures/gradescopeintro5.png  used on input line 529.
+Package pdftex.def Info: pictures/gradescopeintro5.png  used on input line 559.
 
 (pdftex.def)             Requested size: 361.3561pt x 231.6102pt.
-[16 <./pictures/gradescopeintro4.png> <./pictures/gradescopeintro5.png>]
-<pictures/gradescopeintro6.png, id=278, 1340.00626pt x 685.56125pt>
+[17 <./pictures/gradescopeintro4.png> <./pictures/gradescopeintro5.png>]
+<pictures/gradescopeintro6.png, id=284, 1340.00626pt x 685.56125pt>
 File: pictures/gradescopeintro6.png Graphic file (type png)
 <use pictures/gradescopeintro6.png>
-Package pdftex.def Info: pictures/gradescopeintro6.png  used on input line 540.
+Package pdftex.def Info: pictures/gradescopeintro6.png  used on input line 570.
 
 (pdftex.def)             Requested size: 361.33624pt x 184.8634pt.
-[17 <./pictures/gradescopeintro6.png>]
-<pictures/github3.png, id=291, 1444.39626pt x 774.895pt>
+[18 <./pictures/gradescopeintro6.png>]
+<pictures/github3.png, id=297, 1444.39626pt x 774.895pt>
 File: pictures/github3.png Graphic file (type png)
 <use pictures/github3.png>
-Package pdftex.def Info: pictures/github3.png  used on input line 574.
+Package pdftex.def Info: pictures/github3.png  used on input line 604.
 (pdftex.def)             Requested size: 361.3406pt x 193.85333pt.
-[18 <./pictures/github3.png>]
+[19 <./pictures/github3.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 604.
-<pictures/hw_template_1.png, id=301, 1445.4pt x 776.9025pt>
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 634.
+<pictures/hw_template_1.png, id=308, 1445.4pt x 776.9025pt>
 File: pictures/hw_template_1.png Graphic file (type png)
 <use pictures/hw_template_1.png>
-Package pdftex.def Info: pictures/hw_template_1.png  used on input line 615.
+Package pdftex.def Info: pictures/hw_template_1.png  used on input line 645.
 (pdftex.def)             Requested size: 361.34912pt x 194.22514pt.
-[19 <./pictures/hw_template_1.png>]
-<pictures/Manual_1.png, id=312, 459.51675pt x 582.978pt>
+[20 <./pictures/hw_template_1.png>]
+<pictures/Manual_1.png, id=318, 459.51675pt x 582.978pt>
 File: pictures/Manual_1.png Graphic file (type png)
 <use pictures/Manual_1.png>
-Package pdftex.def Info: pictures/Manual_1.png  used on input line 663.
+Package pdftex.def Info: pictures/Manual_1.png  used on input line 693.
 (pdftex.def)             Requested size: 361.3595pt x 458.44823pt.
-[20]
-<pictures/Manual_2.png, id=323, 458.9145pt x 534.19576pt>
+[21]
+<pictures/Manual_2.png, id=329, 458.9145pt x 534.19576pt>
 File: pictures/Manual_2.png Graphic file (type png)
 <use pictures/Manual_2.png>
-Package pdftex.def Info: pictures/Manual_2.png  used on input line 666.
+Package pdftex.def Info: pictures/Manual_2.png  used on input line 696.
 (pdftex.def)             Requested size: 361.35506pt x 420.63248pt.
-[21 <./pictures/Manual_1.png>]
-<pictures/Manual_3.png, id=328, 458.31226pt x 582.37575pt>
+[22 <./pictures/Manual_1.png>]
+<pictures/Manual_3.png, id=334, 458.31226pt x 582.37575pt>
 File: pictures/Manual_3.png Graphic file (type png)
 <use pictures/Manual_3.png>
-Package pdftex.def Info: pictures/Manual_3.png  used on input line 669.
+Package pdftex.def Info: pictures/Manual_3.png  used on input line 699.
 (pdftex.def)             Requested size: 361.37038pt x 459.19205pt.
-[22 <./pictures/Manual_2.png>] [23 <./pictures/Manual_3.png>]
-<pictures/helper_functions.png, id=338, 430.60875pt x 370.986pt>
+[23 <./pictures/Manual_2.png>] [24 <./pictures/Manual_3.png>]
+<pictures/helper_functions.png, id=344, 430.60875pt x 370.986pt>
 File: pictures/helper_functions.png Graphic file (type png)
 <use pictures/helper_functions.png>
-Package pdftex.def Info: pictures/helper_functions.png  used on input line 699.
+Package pdftex.def Info: pictures/helper_functions.png  used on input line 728.
 
 (pdftex.def)             Requested size: 361.36063pt x 311.32608pt.
-[24 <./pictures/helper_functions.png>]
-<pictures/v_git_clone.png, id=344, 1138.2525pt x 583.17876pt>
+[25 <./pictures/helper_functions.png>]
+<pictures/v_git_clone.png, id=351, 1138.2525pt x 583.17876pt>
 File: pictures/v_git_clone.png Graphic file (type png)
 <use pictures/v_git_clone.png>
-Package pdftex.def Info: pictures/v_git_clone.png  used on input line 730.
+Package pdftex.def Info: pictures/v_git_clone.png  used on input line 758.
 (pdftex.def)             Requested size: 361.34773pt x 185.13495pt.
-[25]
-<pictures/R_Project.png, id=351, 227.6505pt x 388.45125pt>
+<pictures/R_Project.png, id=352, 227.6505pt x 388.45125pt>
 File: pictures/R_Project.png Graphic file (type png)
 <use pictures/R_Project.png>
-Package pdftex.def Info: pictures/R_Project.png  used on input line 733.
+Package pdftex.def Info: pictures/R_Project.png  used on input line 761.
 (pdftex.def)             Requested size: 227.65688pt x 388.46213pt.
-<pictures/R_VC.png, id=352, 324.61275pt x 230.66174pt>
+[26 <./pictures/v_git_clone.png>]
+<pictures/R_VC.png, id=359, 324.61275pt x 230.66174pt>
 File: pictures/R_VC.png Graphic file (type png)
 <use pictures/R_VC.png>
-Package pdftex.def Info: pictures/R_VC.png  used on input line 736.
+Package pdftex.def Info: pictures/R_VC.png  used on input line 764.
 (pdftex.def)             Requested size: 324.61688pt x 230.66467pt.
-[26 <./pictures/v_git_clone.png> <./pictures/R_Project.png>]
-<pictures/R_Git.png, id=358, 324.61275pt x 231.86626pt>
+<pictures/R_Git.png, id=360, 324.61275pt x 231.86626pt>
 File: pictures/R_Git.png Graphic file (type png)
 <use pictures/R_Git.png>
-Package pdftex.def Info: pictures/R_Git.png  used on input line 739.
+Package pdftex.def Info: pictures/R_Git.png  used on input line 767.
 (pdftex.def)             Requested size: 324.61688pt x 231.8692pt.
-[27 <./pictures/R_VC.png> <./pictures/R_Git.png>]
-<pictures/v_git_copy.png, id=363, 1844.8925pt x 1084.05pt>
+[27 <./pictures/R_Project.png> <./pictures/R_VC.png>]
+<pictures/v_git_copy.png, id=365, 1844.8925pt x 1084.05pt>
 File: pictures/v_git_copy.png Graphic file (type png)
 <use pictures/v_git_copy.png>
-Package pdftex.def Info: pictures/v_git_copy.png  used on input line 754.
+Package pdftex.def Info: pictures/v_git_copy.png  used on input line 782.
 (pdftex.def)             Requested size: 361.34311pt x 212.32347pt.
-<pictures/vrinput.png, id=364, 1106.1325pt x 508.90125pt>
+[28 <./pictures/R_Git.png> <./pictures/v_git_copy.png>]
+<pictures/vrinput.png, id=371, 1106.1325pt x 508.90125pt>
 File: pictures/vrinput.png Graphic file (type png)
 <use pictures/vrinput.png>
-Package pdftex.def Info: pictures/vrinput.png  used on input line 773.
+Package pdftex.def Info: pictures/vrinput.png  used on input line 804.
 (pdftex.def)             Requested size: 361.34541pt x 166.24512pt.
-[28 <./pictures/v_git_copy.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-789.
+821.
 (/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [29 <./pictures/vrinput.png>]
-Overfull \hbox (8.16592pt too wide) in paragraph at lines 809--814
+Overfull \hbox (8.16592pt too wide) in paragraph at lines 841--846
 []\T1/lmr/m/n/12 The only line that will EVER be changed is \T1/lmtt/m/n/12 d <
 - masterdata[sample(1:nrow(masterdata),
  []
 
-[30]
-<pictures/autograde_example.png, id=381, 660.66824pt x 566.115pt>
+[30]pdfTeX warning (ext4): destination with the same identifier (name{autograde
+r}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.873 ...riting the Autograder}\label{autograder}}
+                                                  
+<pictures/autograde_example.png, id=383, 660.66824pt x 566.115pt>
 File: pictures/autograde_example.png Graphic file (type png)
 <use pictures/autograde_example.png>
-Package pdftex.def Info: pictures/autograde_example.png  used on input line 849
+Package pdftex.def Info: pictures/autograde_example.png  used on input line 879
 .
 (pdftex.def)             Requested size: 361.35246pt x 309.63657pt.
-<pictures/autograde_error_example.png, id=382, 318.59026pt x 34.9305pt>
+[31 <./pictures/autograde_example.png>]
+<pictures/autograde_error_example.png, id=389, 318.59026pt x 34.9305pt>
 File: pictures/autograde_error_example.png Graphic file (type png)
 <use pictures/autograde_error_example.png>
 Package pdftex.def Info: pictures/autograde_error_example.png  used on input li
-ne 863.
+ne 900.
 (pdftex.def)             Requested size: 318.59433pt x 34.93092pt.
-[31 <./pictures/autograde_example.png> <./pictures/autograde_error_example.png>
-] [32]
-<pictures/autograde_grade_example.png, id=394, 493.845pt x 70.46326pt>
+[32 <./pictures/autograde_error_example.png>] [33]
+<pictures/autograde_grade_example.png, id=402, 493.845pt x 70.46326pt>
 File: pictures/autograde_grade_example.png Graphic file (type png)
 <use pictures/autograde_grade_example.png>
 Package pdftex.def Info: pictures/autograde_grade_example.png  used on input li
-ne 943.
+ne 1000.
 (pdftex.def)             Requested size: 361.34781pt x 51.55815pt.
-[33 <./pictures/autograde_grade_example.png>]
-<pictures/autograde_NA_example.png, id=401, 449.2785pt x 41.55525pt>
+[34 <./pictures/autograde_grade_example.png>]
+<pictures/autograde_NA_example.png, id=409, 449.2785pt x 41.55525pt>
 File: pictures/autograde_NA_example.png Graphic file (type png)
 <use pictures/autograde_NA_example.png>
 Package pdftex.def Info: pictures/autograde_NA_example.png  used on input line 
-968.
+1025.
 (pdftex.def)             Requested size: 361.37022pt x 33.4243pt.
-<pictures/practice-assignment.pdf, id=402, 614.295pt x 794.97pt>
+<pictures/practice-assignment.pdf, id=410, 614.295pt x 794.97pt>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf>
-Package pdftex.def Info: pictures/practice-assignment.pdf  used on input line 9
-78.
+Package pdftex.def Info: pictures/practice-assignment.pdf  used on input line 1
+035.
 (pdftex.def)             Requested size: 361.35297pt x 467.63326pt.
-[34 <./pictures/autograde_NA_example.png>] [35 <./pictures/practice-assignment.
-pdf>] [36] [37] [38] [39] [40] [41] [42]
+[35 <./pictures/autograde_NA_example.png>] [36 <./pictures/practice-assignment.
+pdf>] [37] [38] [39] [40] [41] [42] [43]
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf>
 Package pdftex.def Info: pictures/practice-assignment.pdf  used on input line 1
-223.
+281.
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf>
 Package pdftex.def Info: pictures/practice-assignment.pdf  used on input line 1
-223.
+281.
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-<pictures/practice-assignment.pdf, id=484, page=1, 614.295pt x 794.97pt>
+<pictures/practice-assignment.pdf, id=493, page=1, 614.295pt x 794.97pt>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page1 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page1 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
-[43]
+[44]
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page1 used on input
- line 1223.
-(pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
-File: pictures/practice-assignment.pdf Graphic file (type pdf)
-<use pictures/practice-assignment.pdf, page 1>
-Package pdftex.def Info: pictures/practice-assignment.pdf , page1 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 1>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page1 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
-[44 <./pictures/practice-assignment.pdf>]
-<pictures/practice-assignment.pdf, id=523, page=2, 614.295pt x 794.97pt>
+File: pictures/practice-assignment.pdf Graphic file (type pdf)
+<use pictures/practice-assignment.pdf, page 1>
+Package pdftex.def Info: pictures/practice-assignment.pdf , page1 used on input
+ line 1281.
+(pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
+[45 <./pictures/practice-assignment.pdf>]
+<pictures/practice-assignment.pdf, id=531, page=2, 614.295pt x 794.97pt>
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page2 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page2 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
 File: pictures/practice-assignment.pdf Graphic file (type pdf)
 <use pictures/practice-assignment.pdf, page 2>
 Package pdftex.def Info: pictures/practice-assignment.pdf , page2 used on input
- line 1223.
+ line 1281.
 (pdftex.def)             Requested size: 869.60547pt x 1125.37181pt.
-[45 <./pictures/practice-assignment.pdf>] [46]
-Overfull \hbox (46.53265pt too wide) in paragraph at lines 1320--1324
+[46 <./pictures/practice-assignment.pdf>] [47]
+Overfull \hbox (46.53265pt too wide) in paragraph at lines 1377--1381
 []\T1/lmr/m/n/12 After you cre-ate your pri-vate repos-i-tory, en-ter \T1/lmtt/
 m/n/12 helper_functions\T1/lmr/m/n/12 . Click \T1/lmtt/m/n/12 email_credential_
 maker.R
  []
 
-[47]
-File: pictures/github_flow.png Graphic file (type png)
-<use pictures/github_flow.png>
-Package pdftex.def Info: pictures/github_flow.png  used on input line 1354.
-(pdftex.def)             Requested size: 361.35118pt x 442.75902pt.
 [48] [49]
-File: pictures/branch.png Graphic file (type png)
-<use pictures/branch.png>
-Package pdftex.def Info: pictures/branch.png  used on input line 1371.
-(pdftex.def)             Requested size: 361.35934pt x 221.45561pt.
-File: pictures/pull_req.png Graphic file (type png)
-<use pictures/pull_req.png>
-Package pdftex.def Info: pictures/pull_req.png  used on input line 1386.
-(pdftex.def)             Requested size: 361.33177pt x 170.86621pt.
-[50] [51] [52]
-Underfull \hbox (badness 1231) in paragraph at lines 1485--1488
+Underfull \hbox (badness 1231) in paragraph at lines 1470--1473
 []\T1/lmr/bx/n/12 Package De-pen-den-cies\T1/lmr/m/n/12 : \T1/lmtt/m/n/12 pacma
 n\T1/lmr/m/n/12 , \T1/lmtt/m/n/12 ggplot2\T1/lmr/m/n/12 , \T1/lmtt/m/n/12 glue\
 T1/lmr/m/n/12 , \T1/lmtt/m/n/12 gmailr\T1/lmr/m/n/12 , \T1/lmtt/m/n/12 progress
 \T1/lmr/m/n/12 , \T1/lmtt/m/n/12 tidyverse\T1/lmr/m/n/12 ,
  []
 
-[53] [54] [55]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1638.
-[56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1638.
+[50] [51] [52] [53]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1623.
+[54]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1623.
 (./00-manual1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1638.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1638.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1623.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1623.
 
 Package rerunfilecheck Info: File `00-manual1.out' has not changed.
-(rerunfilecheck)             Checksum: E1E98BD95B858AE5D3A1C9A2F12CA480;3485.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1638.
+(rerunfilecheck)             Checksum: EABFE16C1C5E6476E883F89AB94C3484;3231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1623.
  ) 
 Here is how much of TeX's memory you used:
- 14229 strings out of 482799
- 218345 string characters out of 5953368
- 504771 words of memory out of 5000000
- 29128 multiletter control sequences out of 15000+600000
- 603012 words of font info for 84 fonts, out of 8000000 for 9000
+ 15871 strings out of 482799
+ 242033 string characters out of 5953368
+ 533537 words of memory out of 5000000
+ 30712 multiletter control sequences out of 15000+600000
+ 609138 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,19n,53p,429b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
-nc}{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1
-.enc}{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-m
-athit.enc}{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm
-/lm-rm.enc}</Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/type1/publi
-c/lm/lmbx12.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/type1/
-public/lm/lmmi8.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/ty
-pe1/public/lm/lmr10.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/font
-s/type1/public/lm/lmr12.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/
-fonts/type1/public/lm/lmr17.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-d
-ist/fonts/type1/public/lm/lmr6.pfb></Users/dannyklinenberg/Library/TinyTeX/texm
-f-dist/fonts/type1/public/lm/lmr7.pfb></Users/dannyklinenberg/Library/TinyTeX/t
-exmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/dannyklinenberg/Library/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></Users/dannyklinenberg/Library
-/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 00-manual1.pdf (56 pages, 3030915 bytes).
+ 43i,19n,53p,312b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+}{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.e
+nc}{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hit.enc}{/Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+m-rm.enc}</Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/type1/public/
+lm/lmbx12.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmbx8.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmmi8.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fonts/
+type1/public/lm/lmr10.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dist/fo
+nts/type1/public/lm/lmr12.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf-dis
+t/fonts/type1/public/lm/lmr17.pfb></Users/dannyklinenberg/Library/TinyTeX/texmf
+-dist/fonts/type1/public/lm/lmr6.pfb></Users/dannyklinenberg/Library/TinyTeX/te
+xmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/dannyklinenberg/Library/TinyTeX
+/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/dannyklinenberg/Library/Tiny
+TeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/dannyklinenberg/Library
+/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro10.pfb></Users/dannyklinenberg/Li
+brary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></Users/dannyklinenbe
+rg/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 00-manual1.pdf (54 pages, 3127854 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 200 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 563 compressed objects within 6 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 

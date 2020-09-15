@@ -3,11 +3,11 @@ title: "every_step"
 output: pdf_document
 ---
 
-#  Every Step you Take: Making an Assignment from Start to Finish
+# Making an Assignment from Start to Finish
 
 Below is the standard workflow to start making an online assignment:
 
-**Note that this needs only be done the first time you use the Github. If you have the files on your local drive, please skip this step. Unzip the files in your desired filepath.** 
+**Note that step 1 is only done the first time you use the Github. If you have the files on your local drive, please skip step 1.** 
 
 1: First, go to the class github repository. Then click on the green button on the top right corner and copy the HTTPS/SSH URL from the drop-down menu. Both actions are provide you with identical access to the Git repository. Now, Navigate to your RStudio and from the drop menu of File, choose __New Project__. Then, choose to create project from __Version Control Repository__ and then hit __Git__. Paste the URL as instructed. For more detailed instructions, please refer to _GitHub_ section of this manual. 
 \begin{center}
@@ -29,11 +29,11 @@ Below is the standard workflow to start making an online assignment:
 \frame{\includegraphics[width=5in]{pictures/v_git_copy.png} }
 \end{center}
 
-4: Import your messy dataset into the `clean_dat` folder. Do the necessary cleaning to the datafile (i.e. messing or cleaning it up for the students). When done, save the completed dataset in the homework folder. **Do not save the completed dataset in clean_dat**.
+4: Import your messy dataset into the `clean_dat` folder. Do the necessary cleaning to the datafile (i.e. messing or cleaning it up for the students). When done, save the completed dataset in the homework folder. You can name the file whatever you like. We tend to choose a name like `masterdata.csv`. **Do not save the completed dataset in clean_dat**.
 
 5: Go to __prompt_rubric__ folder where you can edit R markdown templates for both rubric and prompts for your assignment. 
 
-6: Solve the homework assignment and save your R scripts in the solved_ta folder. Make sure to name it properly to avoid confusion.
+6: Solve the homework assignment and save your R scripts in the `solved_ta` folder. Make sure to name it properly to avoid confusion.
 
 7: Find __inputs.R__ in the homework folder, open and edit the file according to your assignment. Please make sure the inputs are correct or else it can break the autograder.
 
@@ -42,7 +42,7 @@ Below is the standard workflow to start making an online assignment:
 \end{center}
 
 
-8: Find __autograde.R__ in the folder. Input your answers and autograding scripts where necessary. For more detailed instructions, please refer to the section, __Autograder__.
+8: Find __autograde.R__ in the folder. Input your answers and autograding scripts where necessary. For more detailed instructions, please refer to the section, [Writing the Autograder]{#autograder}.
 
 9: Make the necessary adjustments to `DGP.R`. The file will look similar to this:
 
