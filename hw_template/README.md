@@ -16,10 +16,6 @@ Below, is a brief overview of the functions in the hw_template. This can be dele
 
 This is the meat and potatoes of the autograder. This file will be grading the student's work. The TA will write the autograder functions between lines 20 and 24. Good autograders will take into account all possible inputs a student can enter. 
 
-## autograder_setup.R
-
-Gradescope requires specific output to grade student submissions. `autograder_setup.R` performs all of the "behind the scenes". Mainly, it calls the helper functions `setup.R`, `JSONmaker.R`, and `packages.R`. See the **helper_functions** folder for a description of each function. Also, refer to the *manual*. 
-
 ## clean_dat
 
 Many times, TAs find datasets and clean them/messy them for the homework assignment. This folder is meant to hold the cleaning process. At the end of the cleaning process, the TA will create *Masterdata.csv* and save it in hw_template (no folders). 
