@@ -1,6 +1,6 @@
 ---
 title: "Gradescope Autograder Tutorial with R"
-author: Danny Klinenberg^[University of California, Santa Barbara. Special thanks to Victor Huang and Zihao Zheng for their tireless work on the development and implementation.]
+author: Danny Klinenberg^[University of California, Santa Barbara. Special thanks to Victor Huang and Zihao Zheng for their tireless work on the development and implementation. For the latest version, click [here](https://github.com/datawranglingUCSBecon/autograder_template).]
 date: "Last Updated: `r Sys.Date()`"
 output: 
   pdf_document:

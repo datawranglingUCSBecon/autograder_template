@@ -35,4 +35,4 @@ The flexibility of the infrastructure discussed allows for usage beyond **Data W
 
 The unique features about this infrastructure is twofold. First, the infrastructure is written for someone who knows `R` but virtually nothing else about coding. This means someone can create an autograder without knowing further coding skills such as bash or JSON. This becomes extremely useful for social sciences. TAs are constantly coming and going with only knowledge of their coding language and no desire/time to learn the other necessary skills. Second, the course is designed to give each student a unique dataset. While well written code should be able to handle any dataset, this functionality becomes useful in introductory courses. Unique datasets are meant to cut down on the cheating.
 
-This is a working draft of the manual. All feedback is welcome. Please do not share this manual with current or potential students of **Data Wrangling in R**.
+This is a working draft of the manual. All feedback is welcome.
