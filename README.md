@@ -63,5 +63,7 @@ There is also `email.R`. This is used to mass email students individual datasets
 The basic workflow of the repository stems from two folders: `hw_template`, `helper_functions`, and `class_roster`. Suppose you need to write an autograder for a new homework assignment. The process begins by duplicating `hw_template` and renaming the folder following the naming convention above. Then, see the [manual](manuals/autograder_ta/manual.pdf).
 
 Github manager/creator: Danny Klinenberg (dklinenberg@ucsb.edu)
+
 Github manager: Zihao Zeng
+
 Github manager: Victor Huang
