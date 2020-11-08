@@ -69,7 +69,7 @@ for (i in 1:n) {
   
   my_email_message <- gm_mime() %>% 
     gm_to(class_roster$`Email address`[i]) %>% 
-    gm_from("econ-econ145@ucsb.edu") %>% 
+    gm_from("SENDER_EMAIL.EDU") %>% 
     gm_subject(subject) %>% 
     gm_attach_file(paste("../prompt_rubric/",prompt_name,sep = "")) %>% 
     gm_text_body(message) 
