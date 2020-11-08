@@ -1,5 +1,4 @@
-# YOU DO NOT NEED TO TOUCH THIS
-  # IF YOU NEED TO TOUCH THIS, SOMETHING WENT HORRIBLY WRONG :/ 
+# Make sure to change line72 to your outgoing email name
 if (!require("pacman")) install.packages("pacman") 
 # We need these to send emails.
 pacman::p_load(berryFunctions,
