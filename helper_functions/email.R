@@ -1,4 +1,4 @@
-# Make sure to change line72 to your outgoing email name
+# Make sure to change line 71 to your outgoing email name
 if (!require("pacman")) install.packages("pacman") 
 # We need these to send emails.
 pacman::p_load(berryFunctions,
